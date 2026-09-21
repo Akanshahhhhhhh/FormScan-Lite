@@ -1,0 +1,13 @@
+# Dataset: too large for GitHub, and redistribution requires registration
+data/
+
+# Model weights (share via Drive; only .tflite + charset JSON get committed later)
+models/*.pth
+models/*.pt
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
