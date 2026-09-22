@@ -1,0 +1,9 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+torch==2.0.1
+torchvision==0.15.2
+easyocr==1.7.0
+transformers==4.35.0
+gTTS==2.4.0
+python-dotenv==1.0.0
+Werkzeug==2.3.7
