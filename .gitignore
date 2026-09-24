@@ -11,3 +11,8 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 env/
+# Backend runtime/test files
+backend/logs/
+backend/uploads/
+backend/test_*.py
+test_tesseract.py
