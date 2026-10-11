@@ -1,0 +1,301 @@
+﻿image,ground_truth,prediction,edit_distance,confidence
+data\bengali\test\images\4149.jpg,অভ্যর্থন,অঙশন,6,0.641
+data\bengali\test\images\4178.jpg,রানিহাটি,বশ ন,8,0.246
+data\bengali\test\images\16234.jpg,অকাল,7,4,0.401
+data\bengali\test\images\7760.jpg,উদশিক্ষিত,"৬: স্ত১""",8,0.085
+data\bengali\test\images\4151.jpg,আরএসএমকেত,স্র স এ তফ্চে,10,0.071
+data\bengali\test\images\2379.jpg,আনন্দিত,71177,7,0.052
+data\bengali\test\images\16903.jpg,পারিপর্শ্পিকতা,সারসা,11,0.407
+data\bengali\test\images\5777.jpg,শধ্যেই,মd 2,6,0.144
+data\bengali\test\images\9613.jpg,আরেফীন,সররেমণ,5,0.377
+data\bengali\test\images\10626.jpg,জনই,ঈণথ,3,0.754
+data\bengali\test\images\13097.jpg,বাধা-নিষেধ,বার্ব ( - নিথব,10,0.38
+data\bengali\test\images\4249.jpg,জাতিসংঘ,7&),7,0.71
+data\bengali\test\images\442.jpg,ওরা,৩য|-,4,0.206
+data\bengali\test\images\3745.jpg,ক্যানসারের,বত্যাণসারব,5,0.274
+data\bengali\test\images\9599.jpg,নিদেশিকাটি,Tনিদো্সকা,6,0.427
+data\bengali\test\images\10417.jpg,তরুলীকে,10 9রণ!,7,0.197
+data\bengali\test\images\15732.jpg,বিছে,,4,0.0
+data\bengali\test\images\13284.jpg,পথকে,সt,4,0.154
+data\bengali\test\images\14343.jpg,ফকিরহাট,2০7ঞব ? ৫,9,0.095
+data\bengali\test\images\17040.jpg,টেকনিক্যাল,(oন ক্য1,6,0.189
+data\bengali\test\images\7356.jpg,জানালা,5[ |শ,6,0.055
+data\bengali\test\images\3948.jpg,ও-৩-২-১,8- > -7-,6,0.527
+data\bengali\test\images\1304.jpg,বাই-পার্টিজান,2শ9- 9!6$,12,0.075
+data\bengali\test\images\14338.jpg,রিডিং,(ঙ/,5,0.197
+data\bengali\test\images\10319.jpg,ঘুরতেন,ঘুরতেন,0,0.902
+data\bengali\test\images\2385.jpg,আসা,(োস],3,0.06
+data\bengali\test\images\6115.jpg,করাটা,7রচি,4,0.384
+data\bengali\test\images\654.jpg,এসএম,তরসতর্যম,6,0.155
+data\bengali\test\images\10530.jpg,পাকিগ্রাণী,সবিণ্য87ণী,7,0.285
+data\bengali\test\images\3814.jpg,ফ্লাইওভারের,ফ্লতুe? ;,8,0.105
+data\bengali\test\images\10004.jpg,উপাচার্যের,উপাচাযের,2,0.94
+data\bengali\test\images\6934.jpg,এলিয়েন,g,7,0.029
+data\bengali\test\images\1238.jpg,মৃতের,,5,0.0
+data\bengali\test\images\16429.jpg,কারছুপির,ক79চু f9,6,0.121
+data\bengali\test\images\10501.jpg,ফিরেও,থর 3,4,0.345
+data\bengali\test\images\12012.jpg,যালারের,2/[7[বর,6,0.136
+data\bengali\test\images\16467.jpg,বাছা,১7৮,4,0.104
+data\bengali\test\images\13863.jpg,কামব্যাক,ঐoমV,7,0.148
+data\bengali\test\images\12120.jpg,এটিএন,"""ণ",5,0.313
+data\bengali\test\images\4479.jpg,মিশু-নারী-পারিদ্র,ললগরী গ7রদ,13,0.432
+data\bengali\test\images\17151.jpg,গোলাবর্ষণ,C7~ঠd,9,0.066
+data\bengali\test\images\271.jpg,শোষণের,শোষনেব,2,0.419
+data\bengali\test\images\7814.jpg,যথেষ্টই,,7,0.0
+data\bengali\test\images\13992.jpg,পিয়ংইয়য়ের,পিমততুসঢয়ের,6,0.118
+data\bengali\test\images\10521.jpg,রিওয়াইন্ড,| ব ওখা |(,10,0.276
+data\bengali\test\images\6360.jpg,রুদ্ধশাস,]6[1স,7,0.04
+data\bengali\test\images\15312.jpg,শি,,2,0.0
+data\bengali\test\images\11603.jpg,প্রণয়,ণফ-,5,0.342
+data\bengali\test\images\14163.jpg,মপশ্যবোধসম্পন্ন,"8^ ""কব্যমIন|",12,0.335
+data\bengali\test\images\10661.jpg,আন্দোলাম,আা ঞlল,6,0.071
+data\bengali\test\images\1135.jpg,রুঝবেন,&ঝ7I-,5,0.154
+data\bengali\test\images\4784.jpg,চেতনায়,৫৩য,6,0.316
+data\bengali\test\images\5386.jpg,তাংপর্বপূর্ণ,৩] ৫ গর্ব পণ,10,0.258
+data\bengali\test\images\16866.jpg,মতই,ত,2,0.187
+data\bengali\test\images\2745.jpg,টাইনসহ,উাহুম্সতু,7,0.198
+data\bengali\test\images\11577.jpg,স্বাদু,স্থাচু,2,0.348
+data\bengali\test\images\282.jpg,সংলোপে,স৪ঢ ণC,5,0.051
+data\bengali\test\images\2856.jpg,রজানী,রোন,3,0.444
+data\bengali\test\images\11750.jpg,বেরু্ে,7বg৫,6,0.097
+data\bengali\test\images\6243.jpg,উদুলকারী,ফর সুল,8,0.664
+data\bengali\test\images\11831.jpg,দাস্িপ্রাপ্ত,hশ7২প্নাপ্ত,6,0.095
+data\bengali\test\images\12963.jpg,সঙ্কোর,V4৫া৮,6,0.187
+data\bengali\test\images\13523.jpg,লদবী,সদব /,3,0.248
+data\bengali\test\images\13490.jpg,প্রনুত,৪3ত,5,0.201
+data\bengali\test\images\13810.jpg,খ্রিষ্টান,"1৬/শ,1ণ",9,0.124
+data\bengali\test\images\8937.jpg,ডেসা,ডেসা,0,0.511
+data\bengali\test\images\12927.jpg,বেহেমতের,(য ৩র,7,0.389
+data\bengali\test\images\12561.jpg,অন্যতম,৩ণণ)তম,4,0.791
+data\bengali\test\images\8741.jpg,কঙ্টাঙ্িত,কণ্াা,6,0.628
+data\bengali\test\images\1839.jpg,২০১৮,20 ) ৮,5,0.617
+data\bengali\test\images\14031.jpg,মুর্ন,নমলুবম্ন,4,0.258
+data\bengali\test\images\11903.jpg,নির্যাতিতা,ি-ততা,6,0.38
+data\bengali\test\images\10311.jpg,বিল্ড,বিল্ড,0,0.803
+data\bengali\test\images\14687.jpg,লিগগুলোতে,শসঢ,9,0.074
+data\bengali\test\images\5427.jpg,ম্যানহাটনে,Y|`),10,0.267
+data\bengali\test\images\9866.jpg,পিএসএল,{ ত্য,6,0.355
+data\bengali\test\images\10547.jpg,তা,তt,1,0.145
+data\bengali\test\images\5991.jpg,অবস্থার,বম্সত,5,0.477
+data\bengali\test\images\15813.jpg,বাণ্ডিলের,,9,0.0
+data\bengali\test\images\615.jpg,চাইলে,27,5,0.955
+data\bengali\test\images\1932.jpg,১১০,,3,0.0
+data\bengali\test\images\15413.jpg,লোকসভা,ঠৈস৫,5,0.331
+data\bengali\test\images\7162.jpg,তারকাকে,( ঠব7ে o,8,0.504
+data\bengali\test\images\15608.jpg,মুখর,ম্লযুঙর,4,0.245
+data\bengali\test\images\9583.jpg,উখিয়ায়,ডাম্মিয়ায়,5,0.283
+data\bengali\test\images\8141.jpg,তিউনিটয়াতে,৩৯  ণ ১[2T৩,11,0.129
+data\bengali\test\images\894.jpg,ভারতবাসী,ভারতঝ সা,3,0.397
+data\bengali\test\images\2140.jpg,যাওয়া,5I য1,5,0.251
+data\bengali\test\images\2244.jpg,জেবিও,স্েবেব,4,0.203
+data\bengali\test\images\15868.jpg,দ্বাদশ,ধ্বদর্কা ',7,0.174
+data\bengali\test\images\3038.jpg,চীনাদের,চীনা দেয,2,0.831
+data\bengali\test\images\12227.jpg,চিনাম্মাও,769|76[|3,9,0.066
+data\bengali\test\images\7705.jpg,ভিতরই,ততর?,3,0.739
+data\bengali\test\images\10702.jpg,১২০টি,১?০ 70,4,0.45
+data\bengali\test\images\4853.jpg,ক্ষয়ক্ষতির,১ 7,11,0.164
+data\bengali\test\images\9137.jpg,হরিপ্রাপদপুরের,হৃরপাসাদপুরের,5,0.509
+data\bengali\test\images\1473.jpg,সিরিজ,,5,0.0
+data\bengali\test\images\3063.jpg,অ্যাম্বাসেডর,ম্াসেডর,5,0.584
+data\bengali\test\images\12625.jpg,অভিস্ততার,9ন15 গুত র,8,0.146
+data\bengali\test\images\10438.jpg,তনুকে,ণক,4,0.375
+data\bengali\test\images\6403.jpg,বোর্ডগুলোর,7 গের,8,0.164
+data\bengali\test\images\7733.jpg,শাসাকা,8ঁ1য Ujব,8,0.082
+data\bengali\test\images\7213.jpg,নোড়েল,7নl(৬সে,6,0.123
+data\bengali\test\images\16465.jpg,লবনকোধা,সব,6,0.712
+data\bengali\test\images\4374.jpg,হয়েছিল,৩) ?0,7,0.71
+data\bengali\test\images\9374.jpg,ডিএপি,Tড9া,5,0.721
+data\bengali\test\images\8848.jpg,ধারাবাহিকতার,বারাবহিকটী,5,0.225
+data\bengali\test\images\12293.jpg,৮৮,৩ 0`,4,0.164
+data\bengali\test\images\12944.jpg,ফকির,) ০০,4,0.413
+data\bengali\test\images\2364.jpg,বাড়ি,বা,3,0.857
+data\bengali\test\images\8297.jpg,ট্রলারগুলোকে,ঋ7  @ চগব,12,0.563
+data\bengali\test\images\4434.jpg,অমুভব,$9,5,0.358
+data\bengali\test\images\9238.jpg,প্রদেশ,পদেষ্স,5,0.536
+data\bengali\test\images\8193.jpg,রেলপথমন্দীগত,প2মণ্্য-হ,9,0.357
+data\bengali\test\images\17262.jpg,বর্ষনে,ঠ৫,6,0.874
+data\bengali\test\images\16007.jpg,প্রশাসনই,?|'13/99,8,0.202
+data\bengali\test\images\3000.jpg,সিন্ডিকেট,গ্িন্ড,6,0.254
+data\bengali\test\images\6389.jpg,শাব্দ,কঁ বৈ,5,0.51
+data\bengali\test\images\5706.jpg,বাকের,ব েেব,3,0.431
+data\bengali\test\images\115.jpg,সথজিত,চ্াব,5,0.313
+data\bengali\test\images\599.jpg,প্রত্যাহারের,শ))?ু,12,0.063
+data\bengali\test\images\2255.jpg,চিকিৎসার,&37,8,0.142
+data\bengali\test\images\11068.jpg,নেতা-মন্ত্র্র,(তা 0?',11,0.402
+data\bengali\test\images\2024.jpg,সেক্যুলার,স্যেনযর,5,0.52
+data\bengali\test\images\12643.jpg,কুতুপালহ,ফুতপIog,5,0.101
+data\bengali\test\images\4747.jpg,মাগো,স৫> |,5,0.133
+data\bengali\test\images\6623.jpg,হরা,?77,3,0.472
+data\bengali\test\images\121.jpg,শিলুও,3 মশ১,5,0.523
+data\bengali\test\images\1947.jpg,পিছ,,3,0.0
+data\bengali\test\images\5658.jpg,বাংলাদেশ,বাহশাদেপ্স,5,0.477
+data\bengali\test\images\14811.jpg,টক্সিন,টবূ}ম,5,0.23
+data\bengali\test\images\17504.jpg,বেড়ার,েড়াব,2,0.396
+data\bengali\test\images\10623.jpg,অজানা,91317ন7,6,0.391
+data\bengali\test\images\6387.jpg,যুদ্ধাহত,থুদ্ধা?৩,3,0.333
+data\bengali\test\images\10792.jpg,মিমুলকান্দিতে,মল৮ সেপশাগা,12,0.129
+data\bengali\test\images\12354.jpg,শিংয়ের,ক্িতসব,7,0.055
+data\bengali\test\images\12575.jpg,ভাইকে,(ক ভোত,6,0.617
+data\bengali\test\images\8491.jpg,অনুষদের,সনুষদের,1,0.69
+data\bengali\test\images\3143.jpg,সোহরাব,ডHহ্বীব,5,0.253
+data\bengali\test\images\14479.jpg,আপনি,a 4 পন,5,0.105
+data\bengali\test\images\10093.jpg,গেলেই,গেপেতু,3,0.492
+data\bengali\test\images\15191.jpg,হায়াশি,?মশ,6,0.634
+data\bengali\test\images\916.jpg,চাচাতেো,পাচ তা,4,0.341
+data\bengali\test\images\11343.jpg,৪-০,ঠ-0,2,0.261
+data\bengali\test\images\14006.jpg,সোয়াব,7স2গ,6,0.051
+data\bengali\test\images\8528.jpg,বসগিরি,বসাসার,4,0.513
+data\bengali\test\images\9648.jpg,সূর্যোদয়,সর্থোদয়,2,0.661
+data\bengali\test\images\17269.jpg,শহরই,৮হ 92,4,0.243
+data\bengali\test\images\14615.jpg,একোইসাথে,ত৫ সমাৈ,7,0.442
+data\bengali\test\images\15296.jpg,হাতেনাতে,ততে,5,0.412
+data\bengali\test\images\9999.jpg,বুদ্ধদেব,বুদ্ধেব,1,0.714
+data\bengali\test\images\7037.jpg,কেতে,d (,4,0.218
+data\bengali\test\images\14977.jpg,প্রত্যাহারেরও,প্রত্য?প'?3,7,0.225
+data\bengali\test\images\3359.jpg,ফুলিয়ে,ফ্ুল্,5,0.366
+data\bengali\test\images\3668.jpg,তথ্যপ্রযুক্তির,তথ্যপ?্ষা3র,8,0.132
+data\bengali\test\images\9538.jpg,রাগীব,রাগাব,1,0.952
+data\bengali\test\images\13753.jpg,কয়েনগ,লি,6,0.244
+data\bengali\test\images\11509.jpg,দড়মূল,ছঢ ৪4ণ,6,0.201
+data\bengali\test\images\16363.jpg,অধ্যায়ত্ত,ব্যীযও,7,0.417
+data\bengali\test\images\4401.jpg,বেধে,বেবে,1,0.984
+data\bengali\test\images\6565.jpg,প্রাইভেট,সাত,7,0.311
+data\bengali\test\images\8365.jpg,চান্দিনা,77ণদন),6,0.231
+data\bengali\test\images\6365.jpg,পশমি,৪,4,0.505
+data\bengali\test\images\14763.jpg,অনদান,09(,5,0.218
+data\bengali\test\images\2022.jpg,সেক্যুলার,সেক্যুপ্াোর,3,0.289
+data\bengali\test\images\4441.jpg,সরু,,3,0.0
+data\bengali\test\images\15162.jpg,মুখর,C,4,0.561
+data\bengali\test\images\17541.jpg,ইন্ধন,? ন্ধণ,3,0.297
+data\bengali\test\images\8265.jpg,বিস্ট,,5,0.0
+data\bengali\test\images\9985.jpg,ভ্রিমাত্রিক,1ত্রিমাা,7,0.229
+data\bengali\test\images\10248.jpg,পাখা,পাতা,1,0.815
+data\bengali\test\images\6170.jpg,নিপীড়নের,নিসী নে9,4,0.527
+data\bengali\test\images\11207.jpg,রজার,ব3)াব,4,0.4
+data\bengali\test\images\12627.jpg,ব্যবস্থাপনার,যফlু 1পণাব-,10,0.161
+data\bengali\test\images\11664.jpg,অভিযোগ,cযIs,5,0.196
+data\bengali\test\images\1647.jpg,মডেল,8ব,4,0.298
+data\bengali\test\images\9494.jpg,খিয়ানাত,যানাত,3,0.459
+data\bengali\test\images\8892.jpg,অভিযোগ,সৎমোগ,4,0.171
+data\bengali\test\images\14649.jpg,রিডিং,2 |৬০,5,0.329
+data\bengali\test\images\10017.jpg,ধন্দ,প,4,0.322
+data\bengali\test\images\7521.jpg,বাজানো,ঠ?৬1,6,0.234
+data\bengali\test\images\1488.jpg,চোখেই,স্[৫,5,0.435
+data\bengali\test\images\13487.jpg,কাটাছে,বশগ৩,6,0.37
+data\bengali\test\images\15176.jpg,হীবনে,|িমে,4,0.105
+data\bengali\test\images\8464.jpg,শটে,ঐ6-,3,0.077
+data\bengali\test\images\1179.jpg,ননরের,",ন ে",3,0.42
+data\bengali\test\images\1273.jpg,আড়তদাররাও,সড়সদরর,5,0.11
+data\bengali\test\images\1371.jpg,বেশিসংখ্যক,স),9,0.158
+data\bengali\test\images\13482.jpg,খারিগ,79ব 57,6,0.278
+data\bengali\test\images\2596.jpg,১৫মি,$ ৫,4,0.745
+data\bengali\test\images\7822.jpg,ইউএনও,23?ণ 3,6,0.784
+data\bengali\test\images\2844.jpg,সহকারে,য2 বTে,5,0.071
+data\bengali\test\images\5714.jpg,সুতরাং,সতর 3,3,0.246
+data\bengali\test\images\8755.jpg,নিদেশনামা,7িদেন্নাম,4,0.294
+data\bengali\test\images\9027.jpg,অরু,সরু,1,0.935
+data\bengali\test\images\9967.jpg,বসবাসের,বসবাসের,0,0.744
+data\bengali\test\images\344.jpg,পাত,প,2,0.835
+data\bengali\test\images\6954.jpg,ইবিতে,C,5,0.103
+data\bengali\test\images\15146.jpg,বনের,ব্রনের,2,0.36
+data\bengali\test\images\9065.jpg,অভিজিৎ-হত্ার,সোভাজ - তুত্যার,9,0.727
+data\bengali\test\images\12524.jpg,সরকারব্যবস্থার,সবগব্)ব১ক Tব,10,0.089
+data\bengali\test\images\11111.jpg,নুরুল,~!বুল,3,0.141
+data\bengali\test\images\6944.jpg,২১০,১১০,1,0.979
+data\bengali\test\images\4142.jpg,পেরিলামুজের,শরণমুদে,7,0.415
+data\bengali\test\images\17157.jpg,হচ্দে,? 7%,5,0.629
+data\bengali\test\images\17079.jpg,সদ্লাপুর,সভল্লন ৪০,6,0.549
+data\bengali\test\images\15898.jpg,মাধ্য,,5,0.0
+data\bengali\test\images\16749.jpg,হায়াশি,? 3^1,7,0.199
+data\bengali\test\images\2942.jpg,তৈমুর,তৈম্বুর,2,0.216
+data\bengali\test\images\2639.jpg,হতাহত,হতাহূত,1,0.188
+data\bengali\test\images\17533.jpg,সারবিনে,১797যন,6,0.082
+data\bengali\test\images\11890.jpg,ডিগাসপেরি,75গা)  সা,7,0.336
+data\bengali\test\images\16367.jpg,সপিদনীমা,েপদশম,5,0.475
+data\bengali\test\images\8771.jpg,হতালায়,হতপ্মায,4,0.569
+data\bengali\test\images\556.jpg,ওথাগুলো,থ্যরযুল),6,0.506
+data\bengali\test\images\17406.jpg,বাণুচর,বাপুচ্র,2,0.531
+data\bengali\test\images\10740.jpg,রেজিস্ট্রেশনের,রোগসেন্ণের,9,0.307
+data\bengali\test\images\12992.jpg,টুডে,৫ [৫,4,0.296
+data\bengali\test\images\13694.jpg,সন্ন্যাসের,$ / প্ল্যা,9,0.369
+data\bengali\test\images\7307.jpg,দতিয়ালি,5794,8,0.243
+data\bengali\test\images\2878.jpg,চায়ের,চামের,2,0.953
+data\bengali\test\images\4294.jpg,অপর্ণা,শ-তরমা,5,0.235
+data\bengali\test\images\12151.jpg,এন্টার,খোব,6,0.226
+data\bengali\test\images\6691.jpg,প্রযোজক,প্যোজব,2,0.717
+data\bengali\test\images\13824.jpg,রধিক্যাশ,1ক্যTষ্,6,0.127
+data\bengali\test\images\1751.jpg,স্পক্টভাব্ে,ভাবে,7,0.293
+data\bengali\test\images\17350.jpg,সপক্ষে,১ স7ৎ১,6,0.197
+data\bengali\test\images\10035.jpg,জাগিয়ে,জাগি,3,0.937
+data\bengali\test\images\283.jpg,সংলাপে,"`,/",6,0.053
+data\bengali\test\images\13173.jpg,গোছানোর,পোদনোব,4,0.283
+data\bengali\test\images\13737.jpg,টেন্ডার,7েণার,4,0.781
+data\bengali\test\images\4116.jpg,আকবুজাত,আকবুজা,1,0.603
+data\bengali\test\images\8116.jpg,মাপুরায়,সাগবIথ,7,0.244
+data\bengali\test\images\2119.jpg,বাসহোতে,নকোতে,4,0.354
+data\bengali\test\images\9273.jpg,প্রাঙ্গন,পাঙগন,3,0.616
+data\bengali\test\images\2428.jpg,সর্বশ্র্েষ্ঠ,স87্ে,9,0.376
+data\bengali\test\images\2396.jpg,ডিআরএস,সর এ,5,0.738
+data\bengali\test\images\16958.jpg,ঝাপটা,ঝাস ঢ,3,0.329
+data\bengali\test\images\254.jpg,বিষখালী,থি্ ভশলী,5,0.131
+data\bengali\test\images\380.jpg,স্ব-নাসে,4 -~,7,0.099
+data\bengali\test\images\14650.jpg,অ্যাকাউন্টে,বোণড,11,0.066
+data\bengali\test\images\9529.jpg,শ্রীলঙ্কানরা,মীলজ্কানরী,5,0.412
+data\bengali\test\images\2492.jpg,প্রাকৃতিকভাবে,(`,13,0.136
+data\bengali\test\images\15673.jpg,৮৯টা,9),4,0.404
+data\bengali\test\images\2952.jpg,এগারো,99র1,4,0.534
+data\bengali\test\images\758.jpg,চীন,3 ন,2,0.38
+data\bengali\test\images\11898.jpg,ফিফিরে,ঐশবশ<,6,0.042
+data\bengali\test\images\3689.jpg,বদীসহ,প7দ3 2_,6,0.186
+data\bengali\test\images\8018.jpg,খ্রিডমকে,8৮0,8,0.064
+data\bengali\test\images\6447.jpg,শ্যালেিয়া,)7 |,10,0.13
+data\bengali\test\images\10688.jpg,দেখানোর,Tঙসাার,5,0.081
+data\bengali\test\images\15141.jpg,লবনকোঠা,লব্ণক১[,5,0.676
+data\bengali\test\images\3998.jpg,পৃষ্ঠার,^7`,7,0.154
+data\bengali\test\images\2163.jpg,ফুট্টাকে,~7 ;(,8,0.172
+data\bengali\test\images\2623.jpg,বিজয়ী,,6,0.0
+data\bengali\test\images\16932.jpg,হয়া,,4,0.0
+data\bengali\test\images\9674.jpg,বাহরে,বাহরে,0,0.903
+data\bengali\test\images\971.jpg,নেলোামিয়শনের,মনী Uন,11,0.303
+data\bengali\test\images\5809.jpg,কাযরুল,বণ ৮ বু শে,9,0.075
+data\bengali\test\images\1923.jpg,কাউন্টি,কান্,3,0.337
+data\bengali\test\images\9586.jpg,দুয়ারে,দুযারে,1,0.488
+data\bengali\test\images\16578.jpg,বিয়ে্ধ-সংঘরের,-[বরোব- 4া9র  3|7,16,0.3
+data\bengali\test\images\4630.jpg,চেয়ারম্যানসহ,চেষায ম্যানয ২,7,0.203
+data\bengali\test\images\15376.jpg,বাইজান্টাইন,জান্টাশুন,5,0.326
+data\bengali\test\images\21.jpg,ইরশাদ,হরক্সাদ,4,0.522
+data\bengali\test\images\11483.jpg,অগ্িপরীক্ষা,পবাক্লযা,8,0.415
+data\bengali\test\images\1088.jpg,ঘটিয়ে,যডি যে,4,0.173
+data\bengali\test\images\6503.jpg,বোকা,@েশ,4,0.33
+data\bengali\test\images\9227.jpg,বিতণ্ডা,7িত নতা,4,0.276
+data\bengali\test\images\13029.jpg,গোছানোষ,(StদT ( |থ`,11,0.191
+data\bengali\test\images\17388.jpg,তেলেঙ্গানা,তলেষ্ানা,3,0.586
+data\bengali\test\images\880.jpg,রামমদ্দির,রামাম নব,6,0.208
+data\bengali\test\images\6618.jpg,ব্রিটিশ,ব্িটিম,2,0.196
+data\bengali\test\images\16940.jpg,সোনাতপল,সনাতস,3,0.5
+data\bengali\test\images\6876.jpg,হরতালে,9১৩,6,0.592
+data\bengali\test\images\6603.jpg,জোকো,জকে,2,0.776
+data\bengali\test\images\1570.jpg,কমরত,কমরত,0,0.823
+data\bengali\test\images\13532.jpg,প্োগ্রাসের,দোসাব,8,0.92
+data\bengali\test\images\8734.jpg,নেদারল্যান্ড,নেদরল্য ণ্ড,3,0.303
+data\bengali\test\images\8781.jpg,সমাহিত,সমাা,3,0.753
+data\bengali\test\images\6735.jpg,আন্তঃকোষীয়,সণ্ডঃ কোd,8,0.279
+data\bengali\test\images\14436.jpg,আবদির,আবা,3,0.977
+data\bengali\test\images\3999.jpg,বার্নার্স-নির,নাস খিব,9,0.383
+data\bengali\test\images\16436.jpg,পড়েছেন,,7,0.0
+data\bengali\test\images\15734.jpg,১১টিতে,2?76 তে,5,0.239
+data\bengali\test\images\5362.jpg,বহনের,79117,5,0.102
+data\bengali\test\images\15874.jpg,ওভারের,হভার,3,0.754
+data\bengali\test\images\4405.jpg,বেধে,) (,4,0.167
+data\bengali\test\images\1822.jpg,হাস্তওবার,58 য৯ (9,9,0.172
+data\bengali\test\images\10126.jpg,সেটাতো,সেটাভেো,2,0.361
+data\bengali\test\images\16177.jpg,তহবিলের,ত?7থ,6,0.126
+data\bengali\test\images\5406.jpg,আল্পোললকমীরা,"G""7শল-ব",11,0.132
+data\bengali\test\images\11047.jpg,সাজেদুর,সাগ্দুব,3,0.159
+data\bengali\test\images\8175.jpg,পলিটেকনিক,স9শ েেণবে,8,0.157
+data\bengali\test\images\696.jpg,বঞ্জুনার,4 9N|,8,0.365
+data\bengali\test\images\16563.jpg,পুজারারা,5 সঠবা,7,0.099
+data\bengali\test\images\4039.jpg,প্রধানতম,বমিতম,6,0.592
+data\bengali\test\images\6777.jpg,কিয়ামত,৪ (  2,7,0.519
+data\bengali\test\images\4353.jpg,করিমের,2>রসের,4,0.359
+data\bengali\test\images\7873.jpg,আম্পার,তেম্৮াব,4,0.098
