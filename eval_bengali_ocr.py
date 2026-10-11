@@ -50,6 +50,14 @@ def load_labels(labels_path, images_root):
             img = images_root / rel_path
             if img.is_file():
                 samples.append((img, norm(label)))
+    elif labels_path.suffix.lower() == ".csv":
+        # Real-world set: ground_truth.csv with columns filename,text.
+        # Multi-line documents: collapse whitespace so it matches EasyOCR's " "-joined output.
+        import csv as _csv
+        with open(labels_path, encoding="utf-8-sig", newline="") as f:
+            for row in _csv.DictReader(f):
+                img = images_root / row["filename"]
+                samples.append((img, norm(" ".join(row["text"].split()))))
     else:
         with open(labels_path, encoding="utf-8") as f:
             for line in f:
