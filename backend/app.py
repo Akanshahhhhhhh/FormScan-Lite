@@ -12,6 +12,7 @@ CORS(app)
 app.config.from_object(Config)
 
 os.makedirs('logs', exist_ok=True)
+os.makedirs('uploads', exist_ok=True)
 logging.basicConfig(level=logging.INFO, filename='logs/app.log')
 
 app.register_blueprint(ocr_bp)
