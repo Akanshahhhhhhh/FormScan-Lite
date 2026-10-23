@@ -2,6 +2,7 @@ from flask import Flask
 from flask_cors import CORS
 import logging
 import os
+from routes.faq_routes import faq_bp
 
 from config import Config
 from routes.ocr_routes import ocr_bp
@@ -21,6 +22,7 @@ app.register_blueprint(ocr_bp)
 app.register_blueprint(translate_bp)
 app.register_blueprint(tts_bp)
 app.register_blueprint(feedback_bp)
+app.register_blueprint(faq_bp)
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

@@ -1,9 +1,9 @@
 # FormScan-Lite Backend API Contract
 
-Last updated: 2026-10-22. Backend: Flask, `http://127.0.0.1:5000` (CORS is on).
+Last updated: 2026-10-23. Backend: Flask, `http://127.0.0.1:5000` (CORS is on).
 Languages used everywhere: `en` (English), `bn` (Bengali), `ta` (Tamil).
 
-Status: **OCR, Translate, TTS, Audio, Feedback are built and tested.** FAQ and Health are planned (shown at the end).
+Status: **OCR, Translate, TTS, Audio, Feedback, FAQ are built and tested.** Health is planned (shown at the end).
 
 ## Error format (all endpoints)
 
@@ -153,22 +153,64 @@ No document text is stored, only the vote.
 
 ---
 
-## Planned (not built yet, shapes may change)
+## 5. FAQ chatbot
 
-### FAQ chatbot: `POST /api/faq`
+`POST /api/faq` (JSON)
 
 ```json
-{ "question": "How do I apply for a birth certificate?", "language": "en" }
+{ "question": "how can i get a birth certificate", "language": "en" }
 ```
+
+Success `200` when a good match is found:
 
 ```json
 {
-  "answer": "You can apply at your local municipal office or online ...",
-  "matched_question": "How to apply for a birth certificate?",
-  "score": 0.82,
-  "language": "en"
+  "matched": true,
+  "id": "faq-001",
+  "answer": "Apply at the local registrar office of the place where the birth happened ...",
+  "matched_question": "How do I apply for a birth certificate?",
+  "score": 0.806,
+  "language": "en",
+  "suggestions": [{ "id": "faq-005", "question": "What is an income certificate?" }]
 }
 ```
+
+When nothing matches well, it is still `200`, but `matched` is `false`, and `id`, `answer` and `matched_question` are `null`. Show "Sorry, I could not find an answer" and the `suggestions` as tappable questions:
+
+```json
+{
+  "matched": false,
+  "id": null,
+  "answer": null,
+  "matched_question": null,
+  "score": 0.013,
+  "language": "en",
+  "suggestions": []
+}
+```
+
+- The question and the answer are in the same language you send (`en`, `bn` or `ta`). Max 300 characters.
+- Spelling differences are fine ("aadhar" finds Aadhaar).
+- `score` is 0 to 1. The server decides `matched`, so just use that flag.
+
+Errors: `missing_question`, `question_too_long`, `unsupported_language`, `bad_request` (all 400), `faq_unavailable` (500).
+
+`GET /api/faq/questions?language=ta` returns every FAQ question in that language, to show as "common questions" buttons:
+
+```json
+{
+  "language": "ta",
+  "questions": [
+    { "id": "faq-001", "question": "பிறப்புச் சான்றிதழுக்கு எப்படி விண்ணப்பிப்பது?", "category": "certificates" }
+  ]
+}
+```
+
+Note: the answers are **sample entries for now**. The final list will come from PIB pages.
+
+---
+
+## Planned (not built yet, shapes may change)
 
 ### Health check: `GET /api/health`
 
