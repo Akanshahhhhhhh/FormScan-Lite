@@ -27,9 +27,12 @@
       "bn": "যেখানে জন্ম হয়েছে সেই এলাকার স্থানীয় রেজিস্ট্রার অফিসে (শহরে পৌরসভা, গ্রামে গ্রাম পঞ্চায়েত) আবেদন করুন। জন্মের ২১ দিনের মধ্যে নিবন্ধন করা উচিত। অনেক রাজ্যে অনলাইনেও আবেদন করা যায়। প্রয়োজনীয় কাগজপত্র রাজ্যভেদে আলাদা হতে পারে, তাই যাওয়ার আগে স্থানীয় অফিস থেকে জেনে নিন।",
       "ta": "குழந்தை பிறந்த இடத்திலுள்ள உள்ளூர் பதிவாளர் அலுவலகத்தில் (நகரங்களில் நகராட்சி அலுவலகம், கிராமங்களில் கிராம ஊராட்சி) விண்ணப்பிக்கவும். பிறப்பை 21 நாட்களுக்குள் பதிவு செய்ய வேண்டும். பல மாநிலங்களில் ஆன்லைனிலும் விண்ணப்பிக்கலாம். தேவையான ஆவணங்கள் மாநிலத்திற்கு மாநிலம் மாறுபடலாம்; செல்வதற்கு முன் உள்ளூர் அலுவலகத்தில் கேட்டு உறுதி செய்யவும்."
     },
-    "status": "sample",
-    "checked": null,
-    "sources": []
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://dc.crsorgi.gov.in/assets/download/FAQ_of_CRS_Latest.pdf",
+      "https://gmc.assam.gov.in/taxonomy/term/5760"
+    ]
   },
   {
     "id": "faq-002",
@@ -364,6 +367,201 @@
       "en": "Register on the Passport Seva portal (passportindia.gov.in), fill in the application form online, pay the fee online and book an appointment at a Passport Seva Kendra. On that day, go with your original documents for verification and biometrics. Your application is then checked, including police verification. Fees can change, so check the current fee on the portal before you pay.",
       "bn": "পাসপোর্ট সেবা পোর্টালে (passportindia.gov.in) নিবন্ধন করুন, অনলাইনে আবেদনপত্র পূরণ করুন, অনলাইনে ফি দিন এবং কোনো পাসপোর্ট সেবা কেন্দ্রে অ্যাপয়েন্টমেন্ট বুক করুন। নির্ধারিত দিনে যাচাই ও বায়োমেট্রিকের জন্য আপনার মূল নথিপত্র নিয়ে যান। এরপর পুলিশ ভেরিফিকেশন সহ আপনার আবেদন যাচাই করা হয়। ফি বদলাতে পারে, তাই টাকা দেওয়ার আগে পোর্টালে বর্তমান ফি দেখে নিন।",
       "ta": "பாஸ்போர்ட் சேவா இணையதளத்தில் (passportindia.gov.in) பதிவு செய்து, விண்ணப்பப் படிவத்தை ஆன்லைனில் நிரப்பி, கட்டணத்தை ஆன்லைனில் செலுத்தி, பாஸ்போர்ட் சேவா கேந்திராவில் சந்திப்பு நேரத்தைப் பதிவு செய்யவும். குறிப்பிட்ட நாளில் சரிபார்ப்பு மற்றும் பயோமெட்ரிக் பதிவுக்காக உங்கள் அசல் ஆவணங்களுடன் செல்லவும். பிறகு காவல்துறை சரிபார்ப்பு உட்பட உங்கள் விண்ணப்பம் சரிபார்க்கப்படும். கட்டணம் மாறலாம்; எனவே பணம் செலுத்துவதற்கு முன் இணையதளத்தில் தற்போதைய கட்டணத்தைப் பார்க்கவும்."
+    }
+  },
+  {
+    "id": "faq-011",
+    "category": "certificates",
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://dc.crsorgi.gov.in/assets/download/FAQ_of_CRS_Latest.pdf",
+      "https://ipr.nagaland.gov.in/node/17388",
+      "https://gmc.assam.gov.in/taxonomy/term/5760"
+    ],
+    "question": {
+      "en": "How do I get a death certificate?",
+      "bn": "মৃত্যু সনদ কীভাবে পাব?",
+      "ta": "இறப்புச் சான்றிதழ் பெறுவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "death certificate",
+        "death registration",
+        "deceased",
+        "died"
+      ],
+      "bn": [
+        "মৃত্যু সনদ",
+        "মৃত্যু নিবন্ধন"
+      ],
+      "ta": [
+        "இறப்புச் சான்றிதழ்",
+        "இறப்பு பதிவு"
+      ]
+    },
+    "answer": {
+      "en": "First the death must be registered with the Registrar of Births and Deaths of the place where it happened (the municipal office in cities, the gram panchayat in villages, or the hospital if the person died there) within 21 days. After registration, the death certificate is issued. Registering within 21 days is free. After that you must pay a late fee, and the rules differ by state. You can also apply online at dc.crsorgi.gov.in. Keep the hospital's medical certificate of the cause of death, if there is one, and your own ID ready.",
+      "bn": "প্রথমে যেখানে মৃত্যু হয়েছে সেই এলাকার জন্ম-মৃত্যু নিবন্ধকের কাছে (শহরে পৌরসভা, গ্রামে গ্রাম পঞ্চায়েত, বা হাসপাতালে মৃত্যু হলে সেই হাসপাতাল) ২১ দিনের মধ্যে মৃত্যু নিবন্ধন করাতে হবে। নিবন্ধনের পর মৃত্যু সনদ দেওয়া হয়। ২১ দিনের মধ্যে নিবন্ধন করলে কোনো ফি লাগে না। এরপর দেরির ফি দিতে হয়, এবং নিয়ম রাজ্যভেদে আলাদা। আপনি dc.crsorgi.gov.in-এ অনলাইনেও আবেদন করতে পারেন। হাসপাতাল থেকে পাওয়া মৃত্যুর কারণের চিকিৎসা-সনদ (থাকলে) এবং আপনার নিজের পরিচয়পত্র তৈরি রাখুন।",
+      "ta": "முதலில் இறப்பு நிகழ்ந்த இடத்தின் பிறப்பு, இறப்புப் பதிவாளரிடம் (நகரங்களில் நகராட்சி அலுவலகம், கிராமங்களில் கிராம ஊராட்சி, மருத்துவமனையில் இறந்தால் அந்த மருத்துவமனை) 21 நாட்களுக்குள் இறப்பைப் பதிவு செய்ய வேண்டும். பதிவுக்குப் பிறகு இறப்புச் சான்றிதழ் வழங்கப்படும். 21 நாட்களுக்குள் பதிவு செய்தால் கட்டணம் இல்லை. அதற்குப் பிறகு தாமதக் கட்டணம் செலுத்த வேண்டும்; விதிகள் மாநிலத்திற்கு மாநிலம் மாறுபடும். dc.crsorgi.gov.in இணையதளத்திலும் ஆன்லைனில் விண்ணப்பிக்கலாம். மருத்துவமனை வழங்கும் இறப்புக்கான காரணச் சான்றிதழ் (இருந்தால்) மற்றும் உங்கள் அடையாளச் சான்றைத் தயாராக வைத்திருங்கள்."
+    }
+  },
+  {
+    "id": "faq-012",
+    "category": "schemes",
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://static.pib.gov.in:443/WriteReadData/specificdocs/documents/2021/nov/doc2021112361.pdf",
+      "https://wb.gov.in/government-schemes-details-pradhan-mantri-kisan-samman-nidhi.aspx",
+      "https://en.vikaspedia.in/viewcontent/schemesall/schemes-for-farmers/pradhan-mantri-kisan-samman-nidhi?lgn=en"
+    ],
+    "question": {
+      "en": "What is PM-KISAN and how do I register?",
+      "bn": "PM-KISAN কী এবং কীভাবে নিবন্ধন করব?",
+      "ta": "PM-KISAN என்றால் என்ன, எப்படிப் பதிவு செய்வது?"
+    },
+    "keywords": {
+      "en": [
+        "pm kisan",
+        "pm-kisan",
+        "kisan samman nidhi",
+        "farmer scheme",
+        "farmers 6000"
+      ],
+      "bn": [
+        "পিএম কিষাণ",
+        "কৃষক ভাতা",
+        "কিষাণ সম্মান নিধি"
+      ],
+      "ta": [
+        "பிஎம் கிசான்",
+        "விவசாயி திட்டம்",
+        "கிசான் சம்மான் நிதி"
+      ]
+    },
+    "answer": {
+      "en": "PM-KISAN gives landholding farmer families ₹6,000 a year in three instalments of ₹2,000, paid every four months straight into the family's bank account. To register, use New Farmer Registration on pmkisan.gov.in or go to a Common Service Centre. Keep your Aadhaar, an Aadhaar-linked bank account, your land details and a mobile number ready. e-KYC is needed so that payments continue, and you can check your status with Know Your Status on the portal. Some categories of people are not eligible, and the portal lists them. Helpline: 155261 or 011-24300606.",
+      "bn": "PM-KISAN প্রকল্পে জমির মালিক কৃষক পরিবারকে বছরে ৬,০০০ টাকা দেওয়া হয়, প্রতি চার মাস অন্তর ২,০০০ টাকার তিনটি কিস্তিতে সরাসরি পরিবারের ব্যাংক অ্যাকাউন্টে। নিবন্ধনের জন্য pmkisan.gov.in-এ \"New Farmer Registration\" ব্যবহার করুন অথবা কমন সার্ভিস সেন্টারে যান। আধার, আধারের সঙ্গে যুক্ত ব্যাংক অ্যাকাউন্ট, জমির তথ্য এবং মোবাইল নম্বর তৈরি রাখুন। টাকা পেতে থাকতে e-KYC করা দরকার, আর পোর্টালের \"Know Your Status\" দিয়ে অবস্থা দেখা যায়। কিছু শ্রেণির মানুষ এই প্রকল্পের যোগ্য নন, তালিকা পোর্টালে আছে। হেল্পলাইন: ১৫৫২৬১ বা ০১১-২৪৩০০৬০৬।",
+      "ta": "PM-KISAN திட்டத்தில் நிலம் வைத்திருக்கும் விவசாயக் குடும்பங்களுக்கு ஆண்டுக்கு ₹6,000, நான்கு மாதங்களுக்கு ஒருமுறை ₹2,000 வீதம் மூன்று தவணைகளில், குடும்பத்தின் வங்கிக் கணக்கில் நேரடியாகச் செலுத்தப்படுகிறது. பதிவு செய்ய pmkisan.gov.in இணையதளத்தில் \"New Farmer Registration\" பயன்படுத்தவும் அல்லது பொது சேவை மையத்துக்குச் செல்லவும். ஆதார், ஆதாருடன் இணைந்த வங்கிக் கணக்கு, நில விவரங்கள், மொபைல் எண் ஆகியவற்றைத் தயாராக வைத்திருங்கள். தொகை தொடர்ந்து கிடைக்க e-KYC செய்ய வேண்டும்; இணையதளத்தின் \"Know Your Status\" மூலம் நிலையைப் பார்க்கலாம். சில வகையினர் இத்திட்டத்துக்குத் தகுதியற்றவர்கள்; பட்டியல் இணையதளத்தில் உள்ளது. உதவி எண்: 155261 அல்லது 011-24300606."
+    }
+  },
+  {
+    "id": "faq-013",
+    "category": "schemes",
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://www.goa.gov.in/wp-content/uploads/2022/05/Ayushman-Bharat-%E2%80%93-Pradhan-Mantri-Jan-Arogya-Yojana-.pdf",
+      "https://anantamias.com/?p=39639",
+      "https://www.sansalegal.com/post/how-to-apply-for-ayushman-bharat-health-insurance-in-india-eligibility-and-process"
+    ],
+    "question": {
+      "en": "What is Ayushman Bharat and how do I get the Ayushman card?",
+      "bn": "আয়ুষ্মান ভারত কী এবং আয়ুষ্মান কার্ড কীভাবে পাব?",
+      "ta": "ஆயுஷ்மான் பாரத் என்றால் என்ன, ஆயுஷ்மான் அட்டை பெறுவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "ayushman bharat",
+        "ayushman card",
+        "pmjay",
+        "pm-jay",
+        "health insurance",
+        "5 lakh"
+      ],
+      "bn": [
+        "আয়ুষ্মান ভারত",
+        "আয়ুষ্মান কার্ড",
+        "স্বাস্থ্য বিমা"
+      ],
+      "ta": [
+        "ஆயுஷ்மான் பாரத்",
+        "ஆயுஷ்மான் அட்டை",
+        "மருத்துவக் காப்பீடு"
+      ]
+    },
+    "answer": {
+      "en": "Ayushman Bharat PM-JAY gives eligible families free, cashless hospital treatment of up to ₹5 lakh per family per year at empanelled hospitals. All citizens aged 70 and above can also get this cover, whatever their income. To check if you are eligible, visit beneficiary.nha.gov.in or call 14555. If you are eligible, you can get the card free of charge with Aadhaar e-KYC at a Common Service Centre or an empanelled hospital. Never pay anyone for the card.",
+      "bn": "আয়ুষ্মান ভারত PM-JAY প্রকল্পে যোগ্য পরিবার তালিকাভুক্ত হাসপাতালে বছরে পরিবার পিছু ৫ লক্ষ টাকা পর্যন্ত বিনামূল্যে ও নগদহীন চিকিৎসা পায়। ৭০ বছর বা তার বেশি বয়সী সব নাগরিকও আয় নির্বিশেষে এই সুবিধা পেতে পারেন। আপনি যোগ্য কি না জানতে beneficiary.nha.gov.in-এ যান বা ১৪৫৫৫ নম্বরে ফোন করুন। যোগ্য হলে কমন সার্ভিস সেন্টার বা তালিকাভুক্ত হাসপাতালে আধার e-KYC দিয়ে বিনামূল্যে কার্ড পাবেন। কার্ডের জন্য কাউকে টাকা দেবেন না।",
+      "ta": "ஆயுஷ்மான் பாரத் PM-JAY திட்டத்தில் தகுதியுள்ள குடும்பங்கள் பட்டியலிடப்பட்ட மருத்துவமனைகளில் ஆண்டுக்குக் குடும்பத்திற்கு ₹5 லட்சம் வரை இலவசமாகவும் பணமின்றியும் சிகிச்சை பெறலாம். 70 வயது மற்றும் அதற்கு மேற்பட்ட அனைத்துக் குடிமக்களும் வருமானம் எதுவாக இருந்தாலும் இந்தப் பலனைப் பெறலாம். நீங்கள் தகுதியானவரா என்று அறிய beneficiary.nha.gov.in இணையதளத்திற்குச் செல்லவும் அல்லது 14555 எண்ணை அழைக்கவும். தகுதியுடையவராக இருந்தால் பொது சேவை மையம் அல்லது பட்டியலிடப்பட்ட மருத்துவமனையில் ஆதார் e-KYC மூலம் அட்டையை இலவசமாகப் பெறலாம். அட்டைக்காக யாருக்கும் பணம் கொடுக்காதீர்கள்."
+    }
+  },
+  {
+    "id": "faq-014",
+    "category": "identity",
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://openforge.gov.in/openforge/digilocker.php",
+      "https://digilocker.gov.in/"
+    ],
+    "question": {
+      "en": "What is DigiLocker and how do I sign up?",
+      "bn": "ডিজিলকার কী এবং কীভাবে সাইন আপ করব?",
+      "ta": "டிஜிலாக்கர் என்றால் என்ன, எப்படிப் பதிவு செய்வது?"
+    },
+    "keywords": {
+      "en": [
+        "digilocker",
+        "digital locker",
+        "e-documents",
+        "digital documents"
+      ],
+      "bn": [
+        "ডিজিলকার",
+        "ডিজিটাল লকার"
+      ],
+      "ta": [
+        "டிஜிலாக்கர்",
+        "டிஜிட்டல் லாக்கர்"
+      ]
+    },
+    "answer": {
+      "en": "DigiLocker is a government app and website (digilocker.gov.in) where you can keep and share digital copies of documents such as your driving licence and mark sheets. Documents that the issuing office puts in your DigiLocker are treated as equal to the original paper documents under the IT Rules. To sign up, enter your mobile number, then your Aadhaar number, and confirm with the OTP sent to the mobile number linked to your Aadhaar. You also set a six-digit PIN.",
+      "bn": "ডিজিলকার (DigiLocker) হলো সরকারি অ্যাপ ও ওয়েবসাইট (digilocker.gov.in), যেখানে ড্রাইভিং লাইসেন্স, মার্কশিটের মতো নথির ডিজিটাল কপি রাখা ও শেয়ার করা যায়। ইস্যুকারী দপ্তর আপনার ডিজিলকারে যে নথি দেয়, আইটি বিধি অনুযায়ী তা মূল কাগুজে নথির সমান বলে গণ্য হয়। সাইন আপ করতে মোবাইল নম্বর দিন, তারপর আধার নম্বর দিন এবং আধারের সঙ্গে যুক্ত মোবাইল নম্বরে আসা OTP দিয়ে নিশ্চিত করুন। এছাড়া ছয় অঙ্কের একটি PIN ঠিক করতে হবে।",
+      "ta": "டிஜிலாக்கர் (DigiLocker) என்பது அரசின் செயலி மற்றும் இணையதளம் (digilocker.gov.in); இதில் ஓட்டுநர் உரிமம், மதிப்பெண் சான்றிதழ் போன்ற ஆவணங்களின் டிஜிட்டல் நகல்களைச் சேமித்துப் பகிரலாம். வழங்கும் அலுவலகம் உங்கள் டிஜிலாக்கரில் சேர்க்கும் ஆவணங்கள், தகவல் தொழில்நுட்ப விதிகளின்படி அசல் காகித ஆவணங்களுக்குச் சமமாகக் கருதப்படும். பதிவு செய்ய மொபைல் எண்ணை உள்ளிட்டு, பிறகு ஆதார் எண்ணை உள்ளிட்டு, ஆதாருடன் இணைந்த மொபைல் எண்ணுக்கு வரும் OTP மூலம் உறுதிப்படுத்தவும். மேலும் ஆறு இலக்க PIN ஒன்றை அமைக்க வேண்டும்."
+    }
+  },
+  {
+    "id": "faq-015",
+    "category": "travel",
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://sarathi.parivahan.gov.in/",
+      "https://transport.py.gov.in/Learner's Licence",
+      "https://saharanpur.nic.in/service/driving-license/"
+    ],
+    "question": {
+      "en": "How do I get a driving licence?",
+      "bn": "ড্রাইভিং লাইসেন্স কীভাবে পাব?",
+      "ta": "ஓட்டுநர் உரிமம் பெறுவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "driving licence",
+        "driving license",
+        "learner licence",
+        "dl",
+        "rto",
+        "sarathi"
+      ],
+      "bn": [
+        "ড্রাইভিং লাইসেন্স",
+        "লার্নার লাইসেন্স",
+        "সারথি"
+      ],
+      "ta": [
+        "ஓட்டுநர் உரிமம்",
+        "கற்றல் உரிமம்",
+        "சாரதி"
+      ]
+    },
+    "answer": {
+      "en": "First get a learner's licence: apply on the Sarathi portal (sarathi.parivahan.gov.in), choose your state, and pass the online test on traffic rules. You can apply for the permanent driving licence after holding the learner's licence for at least 30 days, and you must pass a driving test. The minimum age is 16 for a gearless two-wheeler up to 50 cc (with a parent's consent), 18 for a motorcycle with gears or a car, and 20 for a commercial vehicle. Fees and test rules differ by state, so check the Sarathi page for your state.",
+      "bn": "প্রথমে লার্নার লাইসেন্স নিন: সারথি পোর্টালে (sarathi.parivahan.gov.in) আপনার রাজ্য বেছে আবেদন করুন এবং ট্রাফিক নিয়মের অনলাইন পরীক্ষায় পাস করুন। লার্নার লাইসেন্স অন্তত ৩০ দিন হাতে থাকার পর স্থায়ী ড্রাইভিং লাইসেন্সের জন্য আবেদন করা যায়, এবং ড্রাইভিং টেস্টে পাস করতে হয়। ন্যূনতম বয়স: ৫০ সিসি পর্যন্ত গিয়ারহীন দু-চাকার গাড়ির জন্য ১৬ বছর (অভিভাবকের সম্মতিসহ), গিয়ারযুক্ত মোটরসাইকেল বা গাড়ির জন্য ১৮ বছর, এবং বাণিজ্যিক গাড়ির জন্য ২০ বছর। ফি ও পরীক্ষার নিয়ম রাজ্যভেদে আলাদা, তাই আপনার রাজ্যের সারথি পাতা দেখে নিন।",
+      "ta": "முதலில் கற்றல் உரிமம் (learner's licence) பெறுங்கள்: சாரதி இணையதளத்தில் (sarathi.parivahan.gov.in) உங்கள் மாநிலத்தைத் தேர்ந்தெடுத்து விண்ணப்பித்து, போக்குவரத்து விதிகள் பற்றிய ஆன்லைன் தேர்வில் தேர்ச்சி பெறுங்கள். கற்றல் உரிமம் பெற்று குறைந்தது 30 நாட்களுக்குப் பிறகு நிரந்தர ஓட்டுநர் உரிமத்திற்கு விண்ணப்பிக்கலாம்; ஓட்டுநர் தேர்விலும் தேர்ச்சி பெற வேண்டும். குறைந்தபட்ச வயது: 50 சிசி வரையிலான கியர் இல்லாத இருசக்கர வாகனத்துக்கு 16 (பெற்றோர் ஒப்புதலுடன்), கியருள்ள மோட்டார் சைக்கிள் அல்லது காருக்கு 18, வணிக வாகனத்துக்கு 20. கட்டணமும் தேர்வு விதிகளும் மாநிலத்திற்கு மாநிலம் மாறுபடும்; எனவே உங்கள் மாநிலத்தின் சாரதி பக்கத்தைப் பார்க்கவும்."
     }
   }
 ]

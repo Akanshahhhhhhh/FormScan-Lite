@@ -1,6 +1,6 @@
 # FormScan-Lite Backend API Contract
 
-Last updated: 2026-10-23. Backend: Flask, `http://127.0.0.1:5000` (CORS is on).
+Last updated: 2026-10-24. Backend: Flask, `http://127.0.0.1:5000` (CORS is on).
 Languages used everywhere: `en` (English), `bn` (Bengali), `ta` (Tamil).
 
 Status: **OCR, Translate, TTS, Audio, Feedback, FAQ are built and tested.** Health is planned (shown at the end).
@@ -206,7 +206,7 @@ Errors: `missing_question`, `question_too_long`, `unsupported_language`, `bad_re
 }
 ```
 
-Note: the list has 10 entries so far. Entries faq-001 to faq-005 are samples; faq-006 to faq-010 come from official pages but still need a human check. More entries will be added.
+Note: the list has 15 entries so far. Entries faq-002 to faq-005 are still samples; faq-001 and faq-006 to faq-015 come from official pages but still need a human check. More entries will be added.
 
 ---
 
