@@ -206,7 +206,7 @@ Errors: `missing_question`, `question_too_long`, `unsupported_language`, `bad_re
 }
 ```
 
-Note: the answers are **sample entries for now**. The final list will come from PIB pages.
+Note: the list has 10 entries so far. Entries faq-001 to faq-005 are samples; faq-006 to faq-010 come from official pages but still need a human check. More entries will be added.
 
 ---
 

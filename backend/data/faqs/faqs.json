@@ -2,101 +2,368 @@
   {
     "id": "faq-001",
     "category": "certificates",
-    "source": "SAMPLE entry, replace with PIB-sourced text",
     "question": {
       "en": "How do I apply for a birth certificate?",
       "bn": "জন্ম সনদের জন্য কীভাবে আবেদন করব?",
       "ta": "பிறப்புச் சான்றிதழுக்கு எப்படி விண்ணப்பிப்பது?"
     },
     "keywords": {
-      "en": ["birth certificate", "register birth", "newborn"],
-      "bn": ["জন্ম সনদ", "জন্ম নিবন্ধন"],
-      "ta": ["பிறப்புச் சான்றிதழ்", "பிறப்பு பதிவு"]
+      "en": [
+        "birth certificate",
+        "register birth",
+        "newborn"
+      ],
+      "bn": [
+        "জন্ম সনদ",
+        "জন্ম নিবন্ধন"
+      ],
+      "ta": [
+        "பிறப்புச் சான்றிதழ்",
+        "பிறப்பு பதிவு"
+      ]
     },
     "answer": {
       "en": "Apply at the local registrar office of the place where the birth happened (the municipal office in cities, the gram panchayat in villages). A birth should be registered within 21 days. Many states also allow online applications. The documents needed differ by state, so check with the local office before you go.",
       "bn": "যেখানে জন্ম হয়েছে সেই এলাকার স্থানীয় রেজিস্ট্রার অফিসে (শহরে পৌরসভা, গ্রামে গ্রাম পঞ্চায়েত) আবেদন করুন। জন্মের ২১ দিনের মধ্যে নিবন্ধন করা উচিত। অনেক রাজ্যে অনলাইনেও আবেদন করা যায়। প্রয়োজনীয় কাগজপত্র রাজ্যভেদে আলাদা হতে পারে, তাই যাওয়ার আগে স্থানীয় অফিস থেকে জেনে নিন।",
       "ta": "குழந்தை பிறந்த இடத்திலுள்ள உள்ளூர் பதிவாளர் அலுவலகத்தில் (நகரங்களில் நகராட்சி அலுவலகம், கிராமங்களில் கிராம ஊராட்சி) விண்ணப்பிக்கவும். பிறப்பை 21 நாட்களுக்குள் பதிவு செய்ய வேண்டும். பல மாநிலங்களில் ஆன்லைனிலும் விண்ணப்பிக்கலாம். தேவையான ஆவணங்கள் மாநிலத்திற்கு மாநிலம் மாறுபடலாம்; செல்வதற்கு முன் உள்ளூர் அலுவலகத்தில் கேட்டு உறுதி செய்யவும்."
-    }
+    },
+    "status": "sample",
+    "checked": null,
+    "sources": []
   },
   {
     "id": "faq-002",
     "category": "identity",
-    "source": "SAMPLE entry, replace with PIB-sourced text",
     "question": {
       "en": "What is Aadhaar?",
       "bn": "আধার কী?",
       "ta": "ஆதார் என்றால் என்ன?"
     },
     "keywords": {
-      "en": ["aadhaar", "aadhar", "uidai", "identity number"],
-      "bn": ["আধার", "ইউআইডিএআই"],
-      "ta": ["ஆதார்", "அடையாள எண்"]
+      "en": [
+        "aadhaar",
+        "aadhar",
+        "uidai",
+        "identity number"
+      ],
+      "bn": [
+        "আধার",
+        "ইউআইডিএআই"
+      ],
+      "ta": [
+        "ஆதார்",
+        "அடையாள எண்"
+      ]
     },
     "answer": {
       "en": "Aadhaar is a 12-digit unique identity number issued by UIDAI (Unique Identification Authority of India) to residents of India. It is used as proof of identity and address for many government services.",
       "bn": "আধার হলো ১২ সংখ্যার একটি অনন্য পরিচয় নম্বর, যা ভারতের বাসিন্দাদের জন্য UIDAI (ইউনিক আইডেন্টিফিকেশন অথরিটি অফ ইন্ডিয়া) প্রদান করে। বিভিন্ন সরকারি পরিষেবায় পরিচয় ও ঠিকানার প্রমাণ হিসেবে এটি ব্যবহার করা হয়।",
       "ta": "ஆதார் என்பது இந்தியாவில் வசிப்பவர்களுக்கு UIDAI (இந்திய தனித்துவ அடையாள ஆணையம்) வழங்கும் 12 இலக்க தனித்துவ அடையாள எண். பல அரசு சேவைகளில் அடையாளம் மற்றும் முகவரிக்கான சான்றாக இது பயன்படுகிறது."
-    }
+    },
+    "status": "sample",
+    "checked": null,
+    "sources": []
   },
   {
     "id": "faq-003",
     "category": "identity",
-    "source": "SAMPLE entry, replace with PIB-sourced text",
     "question": {
       "en": "What is a PAN card?",
       "bn": "প্যান কার্ড কী?",
       "ta": "பான் கார்டு என்றால் என்ன?"
     },
     "keywords": {
-      "en": ["pan", "pan card", "permanent account number", "income tax"],
-      "bn": ["প্যান", "প্যান কার্ড", "আয়কর"],
-      "ta": ["பான்", "பான் கார்டு", "வருமான வரி"]
+      "en": [
+        "pan",
+        "pan card",
+        "permanent account number",
+        "income tax"
+      ],
+      "bn": [
+        "প্যান",
+        "প্যান কার্ড",
+        "আয়কর"
+      ],
+      "ta": [
+        "பான்",
+        "பான் கார்டு",
+        "வருமான வரி"
+      ]
     },
     "answer": {
       "en": "PAN (Permanent Account Number) is a 10-character code of letters and numbers issued by the Income Tax Department. It is used for filing income tax and for financial work such as opening a bank account.",
       "bn": "প্যান (পারমানেন্ট অ্যাকাউন্ট নম্বর) হলো আয়কর বিভাগ প্রদত্ত ১০ অক্ষরের অক্ষর ও সংখ্যার কোড। আয়কর রিটার্ন জমা এবং ব্যাংক অ্যাকাউন্ট খোলার মতো আর্থিক কাজে এটি ব্যবহার হয়।",
       "ta": "பான் (நிரந்தர கணக்கு எண்) என்பது வருமான வரித் துறை வழங்கும் 10 எழுத்து, எண் கலந்த குறியீடு. வருமான வரி தாக்கல் செய்யவும், வங்கிக் கணக்கு தொடங்குவது போன்ற நிதிச் செயல்களுக்கும் இது பயன்படுகிறது."
-    }
+    },
+    "status": "sample",
+    "checked": null,
+    "sources": []
   },
   {
     "id": "faq-004",
     "category": "forms",
-    "source": "SAMPLE entry, replace with PIB-sourced text",
     "question": {
       "en": "What does self-attested copy mean?",
       "bn": "স্ব-সত্যায়িত কপি মানে কী?",
       "ta": "சுய சான்றொப்பம் செய்த நகல் என்றால் என்ன?"
     },
     "keywords": {
-      "en": ["self attested", "self-attested", "attest", "photocopy", "signed copy"],
-      "bn": ["স্ব-সত্যায়িত", "সত্যায়িত কপি"],
-      "ta": ["சுய சான்றொப்பம்", "சான்றொப்பம்", "நகல்"]
+      "en": [
+        "self attested",
+        "self-attested",
+        "attest",
+        "photocopy",
+        "signed copy"
+      ],
+      "bn": [
+        "স্ব-সত্যায়িত",
+        "সত্যায়িত কপি"
+      ],
+      "ta": [
+        "சுய சான்றொப்பம்",
+        "சான்றொப்பம்",
+        "நகல்"
+      ]
     },
     "answer": {
       "en": "A self-attested copy is a photocopy of a document that you sign yourself, usually writing \"self-attested\" and the date, to say it is a true copy of the original. Many government forms ask for self-attested copies of your ID and address proofs. Keep the originals with you, as the office may ask to see them.",
       "bn": "স্ব-সত্যায়িত কপি হলো কোনো নথির ফটোকপি, যাতে আপনি নিজে সই করেন (সাধারণত \"স্ব-সত্যায়িত\" ও তারিখ লিখে), অর্থাৎ এটি মূল নথির হুবহু কপি। অনেক সরকারি ফর্মে পরিচয় ও ঠিকানার প্রমাণের স্ব-সত্যায়িত কপি চাওয়া হয়। মূল নথি নিজের কাছে রাখুন, কারণ অফিস দেখতে চাইতে পারে।",
       "ta": "சுய சான்றொப்பம் செய்த நகல் என்பது ஒரு ஆவணத்தின் நகலில் நீங்களே கையொப்பமிட்டு (பொதுவாக \"சுய சான்றொப்பம்\" என்றும் தேதியும் எழுதி) அது அசல் ஆவணத்தின் உண்மையான நகல் என்று உறுதி செய்வதாகும். பல அரசு படிவங்களில் அடையாள, முகவரிச் சான்றுகளின் சுய சான்றொப்பம் செய்த நகல் கேட்கப்படும். அசல் ஆவணங்களை உங்களிடம் வைத்திருங்கள்; அலுவலகம் பார்க்கக் கேட்கலாம்."
-    }
+    },
+    "status": "sample",
+    "checked": null,
+    "sources": []
   },
   {
     "id": "faq-005",
     "category": "certificates",
-    "source": "SAMPLE entry, replace with PIB-sourced text",
     "question": {
       "en": "What is an income certificate?",
       "bn": "আয়ের প্রমাণপত্র কী?",
       "ta": "வருமானச் சான்றிதழ் என்றால் என்ன?"
     },
     "keywords": {
-      "en": ["income certificate", "income proof", "family income", "scholarship"],
-      "bn": ["আয়ের প্রমাণপত্র", "আয়ের সার্টিফিকেট"],
-      "ta": ["வருமானச் சான்றிதழ்", "வருமான சான்று"]
+      "en": [
+        "income certificate",
+        "income proof",
+        "family income",
+        "scholarship"
+      ],
+      "bn": [
+        "আয়ের প্রমাণপত্র",
+        "আয়ের সার্টিফিকেট"
+      ],
+      "ta": [
+        "வருமானச் சான்றிதழ்",
+        "வருமான சான்று"
+      ]
     },
     "answer": {
       "en": "An income certificate is an official document issued by the state government (usually through the revenue office or tahsildar) that states a family's yearly income. It is often needed for scholarships, fee concessions and welfare schemes. The process differs by state.",
       "bn": "আয়ের প্রমাণপত্র হলো রাজ্য সরকারের (সাধারণত রাজস্ব দপ্তর বা তহসিলদারের মাধ্যমে) দেওয়া সরকারি নথি, যাতে পরিবারের বার্ষিক আয় লেখা থাকে। বৃত্তি, ফি ছাড় ও বিভিন্ন কল্যাণমূলক প্রকল্পে এটি প্রায়ই লাগে। নিয়ম রাজ্যভেদে আলাদা।",
       "ta": "வருமானச் சான்றிதழ் என்பது மாநில அரசு (பொதுவாக வருவாய்த் துறை அல்லது தாசில்தார் மூலம்) வழங்கும் அதிகாரப்பூர்வ ஆவணம்; அதில் குடும்பத்தின் ஆண்டு வருமானம் குறிப்பிடப்பட்டிருக்கும். உதவித்தொகை, கட்டணச் சலுகை, நலத்திட்டங்களுக்கு இது அடிக்கடி தேவைப்படும். நடைமுறை மாநிலத்திற்கு மாநிலம் மாறுபடும்."
+    },
+    "status": "sample",
+    "checked": null,
+    "sources": []
+  },
+  {
+    "id": "faq-006",
+    "category": "identity",
+    "status": "researched, needs human check",
+    "checked": "2026-10-23",
+    "sources": [
+      "https://dip.goa.gov.in/online-updation-of-aadhaar/",
+      "https://www.outlookmoney.com/news/uidai-extends-free-aadhaar-document-update-deadline-till-june-2027",
+      "https://mndc.uidai.gov.in/images/Aadhaar_Enrolment__and__Update__-__English.pdf"
+    ],
+    "question": {
+      "en": "How do I update my identity and address proof documents in Aadhaar online?",
+      "bn": "আধারে পরিচয় ও ঠিকানার প্রমাণপত্র (ডকুমেন্ট) অনলাইনে কীভাবে আপডেট করব?",
+      "ta": "ஆதாரில் அடையாளம் மற்றும் முகவரிச் சான்று ஆவணங்களை ஆன்லைனில் எப்படி புதுப்பிப்பது?"
+    },
+    "keywords": {
+      "en": [
+        "update aadhaar",
+        "aadhaar update",
+        "myaadhaar",
+        "aadhaar document update",
+        "free update"
+      ],
+      "bn": [
+        "আধার আপডেট",
+        "মাইআধার",
+        "ডকুমেন্ট আপডেট"
+      ],
+      "ta": [
+        "ஆதார் புதுப்பிப்பு",
+        "ஆதார் ஆவணம்",
+        "myAadhaar"
+      ]
+    },
+    "answer": {
+      "en": "Log in to the myAadhaar portal (myaadhaar.uidai.gov.in) with your Aadhaar number and the OTP sent to your registered mobile number. Choose the document update service and upload your proof of identity and proof of address. This online document update is free until 14 June 2027. At an Aadhaar centre the same service costs ₹75. Other updates, such as changing your name or mobile number or giving fresh biometrics, carry a fee, and some need a visit to an Aadhaar centre.",
+      "bn": "myAadhaar পোর্টালে (myaadhaar.uidai.gov.in) আপনার আধার নম্বর ও নিবন্ধিত মোবাইল নম্বরে আসা OTP দিয়ে লগ-ইন করুন। ডকুমেন্ট আপডেট সেবা বেছে নিয়ে পরিচয়ের প্রমাণ ও ঠিকানার প্রমাণ আপলোড করুন। অনলাইনে এই ডকুমেন্ট আপডেট ১৪ জুন ২০২৭ পর্যন্ত বিনামূল্যে। আধার কেন্দ্রে একই কাজের জন্য ৭৫ টাকা লাগে। নাম বা মোবাইল নম্বর বদলানো কিংবা নতুন বায়োমেট্রিকের মতো অন্য আপডেটে ফি লাগে, এবং কিছু ক্ষেত্রে আধার কেন্দ্রে যেতে হয়।",
+      "ta": "myAadhaar இணையதளத்தில் (myaadhaar.uidai.gov.in) உங்கள் ஆதார் எண் மற்றும் பதிவு செய்த மொபைல் எண்ணுக்கு வரும் OTP மூலம் உள்நுழையவும். ஆவணப் புதுப்பிப்பு சேவையைத் தேர்ந்தெடுத்து அடையாளச் சான்று மற்றும் முகவரிச் சான்றைப் பதிவேற்றவும். இந்த ஆன்லைன் ஆவணப் புதுப்பிப்பு 14 ஜூன் 2027 வரை இலவசம். ஆதார் மையத்தில் இதே சேவைக்கு ₹75 கட்டணம். பெயர் அல்லது மொபைல் எண் மாற்றம், புதிய பயோமெட்ரிக் பதிவு போன்ற பிற புதுப்பிப்புகளுக்குக் கட்டணம் உண்டு; சிலவற்றுக்கு ஆதார் மையத்துக்கு நேரில் செல்ல வேண்டும்."
+    }
+  },
+  {
+    "id": "faq-007",
+    "category": "identity",
+    "status": "researched, needs human check",
+    "checked": "2026-10-23",
+    "sources": [
+      "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan",
+      "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/Instant%20e-PAN-faq"
+    ],
+    "question": {
+      "en": "How can I get a PAN card instantly with Aadhaar?",
+      "bn": "আধার দিয়ে তাৎক্ষণিক প্যান কার্ড কীভাবে পাব?",
+      "ta": "ஆதார் மூலம் உடனடியாக பான் கார்டு பெறுவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "instant pan",
+        "e-pan",
+        "epan",
+        "apply pan",
+        "new pan card",
+        "pan through aadhaar"
+      ],
+      "bn": [
+        "তাৎক্ষণিক প্যান",
+        "ই-প্যান",
+        "নতুন প্যান"
+      ],
+      "ta": [
+        "உடனடி பான்",
+        "இ-பான்",
+        "புதிய பான்"
+      ]
+    },
+    "answer": {
+      "en": "If you do not have a PAN yet, you can get an instant e-PAN for free on the Income Tax e-filing portal (incometax.gov.in). Choose Instant e-PAN, then Get New e-PAN, enter your Aadhaar number and verify with the OTP sent to the mobile number linked to your Aadhaar. It is usually ready within minutes. You cannot use this service if you already have a PAN, if no mobile number is linked to your Aadhaar, or if your Aadhaar details are wrong.",
+      "bn": "আপনার এখনও প্যান না থাকলে আয়কর ই-ফাইলিং পোর্টালে (incometax.gov.in) বিনামূল্যে তাৎক্ষণিক ই-প্যান পেতে পারেন। \"Instant e-PAN\" বেছে নিয়ে \"Get New e-PAN\" চাপুন, আধার নম্বর দিন এবং আধারের সঙ্গে যুক্ত মোবাইল নম্বরে আসা OTP দিয়ে যাচাই করুন। সাধারণত কয়েক মিনিটেই এটি তৈরি হয়ে যায়। আপনার আগে থেকে প্যান থাকলে, আধারের সঙ্গে কোনো মোবাইল নম্বর যুক্ত না থাকলে, বা আধারের তথ্য ভুল থাকলে এই সেবা নেওয়া যায় না।",
+      "ta": "உங்களிடம் இன்னும் பான் இல்லையென்றால், வருமான வரி இ-ஃபைலிங் இணையதளத்தில் (incometax.gov.in) இலவசமாக உடனடி இ-பான் பெறலாம். \"Instant e-PAN\" என்பதைத் தேர்ந்தெடுத்து \"Get New e-PAN\" என்பதை அழுத்தி, ஆதார் எண்ணை உள்ளிட்டு, ஆதாருடன் இணைக்கப்பட்ட மொபைல் எண்ணுக்கு வரும் OTP மூலம் சரிபார்க்கவும். இது பொதுவாக சில நிமிடங்களில் தயாராகிவிடும். ஏற்கனவே பான் இருந்தால், ஆதாருடன் மொபைல் எண் இணைக்கப்படவில்லை என்றால், அல்லது ஆதார் விவரங்கள் தவறாக இருந்தால் இந்தச் சேவையைப் பயன்படுத்த முடியாது."
+    }
+  },
+  {
+    "id": "faq-008",
+    "category": "voting",
+    "status": "researched, needs human check",
+    "checked": "2026-10-23",
+    "sources": [
+      "https://voters.eci.gov.in/",
+      "https://en.vikaspedia.in/viewcontent/e-governance/citizen-services/register-your-name-in-electoral-roll",
+      "https://pathankot.nic.in/?p=29168"
+    ],
+    "question": {
+      "en": "How do I register as a new voter?",
+      "bn": "নতুন ভোটার হিসেবে নাম নথিভুক্ত করব কীভাবে?",
+      "ta": "புதிய வாக்காளராகப் பதிவு செய்வது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "voter id",
+        "new voter",
+        "form 6",
+        "voter registration",
+        "electoral roll"
+      ],
+      "bn": [
+        "ভোটার আইডি",
+        "নতুন ভোটার",
+        "ফর্ম ৬",
+        "ভোটার তালিকা"
+      ],
+      "ta": [
+        "வாக்காளர் அட்டை",
+        "புதிய வாக்காளர்",
+        "படிவம் 6",
+        "வாக்காளர் பட்டியல்"
+      ]
+    },
+    "answer": {
+      "en": "Fill Form 6. You can submit it online at the Voters' Service Portal (voters.eci.gov.in) or in the Voter Helpline app, or give a paper form to your Booth Level Officer. You must be an Indian citizen and be 18 years old on the qualifying date (1 January, 1 April, 1 July or 1 October). Keep a passport-size photo and proof of age and address ready. For help, call 1950 (add your STD code first).",
+      "bn": "ফর্ম ৬ পূরণ করুন। এটি অনলাইনে ভোটার সার্ভিস পোর্টালে (voters.eci.gov.in) বা Voter Helpline অ্যাপে জমা দিতে পারেন, অথবা কাগজের ফর্ম আপনার বুথ লেভেল অফিসারকে দিতে পারেন। আপনাকে ভারতের নাগরিক হতে হবে এবং যোগ্যতার তারিখে (১ জানুয়ারি, ১ এপ্রিল, ১ জুলাই বা ১ অক্টোবর) আপনার বয়স ১৮ বছর হতে হবে। পাসপোর্ট সাইজ ছবি এবং বয়স ও ঠিকানার প্রমাণ তৈরি রাখুন। সাহায্যের জন্য ১৯৫০ নম্বরে ফোন করুন (আগে আপনার এলাকার STD কোড যোগ করুন)।",
+      "ta": "படிவம் 6-ஐ நிரப்பவும். இதை வாக்காளர் சேவை இணையதளத்தில் (voters.eci.gov.in) அல்லது Voter Helpline செயலியில் ஆன்லைனில் சமர்ப்பிக்கலாம்; அல்லது காகிதப் படிவத்தை உங்கள் வாக்குச்சாவடி நிலை அலுவலரிடம் கொடுக்கலாம். நீங்கள் இந்தியக் குடிமகனாக இருக்க வேண்டும்; தகுதித் தேதியில் (1 ஜனவரி, 1 ஏப்ரல், 1 ஜூலை அல்லது 1 அக்டோபர்) உங்களுக்கு 18 வயது நிறைவடைந்திருக்க வேண்டும். பாஸ்போர்ட் அளவு புகைப்படம், வயது மற்றும் முகவரிச் சான்றைத் தயாராக வைத்திருங்கள். உதவிக்கு 1950-ஐ அழையுங்கள் (முன்னால் உங்கள் STD குறியீட்டைச் சேர்க்கவும்)."
+    }
+  },
+  {
+    "id": "faq-009",
+    "category": "voting",
+    "status": "researched, needs human check",
+    "checked": "2026-10-23",
+    "sources": [
+      "https://voters.eci.gov.in/",
+      "https://en.vikaspedia.in/viewcontent/e-governance/citizen-services/register-your-name-in-electoral-roll"
+    ],
+    "question": {
+      "en": "How do I download my digital voter ID card?",
+      "bn": "ডিজিটাল ভোটার আইডি কার্ড (ই-এপিক) কীভাবে ডাউনলোড করব?",
+      "ta": "டிஜிட்டல் வாக்காளர் அடையாள அட்டையை (இ-எபிக்) பதிவிறக்குவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "e-epic",
+        "download voter id",
+        "digital voter card",
+        "epic download"
+      ],
+      "bn": [
+        "ই-এপিক",
+        "ভোটার আইডি ডাউনলোড",
+        "ডিজিটাল ভোটার কার্ড"
+      ],
+      "ta": [
+        "இ-எபிக்",
+        "வாக்காளர் அட்டை பதிவிறக்கம்",
+        "டிஜிட்டல் வாக்காளர் அட்டை"
+      ]
+    },
+    "answer": {
+      "en": "Log in at the Voters' Service Portal (voters.eci.gov.in) or in the Voter Helpline app with your mobile number (you will get an OTP), then choose the option to download e-EPIC. Your name must already be in the electoral roll.",
+      "bn": "ভোটার সার্ভিস পোর্টালে (voters.eci.gov.in) বা Voter Helpline অ্যাপে মোবাইল নম্বর দিয়ে লগ-ইন করুন (OTP আসবে), তারপর e-EPIC ডাউনলোড করার বিকল্প বেছে নিন। আপনার নাম আগে থেকেই ভোটার তালিকায় থাকতে হবে।",
+      "ta": "வாக்காளர் சேவை இணையதளத்தில் (voters.eci.gov.in) அல்லது Voter Helpline செயலியில் மொபைல் எண்ணுடன் உள்நுழையவும் (OTP வரும்); பிறகு e-EPIC பதிவிறக்க விருப்பத்தைத் தேர்ந்தெடுக்கவும். உங்கள் பெயர் ஏற்கனவே வாக்காளர் பட்டியலில் இருக்க வேண்டும்."
+    }
+  },
+  {
+    "id": "faq-010",
+    "category": "travel",
+    "status": "researched, needs human check",
+    "checked": "2026-10-23",
+    "sources": [
+      "https://www.passportindia.gov.in/AppOnlineProject/onlineHtml/mobFeeDocument.html",
+      "https://www.bajajfinserv.in/how-to-apply-for-passport"
+    ],
+    "question": {
+      "en": "How do I apply for a passport?",
+      "bn": "পাসপোর্টের জন্য কীভাবে আবেদন করব?",
+      "ta": "பாஸ்போர்ட்டுக்கு விண்ணப்பிப்பது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "passport",
+        "apply passport",
+        "passport seva",
+        "new passport",
+        "renew passport"
+      ],
+      "bn": [
+        "পাসপোর্ট",
+        "পাসপোর্ট আবেদন",
+        "পাসপোর্ট সেবা"
+      ],
+      "ta": [
+        "பாஸ்போர்ட்",
+        "பாஸ்போர்ட் விண்ணப்பம்",
+        "பாஸ்போர்ட் சேவா"
+      ]
+    },
+    "answer": {
+      "en": "Register on the Passport Seva portal (passportindia.gov.in), fill in the application form online, pay the fee online and book an appointment at a Passport Seva Kendra. On that day, go with your original documents for verification and biometrics. Your application is then checked, including police verification. Fees can change, so check the current fee on the portal before you pay.",
+      "bn": "পাসপোর্ট সেবা পোর্টালে (passportindia.gov.in) নিবন্ধন করুন, অনলাইনে আবেদনপত্র পূরণ করুন, অনলাইনে ফি দিন এবং কোনো পাসপোর্ট সেবা কেন্দ্রে অ্যাপয়েন্টমেন্ট বুক করুন। নির্ধারিত দিনে যাচাই ও বায়োমেট্রিকের জন্য আপনার মূল নথিপত্র নিয়ে যান। এরপর পুলিশ ভেরিফিকেশন সহ আপনার আবেদন যাচাই করা হয়। ফি বদলাতে পারে, তাই টাকা দেওয়ার আগে পোর্টালে বর্তমান ফি দেখে নিন।",
+      "ta": "பாஸ்போர்ட் சேவா இணையதளத்தில் (passportindia.gov.in) பதிவு செய்து, விண்ணப்பப் படிவத்தை ஆன்லைனில் நிரப்பி, கட்டணத்தை ஆன்லைனில் செலுத்தி, பாஸ்போர்ட் சேவா கேந்திராவில் சந்திப்பு நேரத்தைப் பதிவு செய்யவும். குறிப்பிட்ட நாளில் சரிபார்ப்பு மற்றும் பயோமெட்ரிக் பதிவுக்காக உங்கள் அசல் ஆவணங்களுடன் செல்லவும். பிறகு காவல்துறை சரிபார்ப்பு உட்பட உங்கள் விண்ணப்பம் சரிபார்க்கப்படும். கட்டணம் மாறலாம்; எனவே பணம் செலுத்துவதற்கு முன் இணையதளத்தில் தற்போதைய கட்டணத்தைப் பார்க்கவும்."
     }
   }
 ]
