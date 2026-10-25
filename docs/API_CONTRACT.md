@@ -1,9 +1,9 @@
 # FormScan-Lite Backend API Contract
 
-Last updated: 2026-10-24. Backend: Flask, `http://127.0.0.1:5000` (CORS is on).
+Last updated: 2026-10-25. Backend: Flask, `http://127.0.0.1:5000` (CORS is on).
 Languages used everywhere: `en` (English), `bn` (Bengali), `ta` (Tamil).
 
-Status: **OCR, Translate, TTS, Audio, Feedback, FAQ are built and tested.** Health is planned (shown at the end).
+Status: **OCR, Translate, TTS, Audio, Feedback, FAQ and Health are built and tested.**
 
 ## Error format (all endpoints)
 
@@ -210,10 +210,15 @@ Note: the list has 19 entries so far. faq-002 to faq-005 are still samples; faq-
 
 ---
 
-## Planned (not built yet, shapes may change)
+## 6. Health check
 
-### Health check: `GET /api/health`
+`GET /api/health`
+
+Success `200`:
 
 ```json
 { "status": "ok" }
 ```
+
+- Use it to check that the backend is running (for example when the app opens, or to show a "server is offline" message).
+- Only `GET` works. Other methods give `405`.
