@@ -563,5 +563,147 @@
       "bn": "প্রথমে লার্নার লাইসেন্স নিন: সারথি পোর্টালে (sarathi.parivahan.gov.in) আপনার রাজ্য বেছে আবেদন করুন এবং ট্রাফিক নিয়মের অনলাইন পরীক্ষায় পাস করুন। লার্নার লাইসেন্স অন্তত ৩০ দিন হাতে থাকার পর স্থায়ী ড্রাইভিং লাইসেন্সের জন্য আবেদন করা যায়, এবং ড্রাইভিং টেস্টে পাস করতে হয়। ন্যূনতম বয়স: ৫০ সিসি পর্যন্ত গিয়ারহীন দু-চাকার গাড়ির জন্য ১৬ বছর (অভিভাবকের সম্মতিসহ), গিয়ারযুক্ত মোটরসাইকেল বা গাড়ির জন্য ১৮ বছর, এবং বাণিজ্যিক গাড়ির জন্য ২০ বছর। ফি ও পরীক্ষার নিয়ম রাজ্যভেদে আলাদা, তাই আপনার রাজ্যের সারথি পাতা দেখে নিন।",
       "ta": "முதலில் கற்றல் உரிமம் (learner's licence) பெறுங்கள்: சாரதி இணையதளத்தில் (sarathi.parivahan.gov.in) உங்கள் மாநிலத்தைத் தேர்ந்தெடுத்து விண்ணப்பித்து, போக்குவரத்து விதிகள் பற்றிய ஆன்லைன் தேர்வில் தேர்ச்சி பெறுங்கள். கற்றல் உரிமம் பெற்று குறைந்தது 30 நாட்களுக்குப் பிறகு நிரந்தர ஓட்டுநர் உரிமத்திற்கு விண்ணப்பிக்கலாம்; ஓட்டுநர் தேர்விலும் தேர்ச்சி பெற வேண்டும். குறைந்தபட்ச வயது: 50 சிசி வரையிலான கியர் இல்லாத இருசக்கர வாகனத்துக்கு 16 (பெற்றோர் ஒப்புதலுடன்), கியருள்ள மோட்டார் சைக்கிள் அல்லது காருக்கு 18, வணிக வாகனத்துக்கு 20. கட்டணமும் தேர்வு விதிகளும் மாநிலத்திற்கு மாநிலம் மாறுபடும்; எனவே உங்கள் மாநிலத்தின் சாரதி பக்கத்தைப் பார்க்கவும்."
     }
+  },
+  {
+    "id": "faq-016",
+    "category": "certificates",
+    "state": "Tamil Nadu",
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://ariyalur.nic.in/?p=27531",
+      "https://nilgiris.nic.in/?p=29763",
+      "https://services.india.gov.in/service/detail/apply-for-nativity-certificate-in-tamil-nadu",
+      "https://tnesevai.tn.gov.in/Default.aspx"
+    ],
+    "question": {
+      "en": "How do I get a community, nativity or income certificate in Tamil Nadu?",
+      "ta": "தமிழ்நாட்டில் சமுதாயச் சான்றிதழ், நேட்டிவிட்டி சான்றிதழ், வருமானச் சான்றிதழ் பெறுவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "community certificate",
+        "nativity certificate",
+        "income certificate",
+        "e-sevai",
+        "esevai",
+        "tamil nadu certificate"
+      ],
+      "ta": [
+        "சமுதாயச் சான்றிதழ்",
+        "நேட்டிவிட்டி சான்றிதழ்",
+        "வருமானச் சான்றிதழ்",
+        "இ-சேவை"
+      ]
+    },
+    "answer": {
+      "en": "In Tamil Nadu you can apply for community, nativity and income certificates online on the TN e-Sevai portal (tnesevai.tn.gov.in), or through an e-Sevai centre. Register on the portal, fill in the form for the certificate you need and upload your documents. The certificate is issued by the Revenue Department. The documents needed are different for each certificate, so check the list on the portal for the one you need.",
+      "ta": "தமிழ்நாட்டில் சமுதாயச் சான்றிதழ், நேட்டிவிட்டி சான்றிதழ், வருமானச் சான்றிதழ் ஆகியவற்றுக்கு TN e-Sevai இணையதளத்தில் (tnesevai.tn.gov.in) ஆன்லைனில், அல்லது இ-சேவை மையம் மூலம் விண்ணப்பிக்கலாம். இணையதளத்தில் பதிவு செய்து, உங்களுக்குத் தேவையான சான்றிதழுக்கான படிவத்தை நிரப்பி, ஆவணங்களைப் பதிவேற்றவும். சான்றிதழ் வருவாய்த் துறையால் வழங்கப்படும். ஒவ்வொரு சான்றிதழுக்கும் தேவையான ஆவணங்கள் வேறுபடும்; எனவே உங்களுக்குத் தேவையானதற்கான பட்டியலை இணையதளத்தில் பார்க்கவும்."
+    }
+  },
+  {
+    "id": "faq-017",
+    "category": "schemes",
+    "state": "Tamil Nadu",
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://mayiladuthurai.nic.in/?p=29383",
+      "https://tnpds.gov.in/",
+      "https://citizenmatters.in/ration-book-pds-smart-card-aadhaar-link-tamil-nadu/"
+    ],
+    "question": {
+      "en": "How do I apply for a new ration card (smart family card) in Tamil Nadu?",
+      "ta": "தமிழ்நாட்டில் புதிய குடும்ப அட்டைக்கு (ஸ்மார்ட் கார்டு) விண்ணப்பிப்பது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "ration card",
+        "smart card",
+        "family card",
+        "tnpds",
+        "tamil nadu ration card"
+      ],
+      "ta": [
+        "ரேஷன் அட்டை",
+        "குடும்ப அட்டை",
+        "ஸ்மார்ட் கார்டு",
+        "டிஎன்பிடிஎஸ்"
+      ]
+    },
+    "answer": {
+      "en": "Apply online on the TNPDS portal (tnpds.gov.in) under Smart Card Application Services, and upload your documents on the website or through an e-Sevai centre. The same portal lets you add or remove a family member, change your address or change your ration shop. After the application is approved, the new smart card is given to you through your fair price shop. Keep your Aadhaar, an address proof and a passport-size photo of the head of the family ready.",
+      "ta": "TNPDS இணையதளத்தில் (tnpds.gov.in) \"Smart Card Application Services\" பிரிவில் ஆன்லைனில் விண்ணப்பிக்கவும்; ஆவணங்களை இணையதளத்தில் அல்லது இ-சேவை மையம் மூலம் பதிவேற்றவும். குடும்ப உறுப்பினரைச் சேர்க்க அல்லது நீக்க, முகவரி அல்லது ரேஷன் கடையை மாற்ற இதே இணையதளத்தைப் பயன்படுத்தலாம். விண்ணப்பம் ஏற்கப்பட்ட பிறகு புதிய ஸ்மார்ட் கார்டு உங்கள் நியாயவிலைக் கடை மூலம் வழங்கப்படும். ஆதார், முகவரிச் சான்று, குடும்பத் தலைவரின் பாஸ்போர்ட் அளவு புகைப்படம் ஆகியவற்றைத் தயாராக வைத்திருங்கள்."
+    }
+  },
+  {
+    "id": "faq-018",
+    "category": "certificates",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://castcertificatewb.gov.in/application",
+      "https://s24pgs.gov.in/backward_class_welfare",
+      "https://anagrasarkalyan.gov.in/bcw/pages/1",
+      "https://coochbehar.gov.in/backward-class-welfare"
+    ],
+    "question": {
+      "en": "How do I apply for an SC, ST or OBC caste certificate in West Bengal?",
+      "bn": "পশ্চিমবঙ্গে SC, ST বা OBC কাস্ট সার্টিফিকেটের জন্য কীভাবে আবেদন করব?"
+    },
+    "keywords": {
+      "en": [
+        "caste certificate",
+        "sc certificate",
+        "st certificate",
+        "obc certificate",
+        "west bengal caste certificate"
+      ],
+      "bn": [
+        "কাস্ট সার্টিফিকেট",
+        "জাতিগত শংসাপত্র",
+        "তফসিলি জাতি",
+        "উপজাতি"
+      ]
+    },
+    "answer": {
+      "en": "Apply online on the West Bengal caste certificate portal (castcertificatewb.gov.in), run by the Backward Classes Welfare Department. Choose your district, sub-division and municipality or block, then fill in the form and choose SC, ST or OBC. The certificate is issued by the Sub-Divisional Officer (SDO) of your sub-division, and in Kolkata by the District Welfare Officer. You can check your application status on the same portal.",
+      "bn": "ব্যাকওয়ার্ড ক্লাসেস ওয়েলফেয়ার বিভাগের পশ্চিমবঙ্গ কাস্ট সার্টিফিকেট পোর্টালে (castcertificatewb.gov.in) অনলাইনে আবেদন করুন। আপনার জেলা, মহকুমা এবং পুরসভা বা ব্লক বেছে নিন, তারপর ফর্ম পূরণ করে SC, ST বা OBC বেছে নিন। সার্টিফিকেট দেন আপনার মহকুমার মহকুমা শাসক (SDO), আর কলকাতায় দেন জেলা কল্যাণ আধিকারিক। আবেদনের অবস্থা একই পোর্টালে দেখা যায়।"
+    }
+  },
+  {
+    "id": "faq-019",
+    "category": "schemes",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-24",
+    "sources": [
+      "https://north24parganas.gov.in/node/2091",
+      "https://howrah.gov.in/?p=29159",
+      "https://food.wb.gov.in/food/PDS/Forms/CommonForm.pdf"
+    ],
+    "question": {
+      "en": "How do I apply for a digital ration card in West Bengal?",
+      "bn": "পশ্চিমবঙ্গে ডিজিটাল রেশন কার্ডের জন্য কীভাবে আবেদন করব?"
+    },
+    "keywords": {
+      "en": [
+        "ration card",
+        "digital ration card",
+        "khadya sathi",
+        "khadyasathi",
+        "west bengal ration card"
+      ],
+      "bn": [
+        "রেশন কার্ড",
+        "ডিজিটাল রেশন কার্ড",
+        "খাদ্যসাথী"
+      ]
+    },
+    "answer": {
+      "en": "In West Bengal the ration card is the Digital Ration Card under the Khadyasathi scheme. You can apply online on the Food & Supplies Department portal (food.wb.gov.in), or offline at the office of the Area Inspector (Food & Supplies) in your block or municipality. The same portal has the forms for other services, such as linking Aadhaar and a mobile number to your card. For complaints, call the toll-free number 1800 345 5505 or 1967.",
+      "bn": "পশ্চিমবঙ্গে রেশন কার্ড হলো খাদ্যসাথী প্রকল্পের ডিজিটাল রেশন কার্ড। আপনি খাদ্য ও সরবরাহ দপ্তরের পোর্টালে (food.wb.gov.in) অনলাইনে আবেদন করতে পারেন, অথবা আপনার ব্লক বা পুরসভার এরিয়া ইন্সপেক্টর (খাদ্য ও সরবরাহ)-এর অফিসে গিয়ে আবেদন করতে পারেন। কার্ডের সঙ্গে আধার ও মোবাইল নম্বর যুক্ত করার মতো অন্য পরিষেবার ফর্মও একই পোর্টালে আছে। অভিযোগের জন্য টোল-ফ্রি নম্বর ১৮০০ ৩৪৫ ৫৫০৫ বা ১৯৬৭-তে ফোন করুন।"
+    }
   }
 ]

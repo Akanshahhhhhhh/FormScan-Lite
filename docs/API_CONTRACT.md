@@ -206,7 +206,7 @@ Errors: `missing_question`, `question_too_long`, `unsupported_language`, `bad_re
 }
 ```
 
-Note: the list has 15 entries so far. Entries faq-002 to faq-005 are still samples; faq-001 and faq-006 to faq-015 come from official pages but still need a human check. More entries will be added.
+Note: the list has 19 entries so far. faq-002 to faq-005 are still samples; faq-001 and faq-006 to faq-019 come from official pages but still need a human check. Entries faq-016 and faq-017 are about Tamil Nadu and exist only in `en` and `ta`; faq-018 and faq-019 are about West Bengal and exist only in `en` and `bn`. So `GET /api/faq/questions` returns a different number of questions per language. More entries will be added.
 
 ---
 
