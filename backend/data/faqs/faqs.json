@@ -47,25 +47,36 @@
         "aadhaar",
         "aadhar",
         "uidai",
-        "identity number"
+        "identity number",
+        "new aadhaar",
+        "apply aadhaar",
+        "aadhaar enrolment"
       ],
       "bn": [
         "আধার",
-        "ইউআইডিএআই"
+        "ইউআইডিএআই",
+        "নতুন আধার",
+        "আধার নথিভুক্তি"
       ],
       "ta": [
         "ஆதார்",
-        "அடையாள எண்"
+        "அடையாள எண்",
+        "புதிய ஆதார்",
+        "ஆதார் பதிவு"
       ]
     },
     "answer": {
-      "en": "Aadhaar is a 12-digit unique identity number issued by UIDAI (Unique Identification Authority of India) to residents of India. It is used as proof of identity and address for many government services.",
-      "bn": "আধার হলো ১২ সংখ্যার একটি অনন্য পরিচয় নম্বর, যা ভারতের বাসিন্দাদের জন্য UIDAI (ইউনিক আইডেন্টিফিকেশন অথরিটি অফ ইন্ডিয়া) প্রদান করে। বিভিন্ন সরকারি পরিষেবায় পরিচয় ও ঠিকানার প্রমাণ হিসেবে এটি ব্যবহার করা হয়।",
-      "ta": "ஆதார் என்பது இந்தியாவில் வசிப்பவர்களுக்கு UIDAI (இந்திய தனித்துவ அடையாள ஆணையம்) வழங்கும் 12 இலக்க தனித்துவ அடையாள எண். பல அரசு சேவைகளில் அடையாளம் மற்றும் முகவரிக்கான சான்றாக இது பயன்படுகிறது."
+      "en": "Aadhaar is a 12-digit unique identity number issued by UIDAI (Unique Identification Authority of India) to residents of India. It is used as proof of identity and address for many government services. To get a new Aadhaar, you must go in person to an Aadhaar enrolment centre, because a new Aadhaar cannot be applied for online. You can book an appointment at bookappointment.uidai.gov.in. Take the original documents that prove your identity and your address. Your photo, fingerprints and iris will be captured. New enrolment is free, and you need to enrol only once. For help, call 1947.",
+      "bn": "আধার হলো ১২ সংখ্যার একটি অনন্য পরিচয় নম্বর, যা ভারতের বাসিন্দাদের জন্য UIDAI (ইউনিক আইডেন্টিফিকেশন অথরিটি অফ ইন্ডিয়া) প্রদান করে। বিভিন্ন সরকারি পরিষেবায় পরিচয় ও ঠিকানার প্রমাণ হিসেবে এটি ব্যবহার করা হয়। নতুন আধারের জন্য সরাসরি কোনো আধার নথিভুক্তি কেন্দ্রে যেতে হয়, কারণ নতুন আধারের আবেদন অনলাইনে করা যায় না। bookappointment.uidai.gov.in-এ অ্যাপয়েন্টমেন্ট বুক করা যায়। পরিচয়ের প্রমাণ ও ঠিকানার প্রমাণের মূল নথি সঙ্গে নিয়ে যান। আপনার ছবি, আঙুলের ছাপ ও আইরিস নেওয়া হবে। নতুন নথিভুক্তি বিনামূল্যে, এবং একবারই নথিভুক্ত হতে হয়। সাহায্যের জন্য ১৯৪৭ নম্বরে ফোন করুন।",
+      "ta": "ஆதார் என்பது இந்தியாவில் வசிப்பவர்களுக்கு UIDAI (இந்திய தனித்துவ அடையாள ஆணையம்) வழங்கும் 12 இலக்க தனித்துவ அடையாள எண். பல அரசு சேவைகளில் அடையாளம் மற்றும் முகவரிக்கான சான்றாக இது பயன்படுகிறது. புதிய ஆதாருக்கு நீங்கள் நேரடியாக ஆதார் பதிவு மையத்துக்குச் செல்ல வேண்டும்; புதிய ஆதாருக்கு ஆன்லைனில் விண்ணப்பிக்க முடியாது. bookappointment.uidai.gov.in இணையதளத்தில் சந்திப்பு நேரத்தைப் பதிவு செய்யலாம். அடையாளச் சான்று மற்றும் முகவரிச் சான்றின் அசல் ஆவணங்களை எடுத்துச் செல்லுங்கள். உங்கள் புகைப்படம், கைரேகைகள், கருவிழிப் பதிவு எடுக்கப்படும். புதிய பதிவு இலவசம்; ஒருமுறை மட்டுமே பதிவு செய்ய வேண்டும். உதவிக்கு 1947-ஐ அழையுங்கள்."
     },
-    "status": "sample",
-    "checked": null,
-    "sources": []
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://uidai.gov.in/en/aadhaar-enrolment",
+      "https://www.uidai.gov.in/my-aadhaar/about-your-aadhaar/aadhaar-enrolment.html",
+      "https://nyaaya.org/?p=2277"
+    ]
   },
   {
     "id": "faq-003",
@@ -80,27 +91,39 @@
         "pan",
         "pan card",
         "permanent account number",
-        "income tax"
+        "income tax",
+        "form 49a",
+        "protean",
+        "nsdl",
+        "utiitsl",
+        "pan application"
       ],
       "bn": [
         "প্যান",
         "প্যান কার্ড",
-        "আয়কর"
+        "আয়কর",
+        "ফর্ম ৪৯A",
+        "প্যান আবেদন"
       ],
       "ta": [
         "பான்",
         "பான் கார்டு",
-        "வருமான வரி"
+        "வருமான வரி",
+        "படிவம் 49A"
       ]
     },
     "answer": {
-      "en": "PAN (Permanent Account Number) is a 10-character code of letters and numbers issued by the Income Tax Department. It is used for filing income tax and for financial work such as opening a bank account.",
-      "bn": "প্যান (পারমানেন্ট অ্যাকাউন্ট নম্বর) হলো আয়কর বিভাগ প্রদত্ত ১০ অক্ষরের অক্ষর ও সংখ্যার কোড। আয়কর রিটার্ন জমা এবং ব্যাংক অ্যাকাউন্ট খোলার মতো আর্থিক কাজে এটি ব্যবহার হয়।",
-      "ta": "பான் (நிரந்தர கணக்கு எண்) என்பது வருமான வரித் துறை வழங்கும் 10 எழுத்து, எண் கலந்த குறியீடு. வருமான வரி தாக்கல் செய்யவும், வங்கிக் கணக்கு தொடங்குவது போன்ற நிதிச் செயல்களுக்கும் இது பயன்படுகிறது."
+      "en": "PAN (Permanent Account Number) is a 10-character code of letters and numbers issued by the Income Tax Department. It is used for filing income tax and for financial work such as opening a bank account. To get a new PAN, apply online on the Protean (NSDL) or UTIITSL website with the form for Indian citizens (Form 49A), or go to a PAN service centre. You submit proof of identity, address and date of birth, and pay the fee shown on the portal. If you already have a PAN, do not apply again. If you have no PAN, and your Aadhaar has a linked mobile number, you can get a free instant e-PAN on incometax.gov.in.",
+      "bn": "প্যান (পারমানেন্ট অ্যাকাউন্ট নম্বর) হলো আয়কর বিভাগ প্রদত্ত ১০ অক্ষরের অক্ষর ও সংখ্যার কোড। আয়কর রিটার্ন জমা এবং ব্যাংক অ্যাকাউন্ট খোলার মতো আর্থিক কাজে এটি ব্যবহার হয়। নতুন প্যানের জন্য Protean (NSDL) বা UTIITSL-এর ওয়েবসাইটে ভারতীয় নাগরিকদের ফর্ম (ফর্ম ৪৯A) দিয়ে অনলাইনে আবেদন করুন, অথবা কোনো প্যান সেবা কেন্দ্রে যান। পরিচয়, ঠিকানা ও জন্মতারিখের প্রমাণ জমা দিতে হয় এবং পোর্টালে দেখানো ফি দিতে হয়। আপনার আগে থেকে প্যান থাকলে আবার আবেদন করবেন না। প্যান না থাকলে এবং আধারের সঙ্গে মোবাইল নম্বর যুক্ত থাকলে incometax.gov.in-এ বিনামূল্যে তাৎক্ষণিক ই-প্যান পেতে পারেন।",
+      "ta": "பான் (நிரந்தர கணக்கு எண்) என்பது வருமான வரித் துறை வழங்கும் 10 எழுத்து, எண் கலந்த குறியீடு. வருமான வரி தாக்கல் செய்யவும், வங்கிக் கணக்கு தொடங்குவது போன்ற நிதிச் செயல்களுக்கும் இது பயன்படுகிறது. புதிய பானுக்கு Protean (NSDL) அல்லது UTIITSL இணையதளத்தில் இந்தியக் குடிமக்களுக்கான படிவம் (படிவம் 49A) மூலம் ஆன்லைனில் விண்ணப்பிக்கவும்; அல்லது பான் சேவை மையத்துக்குச் செல்லவும். அடையாளம், முகவரி, பிறந்த தேதிக்கான சான்றுகளைச் சமர்ப்பித்து, இணையதளத்தில் காட்டப்படும் கட்டணத்தைச் செலுத்த வேண்டும். ஏற்கனவே பான் இருந்தால் மீண்டும் விண்ணப்பிக்க வேண்டாம். பான் இல்லாமல், ஆதாருடன் மொபைல் எண் இணைக்கப்பட்டிருந்தால், incometax.gov.in இணையதளத்தில் இலவசமாக உடனடி இ-பான் பெறலாம்."
     },
-    "status": "sample",
-    "checked": null,
-    "sources": []
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://www.protean-tinpan.com/services/pan/pan-index.html",
+      "https://www.utiitsl.com/UTIITSL_SITE",
+      "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan"
+    ]
   },
   {
     "id": "faq-004",
@@ -116,26 +139,34 @@
         "self-attested",
         "attest",
         "photocopy",
-        "signed copy"
+        "signed copy",
+        "gazetted officer",
+        "self attestation"
       ],
       "bn": [
         "স্ব-সত্যায়িত",
-        "সত্যায়িত কপি"
+        "সত্যায়িত কপি",
+        "স্ব-সত্যায়ন",
+        "গেজেটেড অফিসার"
       ],
       "ta": [
         "சுய சான்றொப்பம்",
         "சான்றொப்பம்",
-        "நகல்"
+        "நகல்",
+        "அரசிதழ் அதிகாரி"
       ]
     },
     "answer": {
-      "en": "A self-attested copy is a photocopy of a document that you sign yourself, usually writing \"self-attested\" and the date, to say it is a true copy of the original. Many government forms ask for self-attested copies of your ID and address proofs. Keep the originals with you, as the office may ask to see them.",
-      "bn": "স্ব-সত্যায়িত কপি হলো কোনো নথির ফটোকপি, যাতে আপনি নিজে সই করেন (সাধারণত \"স্ব-সত্যায়িত\" ও তারিখ লিখে), অর্থাৎ এটি মূল নথির হুবহু কপি। অনেক সরকারি ফর্মে পরিচয় ও ঠিকানার প্রমাণের স্ব-সত্যায়িত কপি চাওয়া হয়। মূল নথি নিজের কাছে রাখুন, কারণ অফিস দেখতে চাইতে পারে।",
-      "ta": "சுய சான்றொப்பம் செய்த நகல் என்பது ஒரு ஆவணத்தின் நகலில் நீங்களே கையொப்பமிட்டு (பொதுவாக \"சுய சான்றொப்பம்\" என்றும் தேதியும் எழுதி) அது அசல் ஆவணத்தின் உண்மையான நகல் என்று உறுதி செய்வதாகும். பல அரசு படிவங்களில் அடையாள, முகவரிச் சான்றுகளின் சுய சான்றொப்பம் செய்த நகல் கேட்கப்படும். அசல் ஆவணங்களை உங்களிடம் வைத்திருங்கள்; அலுவலகம் பார்க்கக் கேட்கலாம்."
+      "en": "A self-attested copy is a photocopy of a document that you sign yourself, usually writing \"self-attested\" and the date, to say it is a true copy of the original. The Government of India has promoted self-attestation instead of attestation by a gazetted officer, and the original documents are usually checked only at the final stage. Many government forms ask for self-attested copies of your ID and address proofs. Some offices may still ask for officer-attested copies, so follow the instructions on the form. Keep the originals with you, as the office may ask to see them.",
+      "bn": "স্ব-সত্যায়িত কপি হলো কোনো নথির ফটোকপি, যাতে আপনি নিজে সই করেন (সাধারণত \"স্ব-সত্যায়িত\" ও তারিখ লিখে), অর্থাৎ এটি মূল নথির হুবহু কপি। ভারত সরকার গেজেটেড অফিসারের সত্যায়নের বদলে স্ব-সত্যায়নকে উৎসাহ দিয়েছে, এবং মূল নথি সাধারণত শেষ ধাপেই দেখা হয়। অনেক সরকারি ফর্মে পরিচয় ও ঠিকানার প্রমাণের স্ব-সত্যায়িত কপি চাওয়া হয়। কিছু অফিস এখনও অফিসার-সত্যায়িত কপি চাইতে পারে, তাই ফর্মের নির্দেশনা মেনে চলুন। মূল নথি নিজের কাছে রাখুন, কারণ অফিস দেখতে চাইতে পারে।",
+      "ta": "சுய சான்றொப்பம் செய்த நகல் என்பது ஒரு ஆவணத்தின் நகலில் நீங்களே கையொப்பமிட்டு (பொதுவாக \"சுய சான்றொப்பம்\" என்றும் தேதியும் எழுதி) அது அசல் ஆவணத்தின் உண்மையான நகல் என்று உறுதி செய்வதாகும். இந்திய அரசு, அரசிதழ் பதிவு பெற்ற அதிகாரியின் சான்றொப்பத்துக்குப் பதிலாக சுய சான்றொப்பத்தை ஊக்குவித்துள்ளது; அசல் ஆவணங்கள் பொதுவாக இறுதிக் கட்டத்தில் மட்டுமே சரிபார்க்கப்படும். பல அரசு படிவங்களில் அடையாள, முகவரிச் சான்றுகளின் சுய சான்றொப்பம் செய்த நகல் கேட்கப்படும். சில அலுவலகங்கள் இன்னும் அதிகாரி சான்றொப்பமிட்ட நகலைக் கேட்கலாம்; எனவே படிவத்தில் உள்ள வழிமுறைகளைப் பின்பற்றவும். அசல் ஆவணங்களை உங்களிடம் வைத்திருங்கள்; அலுவலகம் பார்க்கக் கேட்கலாம்."
     },
-    "status": "sample",
-    "checked": null,
-    "sources": []
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://www.easternmirrornagaland.com/documents-need-not-be-attested-by-gazetted-officers-any-more",
+      "https://passport.assam.gov.in/taxonomy/term/5655"
+    ]
   },
   {
     "id": "faq-005",
@@ -150,25 +181,35 @@
         "income certificate",
         "income proof",
         "family income",
-        "scholarship"
+        "scholarship",
+        "apply income certificate",
+        "e-district",
+        "tahsildar"
       ],
       "bn": [
         "আয়ের প্রমাণপত্র",
-        "আয়ের সার্টিফিকেট"
+        "আয়ের সার্টিফিকেট",
+        "আয়ের প্রমাণপত্রের আবেদন",
+        "তহসিলদার"
       ],
       "ta": [
         "வருமானச் சான்றிதழ்",
-        "வருமான சான்று"
+        "வருமான சான்று",
+        "தாசில்தார்"
       ]
     },
     "answer": {
-      "en": "An income certificate is an official document issued by the state government (usually through the revenue office or tahsildar) that states a family's yearly income. It is often needed for scholarships, fee concessions and welfare schemes. The process differs by state.",
-      "bn": "আয়ের প্রমাণপত্র হলো রাজ্য সরকারের (সাধারণত রাজস্ব দপ্তর বা তহসিলদারের মাধ্যমে) দেওয়া সরকারি নথি, যাতে পরিবারের বার্ষিক আয় লেখা থাকে। বৃত্তি, ফি ছাড় ও বিভিন্ন কল্যাণমূলক প্রকল্পে এটি প্রায়ই লাগে। নিয়ম রাজ্যভেদে আলাদা।",
-      "ta": "வருமானச் சான்றிதழ் என்பது மாநில அரசு (பொதுவாக வருவாய்த் துறை அல்லது தாசில்தார் மூலம்) வழங்கும் அதிகாரப்பூர்வ ஆவணம்; அதில் குடும்பத்தின் ஆண்டு வருமானம் குறிப்பிடப்பட்டிருக்கும். உதவித்தொகை, கட்டணச் சலுகை, நலத்திட்டங்களுக்கு இது அடிக்கடி தேவைப்படும். நடைமுறை மாநிலத்திற்கு மாநிலம் மாறுபடும்."
+      "en": "An income certificate is an official document issued by the state government (usually through the revenue office or tahsildar) that states a family's yearly income. It is often needed for scholarships, fee concessions and welfare schemes. In most states you can apply on the state's e-District portal, or in person at the Tahsildar's office, the SDM office or a Common Service Centre. You usually need proof of identity, proof of address, proof of income (for example a salary slip or an income tax return) and a passport-size photo. The documents, the fee and how long the certificate stays valid differ by state, so check your state's portal.",
+      "bn": "আয়ের প্রমাণপত্র হলো রাজ্য সরকারের (সাধারণত রাজস্ব দপ্তর বা তহসিলদারের মাধ্যমে) দেওয়া সরকারি নথি, যাতে পরিবারের বার্ষিক আয় লেখা থাকে। বৃত্তি, ফি ছাড় ও বিভিন্ন কল্যাণমূলক প্রকল্পে এটি প্রায়ই লাগে। বেশিরভাগ রাজ্যে রাজ্যের ই-ডিস্ট্রিক্ট পোর্টালে আবেদন করা যায়, অথবা তহসিলদারের অফিস, এসডিএম অফিস বা কমন সার্ভিস সেন্টারে গিয়ে আবেদন করা যায়। সাধারণত পরিচয়ের প্রমাণ, ঠিকানার প্রমাণ, আয়ের প্রমাণ (যেমন বেতনের স্লিপ বা আয়কর রিটার্ন) এবং পাসপোর্ট সাইজ ছবি লাগে। কাগজপত্র, ফি এবং সনদ কত দিন বৈধ থাকবে তা রাজ্যভেদে আলাদা, তাই আপনার রাজ্যের পোর্টালে দেখে নিন।",
+      "ta": "வருமானச் சான்றிதழ் என்பது மாநில அரசு (பொதுவாக வருவாய்த் துறை அல்லது தாசில்தார் மூலம்) வழங்கும் அதிகாரப்பூர்வ ஆவணம்; அதில் குடும்பத்தின் ஆண்டு வருமானம் குறிப்பிடப்பட்டிருக்கும். உதவித்தொகை, கட்டணச் சலுகை, நலத்திட்டங்களுக்கு இது அடிக்கடி தேவைப்படும். பெரும்பாலான மாநிலங்களில் மாநிலத்தின் இ-டிஸ்ட்ரிக்ட் இணையதளத்தில் விண்ணப்பிக்கலாம்; அல்லது தாசில்தார் அலுவலகம், SDM அலுவலகம் அல்லது பொது சேவை மையத்தில் நேரில் விண்ணப்பிக்கலாம். பொதுவாக அடையாளச் சான்று, முகவரிச் சான்று, வருமானச் சான்று (எடுத்துக்காட்டாக சம்பளச் சீட்டு அல்லது வருமான வரிக் கணக்கு), பாஸ்போர்ட் அளவு புகைப்படம் தேவைப்படும். ஆவணங்கள், கட்டணம், சான்றிதழ் எவ்வளவு காலம் செல்லுபடியாகும் என்பது மாநிலத்திற்கு மாநிலம் மாறுபடும்; எனவே உங்கள் மாநிலத்தின் இணையதளத்தைப் பார்க்கவும்."
     },
-    "status": "sample",
-    "checked": null,
-    "sources": []
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://southandaman.nic.in/?p=24576",
+      "https://tumkur.nic.in/?p=25892",
+      "https://www.sansalegal.com/post/how-to-get-an-income-certificate-in-india-online-application-documents-validity-and-uses"
+    ]
   },
   {
     "id": "faq-006",
