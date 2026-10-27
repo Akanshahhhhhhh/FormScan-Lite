@@ -746,5 +746,431 @@
       "en": "In West Bengal the ration card is the Digital Ration Card under the Khadyasathi scheme. You can apply online on the Food & Supplies Department portal (food.wb.gov.in), or offline at the office of the Area Inspector (Food & Supplies) in your block or municipality. The same portal has the forms for other services, such as linking Aadhaar and a mobile number to your card. For complaints, call the toll-free number 1800 345 5505 or 1967.",
       "bn": "পশ্চিমবঙ্গে রেশন কার্ড হলো খাদ্যসাথী প্রকল্পের ডিজিটাল রেশন কার্ড। আপনি খাদ্য ও সরবরাহ দপ্তরের পোর্টালে (food.wb.gov.in) অনলাইনে আবেদন করতে পারেন, অথবা আপনার ব্লক বা পুরসভার এরিয়া ইন্সপেক্টর (খাদ্য ও সরবরাহ)-এর অফিসে গিয়ে আবেদন করতে পারেন। কার্ডের সঙ্গে আধার ও মোবাইল নম্বর যুক্ত করার মতো অন্য পরিষেবার ফর্মও একই পোর্টালে আছে। অভিযোগের জন্য টোল-ফ্রি নম্বর ১৮০০ ৩৪৫ ৫৫০৫ বা ১৯৬৭-তে ফোন করুন।"
     }
+  },
+  {
+    "id": "faq-020",
+    "category": "identity",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://egovernance.vikaspedia.in/viewcontent/e-governance/online-citizen-services/government-to-citizen-services-g2c/all-about-aadhaar/eaadhaar?lgn=en",
+      "https://cleartax.in/s/masked-aadhaar-uidai",
+      "https://razorpay.com/learn/?p=11521"
+    ],
+    "question": {
+      "en": "How do I download my Aadhaar card (e-Aadhaar)?",
+      "bn": "আমার আধার কার্ড (ই-আধার) কীভাবে ডাউনলোড করব?",
+      "ta": "எனது ஆதார் அட்டையை (இ-ஆதார்) பதிவிறக்குவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "download aadhaar",
+        "e-aadhaar",
+        "eaadhaar",
+        "masked aadhaar",
+        "aadhaar pdf"
+      ],
+      "bn": [
+        "আধার ডাউনলোড",
+        "ই-আধার",
+        "মাস্কড আধার"
+      ],
+      "ta": [
+        "ஆதார் பதிவிறக்கம்",
+        "இ-ஆதார்",
+        "மாஸ்க்டு ஆதார்"
+      ]
+    },
+    "answer": {
+      "en": "Go to myaadhaar.uidai.gov.in and choose Download Aadhaar. Enter your Aadhaar number, enrolment ID or Virtual ID, fill in the security code and ask for an OTP. The OTP goes to the mobile number linked to your Aadhaar. After you verify it, you can download the e-Aadhaar PDF. Choose the masked Aadhaar option if you want only the last four digits of your number to show. An e-Aadhaar is as valid as the paper letter. The PDF opens with a password: the first four letters of your name in capital letters followed by your year of birth. If no mobile number is linked to your Aadhaar you will not get the OTP, so first visit an Aadhaar centre to link one.",
+      "bn": "myaadhaar.uidai.gov.in-এ গিয়ে \"Download Aadhaar\" বেছে নিন। আপনার আধার নম্বর, এনরোলমেন্ট আইডি বা ভার্চুয়াল আইডি দিন, সিকিউরিটি কোড লিখে OTP চান। OTP আসবে আপনার আধারের সঙ্গে যুক্ত মোবাইল নম্বরে। যাচাই করার পর ই-আধার PDF ডাউনলোড করতে পারবেন। আপনার নম্বরের শুধু শেষ চারটি অঙ্ক দেখাতে চাইলে মাস্কড আধারের বিকল্প বেছে নিন। ই-আধার কাগুজে আধার চিঠির মতোই বৈধ। PDF খুলতে পাসওয়ার্ড লাগে: আপনার নামের প্রথম চারটি অক্ষর (ইংরেজি বড় হাতের অক্ষরে) এবং তার পরে জন্মসাল। আধারের সঙ্গে কোনো মোবাইল নম্বর যুক্ত না থাকলে OTP পাবেন না, তাই আগে আধার কেন্দ্রে গিয়ে একটি মোবাইল নম্বর যুক্ত করুন।",
+      "ta": "myaadhaar.uidai.gov.in இணையதளத்திற்குச் சென்று \"Download Aadhaar\" என்பதைத் தேர்ந்தெடுக்கவும். உங்கள் ஆதார் எண், பதிவு எண் (enrolment ID) அல்லது மெய்நிகர் எண் (VID)-ஐ உள்ளிட்டு, பாதுகாப்புக் குறியீட்டை நிரப்பி OTP கோரவும். OTP உங்கள் ஆதாருடன் இணைக்கப்பட்ட மொபைல் எண்ணுக்கு வரும். சரிபார்த்த பிறகு இ-ஆதார் PDF-ஐ பதிவிறக்கலாம். உங்கள் எண்ணின் கடைசி நான்கு இலக்கங்கள் மட்டும் தெரிய வேண்டுமெனில் மாஸ்க்டு ஆதார் விருப்பத்தைத் தேர்ந்தெடுக்கவும். இ-ஆதார் காகித ஆதார் கடிதத்தைப் போலவே செல்லுபடியாகும். PDF-ஐத் திறக்க கடவுச்சொல் தேவை: உங்கள் பெயரின் முதல் நான்கு எழுத்துகள் (ஆங்கிலப் பெரிய எழுத்துகளில்) மற்றும் பிறந்த ஆண்டு. ஆதாருடன் மொபைல் எண் இணைக்கப்படவில்லை என்றால் OTP வராது; எனவே முதலில் ஆதார் மையத்தில் மொபைல் எண்ணை இணைக்கவும்."
+    }
+  },
+  {
+    "id": "faq-021",
+    "category": "identity",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://www.indusind.bank.in/in/en/personal/link-PAN-with-aadhaar.html",
+      "https://www.businesstoday.in/personal-finance/news/story/pan-aadhaar-linking-heres-how-to-link-your-pan-with-aadhaar-online-after-paying-rs-1000-fee-541446-2026-07-07",
+      "https://www.bajajfinserv.in/pan-aadhaar-link-status"
+    ],
+    "question": {
+      "en": "How do I link my PAN with Aadhaar?",
+      "bn": "আমার প্যান আধারের সঙ্গে কীভাবে যুক্ত করব?",
+      "ta": "எனது பானை ஆதாருடன் இணைப்பது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "link pan aadhaar",
+        "pan aadhaar link",
+        "inoperative pan",
+        "link aadhaar status"
+      ],
+      "bn": [
+        "প্যান আধার লিঙ্ক",
+        "প্যান আধার সংযুক্ত"
+      ],
+      "ta": [
+        "பான் ஆதார் இணைப்பு",
+        "செயலற்ற பான்"
+      ]
+    },
+    "answer": {
+      "en": "Go to the Income Tax e-filing portal (incometax.gov.in) and choose Link Aadhaar under Quick Links. Enter your PAN and Aadhaar number, and verify with the OTP sent to the mobile number linked to your Aadhaar. If you are linking now, you must first pay a fee of ₹1,000 on the same portal before you submit the request, and paying the fee alone does not link them. Your name and date of birth should match on both. To check, use Link Aadhaar Status on the portal. A PAN that is not linked becomes inoperative. Some people are exempt from this rule, so check the portal.",
+      "bn": "আয়কর ই-ফাইলিং পোর্টালে (incometax.gov.in) গিয়ে Quick Links থেকে \"Link Aadhaar\" বেছে নিন। আপনার প্যান ও আধার নম্বর দিন এবং আধারের সঙ্গে যুক্ত মোবাইল নম্বরে আসা OTP দিয়ে যাচাই করুন। এখন সংযুক্ত করলে অনুরোধ জমা দেওয়ার আগে একই পোর্টালে ১,০০০ টাকা ফি দিতে হবে, আর শুধু ফি দিলেই সংযুক্তি হয় না। দুটি নথিতেই আপনার নাম ও জন্মতারিখ মিলতে হবে। অবস্থা দেখতে পোর্টালের \"Link Aadhaar Status\" ব্যবহার করুন। সংযুক্ত না থাকলে প্যান নিষ্ক্রিয় (inoperative) হয়ে যায়। কিছু মানুষ এই নিয়মের বাইরে, তাই পোর্টালে দেখে নিন।",
+      "ta": "வருமான வரி இ-ஃபைலிங் இணையதளத்தில் (incometax.gov.in) \"Quick Links\" பிரிவில் \"Link Aadhaar\" என்பதைத் தேர்ந்தெடுக்கவும். உங்கள் பான் மற்றும் ஆதார் எண்ணை உள்ளிட்டு, ஆதாருடன் இணைந்த மொபைல் எண்ணுக்கு வரும் OTP மூலம் சரிபார்க்கவும். இப்போது இணைப்பதாக இருந்தால், கோரிக்கையைச் சமர்ப்பிக்கும் முன் அதே இணையதளத்தில் ₹1,000 கட்டணம் செலுத்த வேண்டும்; கட்டணம் செலுத்துவது மட்டும் இணைப்பாகாது. இரண்டு ஆவணங்களிலும் உங்கள் பெயரும் பிறந்த தேதியும் ஒத்திருக்க வேண்டும். நிலையைப் பார்க்க இணையதளத்தின் \"Link Aadhaar Status\" பயன்படுத்தவும். இணைக்கப்படாத பான் செயலற்றதாகிவிடும் (inoperative). சிலருக்கு இந்த விதியிலிருந்து விலக்கு உண்டு; இணையதளத்தில் பார்க்கவும்."
+    }
+  },
+  {
+    "id": "faq-022",
+    "category": "identity",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://mndc.uidai.gov.in/images/Aadhaar_Enrolment__and__Update__-__English.pdf",
+      "https://www.proteantech.in/articles/aadhaar-mobile-update",
+      "https://www.iifl.com/blogs/other/how-to-update-mobile-number-in-aadhaar-card-without-centre"
+    ],
+    "question": {
+      "en": "How do I change or update the mobile number in my Aadhaar?",
+      "bn": "আমার আধারে মোবাইল নম্বর কীভাবে বদলাব বা আপডেট করব?",
+      "ta": "எனது ஆதாரில் மொபைல் எண்ணை மாற்றுவது அல்லது புதுப்பிப்பது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "aadhaar mobile number",
+        "change mobile aadhaar",
+        "link mobile aadhaar",
+        "update phone number"
+      ],
+      "bn": [
+        "আধার মোবাইল নম্বর",
+        "মোবাইল নম্বর পরিবর্তন"
+      ],
+      "ta": [
+        "ஆதார் மொபைல் எண்",
+        "மொபைல் எண் மாற்றம்"
+      ]
+    },
+    "answer": {
+      "en": "Visit an Aadhaar centre (find one or book an appointment at bookappointment.uidai.gov.in). Fill in the update form, choose the mobile number change and give your fingerprints or iris scan to prove who you are. Usually you need no other documents. The fee is ₹75 for a separate update. You get an acknowledgement slip with an update request number, which you can use to track the request. If you can still receive OTPs on your old number, you can also use the Aadhaar app with face authentication, which also costs ₹75. The myAadhaar website does not offer this change.",
+      "bn": "কোনো আধার কেন্দ্রে যান (কেন্দ্র খুঁজে নিন বা bookappointment.uidai.gov.in-এ অ্যাপয়েন্টমেন্ট বুক করুন)। আপডেট ফর্ম পূরণ করে মোবাইল নম্বর বদলের বিকল্প বেছে নিন এবং নিজের পরিচয় প্রমাণের জন্য আঙুলের ছাপ বা আইরিস স্ক্যান দিন। সাধারণত অন্য কোনো নথি লাগে না। আলাদাভাবে আপডেট করলে ফি ৭৫ টাকা। আবেদন ট্র্যাক করার জন্য আপডেট রিকোয়েস্ট নম্বরসহ একটি প্রাপ্তিস্বীকার স্লিপ পাবেন। পুরোনো নম্বরে এখনও OTP পেলে আধার অ্যাপে ফেস অথেন্টিকেশন দিয়েও এটি করতে পারেন, তাতেও ৭৫ টাকা লাগে। myAadhaar ওয়েবসাইটে মোবাইল নম্বর বদলানো যায় না।",
+      "ta": "ஏதேனும் ஆதார் மையத்துக்குச் செல்லுங்கள் (மையத்தைக் கண்டறியவும் அல்லது bookappointment.uidai.gov.in இணையதளத்தில் சந்திப்பு நேரத்தைப் பதிவு செய்யவும்). புதுப்பிப்புப் படிவத்தை நிரப்பி, மொபைல் எண் மாற்றம் என்பதைத் தேர்ந்தெடுத்து, உங்கள் அடையாளத்தை உறுதிசெய்ய கைரேகை அல்லது கருவிழி ஸ்கேன் கொடுக்கவும். பொதுவாக வேறு ஆவணங்கள் தேவையில்லை. தனியாகப் புதுப்பித்தால் கட்டணம் ₹75. கோரிக்கையைக் கண்காணிக்க புதுப்பிப்புக் கோரிக்கை எண்ணுடன் ஒப்புகைச் சீட்டு கிடைக்கும். பழைய எண்ணில் இன்னும் OTP பெற முடிந்தால், ஆதார் செயலியில் முக அங்கீகாரம் மூலமும் இதைச் செய்யலாம்; அதற்கும் ₹75 கட்டணம். myAadhaar இணையதளத்தில் மொபைல் எண்ணை மாற்ற முடியாது."
+    }
+  },
+  {
+    "id": "faq-023",
+    "category": "voting",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://voters.eci.gov.in/",
+      "https://www.bankbazaar.com/voter-id/nsvp-form-8.html",
+      "https://surepass.io/blog/how-to-change-name-in-voter-id-card-online-and-offline/"
+    ],
+    "question": {
+      "en": "How do I correct details like my name or address in my voter ID?",
+      "bn": "ভোটার আইডিতে নাম বা ঠিকানার মতো তথ্য কীভাবে সংশোধন করব?",
+      "ta": "வாக்காளர் அட்டையில் பெயர், முகவரி போன்ற விவரங்களைத் திருத்துவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "voter id correction",
+        "form 8",
+        "correct voter id",
+        "change name voter id",
+        "change address voter id"
+      ],
+      "bn": [
+        "ভোটার আইডি সংশোধন",
+        "ফর্ম ৮",
+        "ভোটার কার্ডের ঠিকানা"
+      ],
+      "ta": [
+        "வாக்காளர் அட்டை திருத்தம்",
+        "படிவம் 8"
+      ]
+    },
+    "answer": {
+      "en": "Use Form 8. Log in to the Voters' Service Portal (voters.eci.gov.in) or the Voter Helpline app, choose the option to correct entries in the electoral roll, fill in Form 8 with your EPIC (voter ID) number, select what you want to change (for example name, age, gender, photo, or address within the same constituency) and upload a supporting document. You can also ask your Booth Level Officer for a paper form. It is free, and you can track the request with the reference ID you get. If you move to a different constituency, use Form 6 instead of Form 8. For help, call 1950.",
+      "bn": "ফর্ম ৮ ব্যবহার করুন। ভোটার সার্ভিস পোর্টালে (voters.eci.gov.in) বা Voter Helpline অ্যাপে লগ-ইন করে ভোটার তালিকার তথ্য সংশোধনের বিকল্প বেছে নিন, আপনার EPIC (ভোটার আইডি) নম্বর দিয়ে ফর্ম ৮ পূরণ করুন, কী বদলাতে চান তা বেছে নিন (যেমন নাম, বয়স, লিঙ্গ, ছবি, বা একই নির্বাচনী এলাকার মধ্যে ঠিকানা) এবং একটি সহায়ক নথি আপলোড করুন। আপনার বুথ লেভেল অফিসারের কাছ থেকেও কাগজের ফর্ম নিতে পারেন। এটি বিনামূল্যে, এবং যে রেফারেন্স আইডি পাবেন তা দিয়ে আবেদনের অবস্থা দেখা যায়। অন্য নির্বাচনী এলাকায় চলে গেলে ফর্ম ৮-এর বদলে ফর্ম ৬ ব্যবহার করুন। সাহায্যের জন্য ১৯৫০ নম্বরে ফোন করুন।",
+      "ta": "படிவம் 8-ஐப் பயன்படுத்தவும். வாக்காளர் சேவை இணையதளத்தில் (voters.eci.gov.in) அல்லது Voter Helpline செயலியில் உள்நுழைந்து, வாக்காளர் பட்டியலில் உள்ள விவரங்களைத் திருத்தும் விருப்பத்தைத் தேர்ந்தெடுத்து, உங்கள் EPIC (வாக்காளர் அட்டை) எண்ணுடன் படிவம் 8-ஐ நிரப்பவும்; எதை மாற்ற வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும் (எடுத்துக்காட்டாக பெயர், வயது, பாலினம், புகைப்படம், அல்லது அதே தொகுதிக்குள் முகவரி); ஆதாரமாக ஒரு ஆவணத்தைப் பதிவேற்றவும். உங்கள் வாக்குச்சாவடி நிலை அலுவலரிடம் காகிதப் படிவத்தையும் பெறலாம். இது இலவசம்; கிடைக்கும் குறிப்பு எண்ணைக் கொண்டு நிலையைக் கண்காணிக்கலாம். வேறு தொகுதிக்கு இடம் மாறினால் படிவம் 8-க்குப் பதிலாக படிவம் 6-ஐப் பயன்படுத்தவும். உதவிக்கு 1950-ஐ அழையுங்கள்."
+    }
+  },
+  {
+    "id": "faq-024",
+    "category": "rights",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://rtionline.gov.in/",
+      "https://en.vikaspedia.in/viewcontent/e-governance/about-rti-act-2005/rti-fees-and-payment-modes?lgn=en",
+      "https://cag.gov.in/uploads/media/6-RTI-Act-20200614142341.pdf",
+      "https://nyaaya.org/?p=999"
+    ],
+    "question": {
+      "en": "How do I file an RTI (Right to Information) application?",
+      "bn": "RTI (তথ্য জানার অধিকার) আবেদন কীভাবে করব?",
+      "ta": "RTI (தகவல் அறியும் உரிமை) மனுவை எப்படி அளிப்பது?"
+    },
+    "keywords": {
+      "en": [
+        "rti",
+        "right to information",
+        "rti application",
+        "rtionline"
+      ],
+      "bn": [
+        "আরটিআই",
+        "তথ্য জানার অধিকার"
+      ],
+      "ta": [
+        "ஆர்டிஐ",
+        "தகவல் அறியும் உரிமை"
+      ]
+    },
+    "answer": {
+      "en": "Write your request for the information on plain paper, or file it online at rtionline.gov.in for central government bodies. Address it to the Public Information Officer (PIO) of the office that holds the information. Pay the fee: ₹10 for central government offices (state fees differ), and it is free for people below the poverty line. The office must reply within 30 days, or within 48 hours if the matter concerns a person's life or liberty. If you get no reply, or an unsatisfactory one, file a first appeal within 30 days (this is free for central offices), and after that you can go to the Information Commission. For state government offices, check your state's RTI rules or portal.",
+      "bn": "আপনার প্রয়োজনীয় তথ্য চেয়ে সাদা কাগজে আবেদন লিখুন, অথবা কেন্দ্রীয় সরকারি দপ্তরের জন্য rtionline.gov.in-এ অনলাইনে জমা দিন। যে অফিসে তথ্য আছে সেখানকার জনতথ্য আধিকারিকের (PIO) নামে আবেদন করুন। ফি দিন: কেন্দ্রীয় সরকারি অফিসের জন্য ১০ টাকা (রাজ্যের ফি আলাদা), আর দারিদ্র্যসীমার নিচের মানুষের জন্য এটি বিনামূল্যে। অফিসকে ৩০ দিনের মধ্যে উত্তর দিতে হয়, আর কারও জীবন বা স্বাধীনতা সংক্রান্ত বিষয় হলে ৪৮ ঘণ্টার মধ্যে। উত্তর না পেলে বা সন্তুষ্ট না হলে ৩০ দিনের মধ্যে প্রথম আপিল করুন (কেন্দ্রীয় অফিসের ক্ষেত্রে এতে কোনো ফি লাগে না), তারপর তথ্য কমিশনে যেতে পারেন। রাজ্য সরকারি অফিসের জন্য আপনার রাজ্যের RTI নিয়ম বা পোর্টাল দেখুন।",
+      "ta": "உங்களுக்குத் தேவையான தகவலைக் கேட்டு வெள்ளைத் தாளில் மனு எழுதவும்; அல்லது மத்திய அரசு அலுவலகங்களுக்கு rtionline.gov.in இணையதளத்தில் ஆன்லைனில் சமர்ப்பிக்கவும். தகவல் உள்ள அலுவலகத்தின் பொதுத் தகவல் அலுவலருக்கு (PIO) மனுவை அனுப்பவும். கட்டணம்: மத்திய அரசு அலுவலகங்களுக்கு ₹10 (மாநிலக் கட்டணம் வேறுபடும்); வறுமைக்கோட்டுக்குக் கீழ் உள்ளவர்களுக்கு இலவசம். அலுவலகம் 30 நாட்களுக்குள் பதிலளிக்க வேண்டும்; ஒருவரின் உயிர் அல்லது சுதந்திரம் தொடர்பான விஷயமாக இருந்தால் 48 மணி நேரத்துக்குள். பதில் வராவிட்டாலோ திருப்தியில்லாவிட்டாலோ 30 நாட்களுக்குள் முதல் மேல்முறையீடு செய்யலாம் (மத்திய அலுவலகங்களுக்கு இதற்குக் கட்டணம் இல்லை); அதன் பிறகு தகவல் ஆணையத்துக்குச் செல்லலாம். மாநில அரசு அலுவலகங்களுக்கு உங்கள் மாநிலத்தின் RTI விதிகள் அல்லது இணையதளத்தைப் பார்க்கவும்."
+    }
+  },
+  {
+    "id": "faq-025",
+    "category": "schemes",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://upbeta.eshram.gov.in/faqs",
+      "https://beta.eshram.gov.in/faqs",
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/dec/doc20241219474601.pdf",
+      "https://barpeta.assam.gov.in/scheme-page/e-Shram"
+    ],
+    "question": {
+      "en": "How do I register for an e-Shram card?",
+      "bn": "ই-শ্রম কার্ডের জন্য কীভাবে নিবন্ধন করব?",
+      "ta": "இ-ஷ்ரம் அட்டைக்கு எப்படிப் பதிவு செய்வது?"
+    },
+    "keywords": {
+      "en": [
+        "e-shram",
+        "eshram",
+        "shramik card",
+        "unorganised worker",
+        "labour card"
+      ],
+      "bn": [
+        "ই-শ্রম",
+        "শ্রমিক কার্ড"
+      ],
+      "ta": [
+        "இ-ஷ்ரம்",
+        "தொழிலாளர் அட்டை"
+      ]
+    },
+    "answer": {
+      "en": "The e-Shram card is for unorganised workers aged 16 to 59, such as daily-wage, domestic and construction workers. Registration is free. Go to eshram.gov.in and choose Register on e-Shram, enter your Aadhaar-linked mobile number, verify with the OTP and Aadhaar e-KYC, and fill in your details. Keep your Aadhaar and your bank account number with IFSC code ready. You then get a 12-digit UAN card that you can download. If your mobile number is not linked to Aadhaar, go to a Common Service Centre, where registration is also free. Some people, such as members of EPFO or ESIC, are not eligible, and the portal lists the rules. Eligible registered workers can get accident insurance cover of ₹2 lakh.",
+      "bn": "ই-শ্রম কার্ড ১৬ থেকে ৫৯ বছর বয়সী অসংগঠিত শ্রমিকদের জন্য, যেমন দিনমজুর, গৃহকর্মী ও নির্মাণশ্রমিক। নিবন্ধন বিনামূল্যে। eshram.gov.in-এ গিয়ে \"Register on e-Shram\" বেছে নিন, আধারের সঙ্গে যুক্ত মোবাইল নম্বর দিন, OTP ও আধার e-KYC দিয়ে যাচাই করুন এবং আপনার তথ্য পূরণ করুন। আধার এবং IFSC কোডসহ ব্যাংক অ্যাকাউন্ট নম্বর তৈরি রাখুন। এরপর ১২ সংখ্যার UAN কার্ড ডাউনলোড করতে পারবেন। আধারের সঙ্গে মোবাইল নম্বর যুক্ত না থাকলে কমন সার্ভিস সেন্টারে যান, সেখানেও নিবন্ধন বিনামূল্যে। EPFO বা ESIC-র সদস্যদের মতো কিছু মানুষ যোগ্য নন; নিয়ম পোর্টালে আছে। যোগ্য নিবন্ধিত শ্রমিকরা ২ লক্ষ টাকার দুর্ঘটনা বিমার সুবিধা পেতে পারেন।",
+      "ta": "இ-ஷ்ரம் அட்டை 16 முதல் 59 வயது வரையிலான அமைப்புசாரா தொழிலாளர்களுக்கானது; எடுத்துக்காட்டாக தினக்கூலி, வீட்டுப் பணி, கட்டுமானத் தொழிலாளர்கள். பதிவு இலவசம். eshram.gov.in இணையதளத்தில் \"Register on e-Shram\" என்பதைத் தேர்ந்தெடுத்து, ஆதாருடன் இணைந்த மொபைல் எண்ணை உள்ளிட்டு, OTP மற்றும் ஆதார் e-KYC மூலம் சரிபார்த்து, உங்கள் விவரங்களை நிரப்பவும். ஆதார் மற்றும் IFSC குறியீட்டுடன் வங்கிக் கணக்கு எண்ணைத் தயாராக வைத்திருங்கள். பிறகு 12 இலக்க UAN அட்டையைப் பதிவிறக்கலாம். ஆதாருடன் மொபைல் எண் இணைக்கப்படவில்லை என்றால் பொது சேவை மையத்துக்குச் செல்லுங்கள்; அங்கும் பதிவு இலவசம். EPFO அல்லது ESIC உறுப்பினர்கள் போன்ற சிலர் தகுதியற்றவர்கள்; விதிகள் இணையதளத்தில் உள்ளன. தகுதியுள்ள பதிவு செய்த தொழிலாளர்கள் ₹2 லட்சம் விபத்துக் காப்பீட்டுப் பலனைப் பெறலாம்."
+    }
+  },
+  {
+    "id": "faq-026",
+    "category": "schemes",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc_9716_20260827_14055201.pdf",
+      "https://indianbank.bank.in/wp-content/uploads/2019/04/PMJDY_FAQ_English.pdf",
+      "https://sbi.bank.in/en/web/faq-s/faq-pradhan-mantri-jan-dhan-yojana-pmjdy"
+    ],
+    "question": {
+      "en": "How do I open a Jan Dhan (PMJDY) bank account?",
+      "bn": "জন ধন (PMJDY) ব্যাংক অ্যাকাউন্ট কীভাবে খুলব?",
+      "ta": "ஜன் தன் (PMJDY) வங்கிக் கணக்கை எப்படித் தொடங்குவது?"
+    },
+    "keywords": {
+      "en": [
+        "jan dhan",
+        "pmjdy",
+        "zero balance account",
+        "jan dhan account",
+        "rupay card"
+      ],
+      "bn": [
+        "জন ধন",
+        "জিরো ব্যালেন্স অ্যাকাউন্ট"
+      ],
+      "ta": [
+        "ஜன் தன்",
+        "பூஜ்ய இருப்புக் கணக்கு"
+      ]
+    },
+    "answer": {
+      "en": "Go to any bank branch or Bank Mitra (business correspondent) outlet and ask for a Jan Dhan (PMJDY) account. Fill in the account opening form. If you have an Aadhaar number, you need no other document. If not, one other officially valid document such as a voter ID card, driving licence, PAN card or passport is needed. The account opens with zero balance and you do not need to keep a minimum balance. You get a free RuPay debit card with built-in accident insurance of up to ₹2 lakh for accounts opened after 28 August 2018, as long as you made at least one transaction in the 90 days before the accident. If you already have a bank account, you do not need a new one: just ask your bank for a RuPay card.",
+      "bn": "যেকোনো ব্যাংক শাখা বা ব্যাংক মিত্র (বিজনেস করেসপন্ডেন্ট) কেন্দ্রে গিয়ে জন ধন (PMJDY) অ্যাকাউন্ট চান। অ্যাকাউন্ট খোলার ফর্ম পূরণ করুন। আপনার আধার নম্বর থাকলে অন্য কোনো নথি লাগে না। না থাকলে ভোটার আইডি, ড্রাইভিং লাইসেন্স, প্যান কার্ড বা পাসপোর্টের মতো একটি সরকারি বৈধ নথি লাগে। অ্যাকাউন্ট শূন্য ব্যালেন্সে খোলে, ন্যূনতম ব্যালেন্স রাখতে হয় না। আপনি বিনামূল্যে একটি RuPay ডেবিট কার্ড পাবেন, যাতে ২৮ আগস্ট ২০১৮-র পরে খোলা অ্যাকাউন্টের জন্য সর্বোচ্চ ২ লক্ষ টাকার দুর্ঘটনা বিমা যুক্ত থাকে, তবে দুর্ঘটনার আগের ৯০ দিনের মধ্যে অন্তত একটি লেনদেন করা থাকতে হবে। আপনার আগে থেকেই ব্যাংক অ্যাকাউন্ট থাকলে নতুন অ্যাকাউন্ট লাগবে না; ব্যাংকের কাছে শুধু একটি RuPay কার্ড চান।",
+      "ta": "ஏதேனும் வங்கிக் கிளை அல்லது வங்கி மித்ரா (வணிகத் தொடர்பாளர்) மையத்துக்குச் சென்று ஜன் தன் (PMJDY) கணக்கு கேளுங்கள். கணக்குத் தொடக்கப் படிவத்தை நிரப்பவும். உங்களிடம் ஆதார் எண் இருந்தால் வேறு ஆவணம் தேவையில்லை. இல்லையென்றால் வாக்காளர் அட்டை, ஓட்டுநர் உரிமம், பான் அட்டை அல்லது பாஸ்போர்ட் போன்ற அதிகாரப்பூர்வமாகச் செல்லுபடியாகும் ஒரு ஆவணம் தேவை. கணக்கு பூஜ்ய இருப்புடன் தொடங்கும்; குறைந்தபட்ச இருப்பு தேவையில்லை. 28 ஆகஸ்ட் 2018-க்குப் பிறகு தொடங்கிய கணக்குகளுக்கு ₹2 லட்சம் வரை விபத்துக் காப்பீடு உள்ளடங்கிய இலவச RuPay டெபிட் கார்டு கிடைக்கும்; விபத்துக்கு முந்தைய 90 நாட்களுக்குள் குறைந்தது ஒரு பரிவர்த்தனை செய்திருக்க வேண்டும். ஏற்கனவே வங்கிக் கணக்கு இருந்தால் புதிய கணக்கு தேவையில்லை; உங்கள் வங்கியிடம் RuPay கார்டு மட்டும் கேளுங்கள்."
+    }
+  },
+  {
+    "id": "faq-027",
+    "category": "schemes",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://pmuy.gov.in/ujjwala2.html",
+      "https://mopng.gov.in/files/marketing/lpg/75L-PMUY-SoP-10102023-(1).pdf",
+      "https://11estates.bankbazaar.com/gas-connection/pradhan-mantri-ujjwala-yojana-scheme.html"
+    ],
+    "question": {
+      "en": "How do I get an LPG connection under PM Ujjwala Yojana?",
+      "bn": "প্রধানমন্ত্রী উজ্জ্বলা যোজনায় এলপিজি সংযোগ কীভাবে পাব?",
+      "ta": "பிரதமரின் உஜ்வலா திட்டத்தில் எல்பிஜி இணைப்பு பெறுவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "ujjwala",
+        "pmuy",
+        "lpg connection",
+        "gas connection",
+        "free gas"
+      ],
+      "bn": [
+        "উজ্জ্বলা",
+        "এলপিজি সংযোগ",
+        "গ্যাস সংযোগ"
+      ],
+      "ta": [
+        "உஜ்வலா",
+        "எல்பிஜி இணைப்பு",
+        "எரிவாயு இணைப்பு"
+      ]
+    },
+    "answer": {
+      "en": "PM Ujjwala Yojana gives a deposit-free LPG connection in the name of an adult woman (18 or above) from a poor household that has no LPG connection yet. Fill in the KYC application form, which you can get from any LPG distributor or on pmuy.gov.in, and give it to the distributor of your choice, or apply online through the portal. You need your Aadhaar, an address proof, your bank account details, and a document issued by the state government that shows your family members. Migrant families can give a self-declaration for their address and family details. Helpline: 1800 266 6696 or 1906.",
+      "bn": "প্রধানমন্ত্রী উজ্জ্বলা যোজনায় এমন গরিব পরিবারের প্রাপ্তবয়স্ক (১৮ বা তার বেশি) মহিলার নামে জামানতবিহীন এলপিজি সংযোগ দেওয়া হয়, যাঁর পরিবারে এখনও এলপিজি সংযোগ নেই। কেওয়াইসি আবেদনপত্র পূরণ করুন, যা যেকোনো এলপিজি ডিস্ট্রিবিউটরের কাছে বা pmuy.gov.in-এ পাওয়া যায়, এবং আপনার পছন্দের ডিস্ট্রিবিউটরের কাছে জমা দিন, অথবা পোর্টালের মাধ্যমে অনলাইনে আবেদন করুন। আপনার আধার, ঠিকানার প্রমাণ, ব্যাংক অ্যাকাউন্টের তথ্য এবং রাজ্য সরকারের দেওয়া পরিবারের সদস্যদের তথ্যের একটি নথি লাগবে। পরিযায়ী পরিবারগুলি ঠিকানা ও পরিবারের তথ্যের জন্য স্ব-ঘোষণা দিতে পারে। হেল্পলাইন: ১৮০০ ২৬৬ ৬৬৯৬ বা ১৯০৬।",
+      "ta": "பிரதமரின் உஜ்வலா திட்டத்தில், இன்னும் எல்பிஜி இணைப்பு இல்லாத ஏழைக் குடும்பத்தைச் சேர்ந்த வயது வந்த (18 அல்லது அதற்கு மேல்) பெண்ணின் பெயரில் வைப்புத்தொகை இல்லாத எல்பிஜி இணைப்பு வழங்கப்படுகிறது. எந்த எல்பிஜி விநியோகஸ்தரிடமும் அல்லது pmuy.gov.in இணையதளத்திலும் கிடைக்கும் KYC படிவத்தை நிரப்பி, நீங்கள் விரும்பும் விநியோகஸ்தரிடம் கொடுக்கவும்; அல்லது இணையதளம் மூலம் ஆன்லைனில் விண்ணப்பிக்கலாம். உங்கள் ஆதார், முகவரிச் சான்று, வங்கிக் கணக்கு விவரங்கள், மாநில அரசு வழங்கிய குடும்ப உறுப்பினர்களைக் காட்டும் ஆவணம் தேவை. புலம்பெயர்ந்த குடும்பங்கள் முகவரி மற்றும் குடும்ப விவரங்களுக்குச் சுய அறிவிப்பு கொடுக்கலாம். உதவி எண்: 1800 266 6696 அல்லது 1906."
+    }
+  },
+  {
+    "id": "faq-028",
+    "category": "schemes",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://scholarships.gov.in/Students",
+      "https://edudel.nic.in/upload/upload_2025_26/Sciencebranch_RegistrationofFreshandRenewalstudentsonNationalScholarshipPortal_dt_22062026_216_21a.pdf",
+      "https://www.indiascholarships.in/guides/nsp"
+    ],
+    "question": {
+      "en": "How do I apply for a scholarship on the National Scholarship Portal?",
+      "bn": "ন্যাশনাল স্কলারশিপ পোর্টালে বৃত্তির জন্য কীভাবে আবেদন করব?",
+      "ta": "தேசிய உதவித்தொகை இணையதளத்தில் (NSP) உதவித்தொகைக்கு எப்படிப் பதிவு செய்வது?"
+    },
+    "keywords": {
+      "en": [
+        "scholarship",
+        "nsp",
+        "national scholarship portal",
+        "otr",
+        "scholarships.gov.in"
+      ],
+      "bn": [
+        "বৃত্তি",
+        "স্কলারশিপ",
+        "এনএসপি"
+      ],
+      "ta": [
+        "உதவித்தொகை",
+        "என்எஸ்பி"
+      ]
+    },
+    "answer": {
+      "en": "Go to scholarships.gov.in and first create your One Time Registration (OTR) as a student. OTR gives you a 14-digit ID that you keep for your whole student life, and it is checked with your Aadhaar and face authentication. Then log in with your OTR and password, choose the scholarship scheme you are eligible for, fill in the form and upload your documents. Keep ready your Aadhaar, a bank account in your own name that is linked to your Aadhaar, your last marksheet, and an income or caste certificate if the scheme needs one. Your institute then verifies the form. The money is paid straight into your bank account. Last dates and rules differ by scheme, so check the portal. Never pay anyone to apply.",
+      "bn": "scholarships.gov.in-এ গিয়ে প্রথমে শিক্ষার্থী হিসেবে আপনার ওয়ান টাইম রেজিস্ট্রেশন (OTR) করুন। OTR থেকে ১৪ সংখ্যার একটি আইডি পাবেন, যা আপনার পুরো শিক্ষাজীবনে ব্যবহার করা যায়, এবং এটি আপনার আধার ও ফেস অথেন্টিকেশনের মাধ্যমে যাচাই হয়। এরপর আপনার OTR ও পাসওয়ার্ড দিয়ে লগ-ইন করুন, যে বৃত্তি প্রকল্পের জন্য আপনি যোগ্য তা বেছে নিন, ফর্ম পূরণ করুন এবং নথি আপলোড করুন। আধার, আপনার নিজের নামে আধারের সঙ্গে যুক্ত ব্যাংক অ্যাকাউন্ট, শেষ পরীক্ষার মার্কশিট এবং প্রকল্পে লাগলে আয় বা জাতি সনদ তৈরি রাখুন। এরপর আপনার প্রতিষ্ঠান ফর্মটি যাচাই করে। টাকা সরাসরি আপনার ব্যাংক অ্যাকাউন্টে আসে। শেষ তারিখ ও নিয়ম প্রকল্পভেদে আলাদা, তাই পোর্টালে দেখে নিন। আবেদন করার জন্য কাউকে টাকা দেবেন না।",
+      "ta": "scholarships.gov.in இணையதளத்திற்குச் சென்று முதலில் மாணவராக உங்கள் ஒருமுறைப் பதிவை (One Time Registration - OTR) செய்யுங்கள். OTR மூலம் 14 இலக்க அடையாள எண் கிடைக்கும்; அது உங்கள் முழுக் கல்வி வாழ்க்கைக்கும் பயன்படும்; அது உங்கள் ஆதார் மற்றும் முக அங்கீகாரம் மூலம் சரிபார்க்கப்படும். பிறகு உங்கள் OTR மற்றும் கடவுச்சொல்லுடன் உள்நுழைந்து, நீங்கள் தகுதியுள்ள உதவித்தொகைத் திட்டத்தைத் தேர்ந்தெடுத்து, படிவத்தை நிரப்பி, ஆவணங்களைப் பதிவேற்றவும். ஆதார், உங்கள் சொந்தப் பெயரில் ஆதாருடன் இணைக்கப்பட்ட வங்கிக் கணக்கு, கடைசித் தேர்வின் மதிப்பெண் சான்றிதழ், திட்டத்துக்குத் தேவைப்பட்டால் வருமானம் அல்லது சாதிச் சான்றிதழ் ஆகியவற்றைத் தயாராக வைத்திருங்கள். பிறகு உங்கள் கல்வி நிறுவனம் படிவத்தைச் சரிபார்க்கும். பணம் நேரடியாக உங்கள் வங்கிக் கணக்கில் வரும். கடைசித் தேதிகளும் விதிகளும் திட்டத்துக்குத் திட்டம் மாறுபடும்; இணையதளத்தில் பார்க்கவும். இதற்காக யாருக்கும் பணம் கொடுக்காதீர்கள்."
+    }
+  },
+  {
+    "id": "faq-029",
+    "category": "schemes",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://www.digitalindia.gov.in/?p=6365",
+      "https://www.indianpaycalculator.in/govt-news/life-certificate-2026-jeevan-pramaan-deadline-november-30-pension",
+      "https://anantamias.com/jeevan-pramaan/",
+      "https://retirement.outlookindia.com/plan/financial-planning/life-certificate-submission-how-to-submit-jeevan-pramaan-patra-online"
+    ],
+    "question": {
+      "en": "How can pensioners submit a life certificate (Jeevan Pramaan) online?",
+      "bn": "পেনশনভোগীরা অনলাইনে লাইফ সার্টিফিকেট (জীবন প্রমাণ) কীভাবে জমা দেবেন?",
+      "ta": "ஓய்வூதியதாரர்கள் உயிர்வாழ்ச் சான்றிதழை (ஜீவன் பிரமாண்) ஆன்லைனில் எப்படிச் சமர்ப்பிப்பது?"
+    },
+    "keywords": {
+      "en": [
+        "jeevan pramaan",
+        "life certificate",
+        "digital life certificate",
+        "pensioner",
+        "pension"
+      ],
+      "bn": [
+        "জীবন প্রমাণ",
+        "লাইফ সার্টিফিকেট",
+        "পেনশন"
+      ],
+      "ta": [
+        "ஜீவன் பிரமாண்",
+        "உயிர்வாழ்ச் சான்றிதழ்",
+        "ஓய்வூதியம்"
+      ]
+    },
+    "answer": {
+      "en": "Pensioners must submit a life certificate once a year so that the pension keeps coming, normally in November (pensioners aged 80 and above can start from 1 October). You do not have to visit the bank: you can make a Digital Life Certificate with Jeevan Pramaan. On an Android phone, install the Jeevan Pramaan Face App and the Aadhaar Face RD app and scan your face. Keep your Aadhaar number, mobile number and pension details (such as the PPO number and your bank) ready. At home this is free. You can also do it at a Common Service Centre, a bank or a post office. You can download the certificate at jeevanpramaan.gov.in. Helpline: 1800 111 555.",
+      "bn": "পেনশন চালু থাকার জন্য পেনশনভোগীদের বছরে একবার লাইফ সার্টিফিকেট জমা দিতে হয়, সাধারণত নভেম্বর মাসে (৮০ বছর ও তার বেশি বয়সীরা ১ অক্টোবর থেকে জমা দিতে পারেন)। ব্যাংকে যেতে হবে না: জীবন প্রমাণের মাধ্যমে ডিজিটাল লাইফ সার্টিফিকেট করা যায়। অ্যান্ড্রয়েড ফোনে Jeevan Pramaan Face App এবং Aadhaar Face RD অ্যাপ ইনস্টল করে নিজের মুখ স্ক্যান করুন। আপনার আধার নম্বর, মোবাইল নম্বর এবং পেনশনের তথ্য (যেমন PPO নম্বর ও আপনার ব্যাংক) তৈরি রাখুন। ঘরে বসে এটি বিনামূল্যে করা যায়। কমন সার্ভিস সেন্টার, ব্যাংক বা পোস্ট অফিসেও এটি করা যায়। সার্টিফিকেট jeevanpramaan.gov.in থেকে ডাউনলোড করা যায়। হেল্পলাইন: ১৮০০ ১১১ ৫৫৫।",
+      "ta": "ஓய்வூதியம் தொடர்ந்து கிடைக்க ஓய்வூதியதாரர்கள் ஆண்டுக்கு ஒருமுறை உயிர்வாழ்ச் சான்றிதழைச் சமர்ப்பிக்க வேண்டும்; பொதுவாக நவம்பர் மாதத்தில் (80 வயது மற்றும் அதற்கு மேற்பட்டவர்கள் அக்டோபர் 1 முதல் சமர்ப்பிக்கலாம்). வங்கிக்குச் செல்ல வேண்டியதில்லை: ஜீவன் பிரமாண் மூலம் டிஜிட்டல் உயிர்வாழ்ச் சான்றிதழை உருவாக்கலாம். ஆண்ட்ராய்டு போனில் Jeevan Pramaan Face App மற்றும் Aadhaar Face RD செயலிகளை நிறுவி உங்கள் முகத்தை ஸ்கேன் செய்யுங்கள். உங்கள் ஆதார் எண், மொபைல் எண், ஓய்வூதிய விவரங்கள் (PPO எண், உங்கள் வங்கி போன்றவை) தயாராக இருக்கட்டும். வீட்டிலிருந்தே இதை இலவசமாகச் செய்யலாம். பொது சேவை மையம், வங்கி அல்லது அஞ்சலகத்திலும் செய்யலாம். சான்றிதழை jeevanpramaan.gov.in இணையதளத்திலிருந்து பதிவிறக்கலாம். உதவி எண்: 1800 111 555."
+    }
+  },
+  {
+    "id": "faq-030",
+    "category": "rights",
+    "status": "researched, needs human check",
+    "checked": "2026-10-25",
+    "sources": [
+      "https://pgportal.gov.in/Home/",
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc2026821966201.pdf",
+      "https://egovernance.vikaspedia.in/viewcontent/e-governance/online-citizen-services/government-to-citizen-services-g2c/grievance-redressal-1/online-public-grievance-system-centralised-public-grievance-redress-and-monitoring-system-(cpgrams)?lgn=en"
+    ],
+    "question": {
+      "en": "How do I file a complaint about a government service (CPGRAMS)?",
+      "bn": "সরকারি পরিষেবা নিয়ে অভিযোগ (CPGRAMS) কীভাবে জানাব?",
+      "ta": "அரசு சேவை பற்றிய புகாரை (CPGRAMS) எப்படிப் பதிவு செய்வது?"
+    },
+    "keywords": {
+      "en": [
+        "cpgrams",
+        "pgportal",
+        "grievance",
+        "complaint",
+        "public grievance"
+      ],
+      "bn": [
+        "অভিযোগ",
+        "সিপিজিআরএএমএস"
+      ],
+      "ta": [
+        "புகார்",
+        "சிபிஜிஆர்ஏஎம்எஸ்"
+      ]
+    },
+    "answer": {
+      "en": "Use the Centralised Public Grievance Redress and Monitoring System (CPGRAMS) at pgportal.gov.in, which is free and open 24 hours a day. Register once, sign in, choose the central ministry or department (or the state government) your complaint is about, describe the problem and submit it. You can also use the CPGRAMS mobile app. You get a registration number, and you can track the status of your complaint with it. The aim is to resolve complaints within 21 days. If you are not satisfied and rate the reply 'Poor', you can file an appeal. Complaints sent by email are not taken up, and RTI matters need a separate RTI application.",
+      "bn": "pgportal.gov.in-এ থাকা কেন্দ্রীয় অভিযোগ নিষ্পত্তি ও পর্যবেক্ষণ ব্যবস্থা (CPGRAMS) ব্যবহার করুন; এটি বিনামূল্যে এবং ২৪ ঘণ্টা খোলা। একবার নিবন্ধন করে সাইন ইন করুন, আপনার অভিযোগ যে কেন্দ্রীয় মন্ত্রক বা দপ্তর (অথবা রাজ্য সরকারের) সম্পর্কিত তা বেছে নিন, সমস্যাটি লিখুন এবং জমা দিন। CPGRAMS মোবাইল অ্যাপও ব্যবহার করতে পারেন। আপনি একটি নিবন্ধন নম্বর পাবেন, যা দিয়ে অভিযোগের অবস্থা দেখা যায়। লক্ষ্য হলো ২১ দিনের মধ্যে অভিযোগের নিষ্পত্তি করা। সন্তুষ্ট না হয়ে উত্তরটিকে 'Poor' রেটিং দিলে আপিল করতে পারেন। ইমেইলে পাঠানো অভিযোগ গ্রহণ করা হয় না, আর RTI সংক্রান্ত বিষয়ের জন্য আলাদা RTI আবেদন করতে হয়।",
+      "ta": "pgportal.gov.in இணையதளத்தில் உள்ள மத்திய பொதுமக்கள் குறை தீர்க்கும் மற்றும் கண்காணிப்பு அமைப்பை (CPGRAMS) பயன்படுத்துங்கள்; இது இலவசம், 24 மணி நேரமும் திறந்திருக்கும். ஒருமுறை பதிவு செய்து உள்நுழைந்து, உங்கள் புகார் எந்த மத்திய அமைச்சகம் அல்லது துறை (அல்லது மாநில அரசு) பற்றியது என்பதைத் தேர்ந்தெடுத்து, பிரச்சினையை விவரித்துச் சமர்ப்பிக்கவும். CPGRAMS மொபைல் செயலியையும் பயன்படுத்தலாம். உங்களுக்கு ஒரு பதிவு எண் கிடைக்கும்; அதைக் கொண்டு புகாரின் நிலையைக் கண்காணிக்கலாம். புகார்களை 21 நாட்களுக்குள் தீர்ப்பதே இலக்கு. திருப்தியில்லாமல் பதிலுக்கு 'Poor' என்று மதிப்பிட்டால் மேல்முறையீடு செய்யலாம். மின்னஞ்சலில் அனுப்பும் புகார்கள் ஏற்கப்படாது; RTI தொடர்பான விஷயங்களுக்குத் தனியாக RTI மனு அளிக்க வேண்டும்."
+    }
   }
 ]

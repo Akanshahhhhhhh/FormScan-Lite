@@ -206,7 +206,7 @@ Errors: `missing_question`, `question_too_long`, `unsupported_language`, `bad_re
 }
 ```
 
-Note: the list has 19 entries so far. All 19 entries were written from official pages, but they still need a human check, and the Bengali and Tamil text still needs a native speaker's check. Entries faq-016 and faq-017 are about Tamil Nadu and exist only in `en` and `ta`; faq-018 and faq-019 are about West Bengal and exist only in `en` and `bn`. So `GET /api/faq/questions` returns a different number of questions per language. More entries will be added.
+Note: the list has 30 entries so far. All 30 entries were written from official pages, but they still need a human check, and the Bengali and Tamil text still needs a native speaker's check. Entries faq-016 and faq-017 are about Tamil Nadu and exist only in `en` and `ta`; faq-018 and faq-019 are about West Bengal and exist only in `en` and `bn`. So `GET /api/faq/questions` returns a different number of questions per language. The `category` of an entry is one of: `certificates`, `identity`, `forms`, `voting`, `travel`, `schemes`, `rights`. More entries will be added.
 
 ---
 

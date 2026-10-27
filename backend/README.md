@@ -13,7 +13,7 @@ Status date: 2026-10-25. Everything listed under "What works" has been run and t
 | Read text from an image | `POST /api/ocr` | EasyOCR for Bengali and English, Tesseract for Tamil. Returns a confidence score (0 to 1) and a level (low, medium, high) with a warning when the text may be wrong. |
 | Translate | `POST /api/translate` | IndicTrans2 distilled models. All directions between English, Bengali and Tamil. |
 | Text to speech | `POST /api/tts`, `GET /api/audio/<file>` | Google gTTS. Audio files are saved, so the same text never needs to be made twice. |
-| FAQ chatbot | `POST /api/faq`, `GET /api/faq/questions` | Matches the question to 19 hand-written FAQ entries (character 3-gram TF-IDF, no big libraries). |
+| FAQ chatbot | `POST /api/faq`, `GET /api/faq/questions` | Matches the question to 30 hand-written FAQ entries (character 3-gram TF-IDF, no big libraries). |
 | Feedback | `POST /api/feedback` | Saves a helpful / not helpful vote. No document text is stored. |
 | Health check | `GET /api/health` | Returns `{"status": "ok"}`. |
 
@@ -71,7 +71,7 @@ Making new audio needs internet. To make sure the FAQ voice works on demo day ev
 python make_demo_audio.py
 ```
 
-It makes about 53 audio files (one for each FAQ answer in each language it has) and saves them in `backend/outputs/audio`. Run it again after any change to the FAQ; files that already exist are not made twice. Use `--dry-run` to only count them. The audio files stay on the laptop that made them. This covers FAQ answers only: voice for a newly scanned document still needs internet.
+It makes about 86 audio files (one for each FAQ answer in each language it has) and saves them in `backend/outputs/audio`. Run it again after any change to the FAQ; files that already exist are not made twice. Use `--dry-run` to only count them. The audio files stay on the laptop that made them. This covers FAQ answers only: voice for a newly scanned document still needs internet.
 
 ## Folder guide
 
@@ -90,10 +90,9 @@ docs/API_CONTRACT.md     full API description for the frontend
 
 ## FAQ data
 
-`backend/data/faqs/faqs.json` has 19 entries, written to be checked against official government pages. Each entry has a `status` and a `checked` date.
+`backend/data/faqs/faqs.json` has 30 entries, written from official government pages. Each entry has a `status`, a `checked` date and a list of `sources`.
 
-- Entries `faq-002` to `faq-005` are still samples and need to be checked against official pages.
-- All the other entries (except `faq-001`, which was checked) are marked "researched, needs human check".
+- All entries are marked "researched, needs human check". Nobody has checked them yet against the live official pages.
 - Entries `faq-016` and `faq-017` are about Tamil Nadu (English and Tamil only). Entries `faq-018` and `faq-019` are about West Bengal (English and Bengali only).
 - The Bengali and Tamil text was written by an AI assistant and **must be checked by a native speaker before the demo**.
 - Fees and rules that change often (for example the Aadhaar update fee) must be checked again on the official site before the demo.
