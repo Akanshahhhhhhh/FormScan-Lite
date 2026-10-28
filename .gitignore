@@ -1,5 +1,8 @@
 # Dataset: too large for GitHub, and redistribution requires registration
-data/
+data/*
+!backend/data/
+!backend/data/faqs/
+!backend/data/faqs/bengali_faqs.json
 
 # Model weights (share via Drive; only .tflite + charset JSON get committed later)
 models/*.pth
@@ -18,3 +21,9 @@ backend/test_*.py
 test_tesseract.py
 backend/outputs/
 backend/data/feedback.jsonl
+# Local one-time tools, backups and test cache
+backend/apply_faq_batch*.py
+backend/data/faqs/*.bak*
+.pytest_cache/
+develop_contract.md
+gitignore_conflict.txt

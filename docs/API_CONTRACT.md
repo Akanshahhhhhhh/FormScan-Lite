@@ -5,6 +5,8 @@ Languages used everywhere: `en` (English), `bn` (Bengali), `ta` (Tamil).
 
 Status: **OCR, Translate, TTS, Audio, Feedback, FAQ and Health are built and tested.**
 
+The React frontend uses its own URL names (for example `/api/ocr/extract`). Those are built in too: see **section 7** at the end. The frontend code needs no change.
+
 ## Error format (all endpoints)
 
 Every error is JSON with a human message and a short code. Show `error` to the user, use `code` in your logic.
@@ -222,3 +224,40 @@ Success `200`:
 
 - Use it to check that the backend is running (for example when the app opens, or to show a "server is offline" message).
 - Only `GET` works. Other methods give `405`.
+
+---
+
+## 7. Endpoints used by the React frontend
+
+`frontend/src/services/api.js` calls these URLs. They are built into the backend and work like the endpoints above, with the field names the frontend expects. Errors are exactly the same as in sections 1 to 6: `{ "error": "...", "code": "..." }` with the same HTTP codes. The frontend shows `error`.
+
+| Frontend calls | Same as | What is different |
+|---|---|---|
+| `POST /api/ocr/extract` | `POST /api/ocr` (section 1) | The answer also has `"language"`. It still has `confidence_level`, `warning` and `engine`. |
+| `POST /api/translate/translate` | `POST /api/translate` (section 2) | Send `src_lang` and `tgt_lang` (not `source_lang`, `target_lang`). The answer has `src_lang` and `tgt_lang`. |
+| `POST /api/tts/generate` | `POST /api/tts` (section 3) | Same body and answer. `audio_url` is a path like `/api/audio/abc.mp3`, so put the base URL in front. |
+| `POST /api/faq/ask` | `POST /api/faq` (section 5) | Send `query` (not `question`). The answer has `matched`, `question`, `answer`, `confidence`, and also `id` and `suggestions`. |
+| `POST /api/feedback` | `POST /api/feedback` (section 4) | The frontend body is also accepted, see below. |
+| `GET /api/health` | `GET /api/health` (section 6) | No difference. |
+
+**FAQ answer for the frontend:**
+
+```json
+{ "matched": true, "id": "faq-001", "question": "How do I apply for a birth certificate?",
+  "answer": "Apply at the local registrar office ...", "confidence": 0.8, "suggestions": [] }
+```
+
+When nothing matches: `"matched": false`, `"question": null`, `"answer": null`, `"confidence": 0`, and `suggestions` can show tappable questions.
+
+**Feedback body from the frontend:**
+
+```json
+{ "feature": "read_document", "helpful": true, "details": { "language": "bn", "comment": "Very clear" } }
+```
+
+- `feature` can be `read_document` (saved as `ocr`), `translate`, `tts` or `faq`.
+- `helpful` must be `true` or `false`.
+- `details` is optional. Only `language` (`en`, `bn`, `ta`) and `comment` (text, max 500 characters) are saved.
+- The answer is `200` `{ "status": "ok" }`. The body from section 4 (with `rating`) still works and answers `201`.
+
+**Limits to remember in the frontend:** the largest image is **5 MB** (not 10 MB), and OCR answers for new images can take a while the first time, so keep the 120 second timeout.
