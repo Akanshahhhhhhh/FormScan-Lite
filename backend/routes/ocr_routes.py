@@ -13,7 +13,7 @@ ocr_bp = Blueprint('ocr', __name__)
 
 UPLOAD_FOLDER = os.path.normpath(os.path.join(os.path.dirname(__file__), '..', 'uploads'))
 ALLOWED_EXTENSIONS = {'.png', '.jpg', '.jpeg'}
-MAX_FILE_BYTES = 5 * 1024 * 1024  # 5 MB
+MAX_FILE_BYTES = 10 * 1024 * 1024  # 10 MB
 
 STATUS = {
     'no_image': 400,
@@ -55,7 +55,7 @@ def ocr_endpoint():
     size = file.tell()
     file.seek(0)
     if size > MAX_FILE_BYTES:
-        return error('file_too_large', 'Image is too big. Maximum size is 5 MB')
+        return error('file_too_large', 'Image is too big. Maximum size is 10 MB')
 
     os.makedirs(UPLOAD_FOLDER, exist_ok=True)
     # Random name: two people uploading "form.jpg" never overwrite each other.

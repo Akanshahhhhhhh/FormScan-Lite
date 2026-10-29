@@ -63,7 +63,7 @@ def test_ocr_unsupported_file_type(client):
 
 
 def test_ocr_file_too_large(client):
-    big = PNG_BYTES + b"0" * (6 * 1024 * 1024)
+    big = PNG_BYTES + b"0" * (11 * 1024 * 1024)
     assert_error(ocr_post(client, content=big), 413, "file_too_large")
 
 
