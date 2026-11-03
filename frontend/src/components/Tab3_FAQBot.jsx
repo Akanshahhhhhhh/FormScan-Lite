@@ -5,8 +5,7 @@ import AudioPlayer from './AudioPlayer';
 import FeedbackButtons from './FeedbackButtons';
 
 const EXAMPLES = {
-  en: ['What documents are required for a birth certificate?', 'When is the Gram Sabha held?'],
-  bn: ['জন্ম সনদের জন্য কী কী কাগজ লাগে?'],
+  en: ['How do I apply for a digital ration card in West Bengal?', 'How do I update my mobile number in Aadhaar?'],  bn: ['জন্ম সনদের জন্য কী কী কাগজ লাগে?'],
   ta: ['பிறப்புச் சான்றிதழுக்கு என்ன ஆவணங்கள் தேவை?'],
 };
 
