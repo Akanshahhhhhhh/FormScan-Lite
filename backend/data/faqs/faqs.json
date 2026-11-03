@@ -23,12 +23,12 @@
       ]
     },
     "answer": {
-      "en": "Apply at the local registrar office of the place where the birth happened (the municipal office in cities, the gram panchayat in villages). A birth should be registered within 21 days. Many states also allow online applications. The documents needed differ by state, so check with the local office before you go.",
-      "bn": "যেখানে জন্ম হয়েছে সেই এলাকার স্থানীয় রেজিস্ট্রার অফিসে (শহরে পৌরসভা, গ্রামে গ্রাম পঞ্চায়েত) আবেদন করুন। জন্মের ২১ দিনের মধ্যে নিবন্ধন করা উচিত। অনেক রাজ্যে অনলাইনেও আবেদন করা যায়। প্রয়োজনীয় কাগজপত্র রাজ্যভেদে আলাদা হতে পারে, তাই যাওয়ার আগে স্থানীয় অফিস থেকে জেনে নিন।",
-      "ta": "குழந்தை பிறந்த இடத்திலுள்ள உள்ளூர் பதிவாளர் அலுவலகத்தில் (நகரங்களில் நகராட்சி அலுவலகம், கிராமங்களில் கிராம ஊராட்சி) விண்ணப்பிக்கவும். பிறப்பை 21 நாட்களுக்குள் பதிவு செய்ய வேண்டும். பல மாநிலங்களில் ஆன்லைனிலும் விண்ணப்பிக்கலாம். தேவையான ஆவணங்கள் மாநிலத்திற்கு மாநிலம் மாறுபடலாம்; செல்வதற்கு முன் உள்ளூர் அலுவலகத்தில் கேட்டு உறுதி செய்யவும்."
+      "en": "Apply to the local birth and death registration office for the place where the birth happened. Which office registers births differs by state: in cities it is usually the municipal office, and in villages it may be the gram panchayat or a block-level office. If you are not sure, ask your block or municipality office, or apply on your state's birth and death registration portal or at dc.crsorgi.gov.in. A birth should be registered within 21 days. The documents needed differ by state, so check with the local office before you go.",
+      "bn": "যেখানে জন্ম হয়েছে সেই এলাকার স্থানীয় জন্ম-মৃত্যু নিবন্ধন অফিসে আবেদন করুন। কোন অফিসে জন্ম নিবন্ধন হয় তা রাজ্যভেদে আলাদা: শহরে সাধারণত পৌরসভা, আর গ্রামে গ্রাম পঞ্চায়েত বা ব্লক স্তরের অফিস হতে পারে। নিশ্চিত না হলে আপনার ব্লক বা পৌরসভা অফিসে জিজ্ঞাসা করুন, অথবা আপনার রাজ্যের জন্ম-মৃত্যু নিবন্ধন পোর্টালে বা dc.crsorgi.gov.in-এ আবেদন করুন। জন্মের ২১ দিনের মধ্যে নিবন্ধন করা উচিত। প্রয়োজনীয় কাগজপত্র রাজ্যভেদে আলাদা হতে পারে, তাই যাওয়ার আগে স্থানীয় অফিস থেকে জেনে নিন।",
+      "ta": "குழந்தை பிறந்த இடத்திலுள்ள உள்ளூர் பிறப்பு, இறப்புப் பதிவு அலுவலகத்தில் விண்ணப்பிக்கவும். பிறப்பை எந்த அலுவலகம் பதிவு செய்யும் என்பது மாநிலத்திற்கு மாநிலம் மாறுபடும்: நகரங்களில் பொதுவாக நகராட்சி அலுவலகம், கிராமங்களில் கிராம ஊராட்சி அல்லது வட்டார அளவிலான அலுவலகமாக இருக்கலாம். உறுதியாகத் தெரியாவிட்டால் உங்கள் வட்டார அல்லது நகராட்சி அலுவலகத்தில் கேளுங்கள்; அல்லது உங்கள் மாநிலத்தின் பிறப்பு, இறப்புப் பதிவு இணையதளத்தில் அல்லது dc.crsorgi.gov.in இணையதளத்தில் விண்ணப்பிக்கலாம். பிறப்பை 21 நாட்களுக்குள் பதிவு செய்ய வேண்டும். தேவையான ஆவணங்கள் மாநிலத்திற்கு மாநிலம் மாறுபடலாம்; செல்வதற்கு முன் உள்ளூர் அலுவலகத்தில் கேட்டு உறுதி செய்யவும்."
     },
     "status": "researched, needs human check",
-    "checked": "2026-10-24",
+    "checked": "2026-11-03",
     "sources": [
       "https://dc.crsorgi.gov.in/assets/download/FAQ_of_CRS_Latest.pdf",
       "https://gmc.assam.gov.in/taxonomy/term/5760"
@@ -414,7 +414,7 @@
     "id": "faq-011",
     "category": "certificates",
     "status": "researched, needs human check",
-    "checked": "2026-10-24",
+    "checked": "2026-11-03",
     "sources": [
       "https://dc.crsorgi.gov.in/assets/download/FAQ_of_CRS_Latest.pdf",
       "https://ipr.nagaland.gov.in/node/17388",
@@ -442,9 +442,9 @@
       ]
     },
     "answer": {
-      "en": "First the death must be registered with the Registrar of Births and Deaths of the place where it happened (the municipal office in cities, the gram panchayat in villages, or the hospital if the person died there) within 21 days. After registration, the death certificate is issued. Registering within 21 days is free. After that you must pay a late fee, and the rules differ by state. You can also apply online at dc.crsorgi.gov.in. Keep the hospital's medical certificate of the cause of death, if there is one, and your own ID ready.",
-      "bn": "প্রথমে যেখানে মৃত্যু হয়েছে সেই এলাকার জন্ম-মৃত্যু নিবন্ধকের কাছে (শহরে পৌরসভা, গ্রামে গ্রাম পঞ্চায়েত, বা হাসপাতালে মৃত্যু হলে সেই হাসপাতাল) ২১ দিনের মধ্যে মৃত্যু নিবন্ধন করাতে হবে। নিবন্ধনের পর মৃত্যু সনদ দেওয়া হয়। ২১ দিনের মধ্যে নিবন্ধন করলে কোনো ফি লাগে না। এরপর দেরির ফি দিতে হয়, এবং নিয়ম রাজ্যভেদে আলাদা। আপনি dc.crsorgi.gov.in-এ অনলাইনেও আবেদন করতে পারেন। হাসপাতাল থেকে পাওয়া মৃত্যুর কারণের চিকিৎসা-সনদ (থাকলে) এবং আপনার নিজের পরিচয়পত্র তৈরি রাখুন।",
-      "ta": "முதலில் இறப்பு நிகழ்ந்த இடத்தின் பிறப்பு, இறப்புப் பதிவாளரிடம் (நகரங்களில் நகராட்சி அலுவலகம், கிராமங்களில் கிராம ஊராட்சி, மருத்துவமனையில் இறந்தால் அந்த மருத்துவமனை) 21 நாட்களுக்குள் இறப்பைப் பதிவு செய்ய வேண்டும். பதிவுக்குப் பிறகு இறப்புச் சான்றிதழ் வழங்கப்படும். 21 நாட்களுக்குள் பதிவு செய்தால் கட்டணம் இல்லை. அதற்குப் பிறகு தாமதக் கட்டணம் செலுத்த வேண்டும்; விதிகள் மாநிலத்திற்கு மாநிலம் மாறுபடும். dc.crsorgi.gov.in இணையதளத்திலும் ஆன்லைனில் விண்ணப்பிக்கலாம். மருத்துவமனை வழங்கும் இறப்புக்கான காரணச் சான்றிதழ் (இருந்தால்) மற்றும் உங்கள் அடையாளச் சான்றைத் தயாராக வைத்திருங்கள்."
+      "en": "First the death must be registered within 21 days with the Registrar of Births and Deaths for the place where it happened. Which office this is differs by state: in cities it is usually the municipal office, in villages it may be the gram panchayat or a block-level office, and if the person died in a hospital, the hospital is part of the process. If you are not sure, ask your block or municipality office. After registration, the death certificate is issued. Registering within 21 days is free. After that you must pay a late fee, and the rules differ by state. You can also apply online at dc.crsorgi.gov.in or on your state's registration portal. Keep the hospital's medical certificate of the cause of death, if there is one, and your own ID ready.",
+      "bn": "প্রথমে যেখানে মৃত্যু হয়েছে সেই এলাকার জন্ম-মৃত্যু নিবন্ধকের কাছে ২১ দিনের মধ্যে মৃত্যু নিবন্ধন করাতে হবে। কোন অফিস এই কাজ করে তা রাজ্যভেদে আলাদা: শহরে সাধারণত পৌরসভা, গ্রামে গ্রাম পঞ্চায়েত বা ব্লক স্তরের অফিস হতে পারে, আর হাসপাতালে মৃত্যু হলে হাসপাতালও এই প্রক্রিয়ার অংশ। নিশ্চিত না হলে আপনার ব্লক বা পৌরসভা অফিসে জিজ্ঞাসা করুন। নিবন্ধনের পর মৃত্যু সনদ দেওয়া হয়। ২১ দিনের মধ্যে নিবন্ধন করলে কোনো ফি লাগে না। এরপর দেরির ফি দিতে হয়, এবং নিয়ম রাজ্যভেদে আলাদা। আপনি dc.crsorgi.gov.in-এ বা আপনার রাজ্যের নিবন্ধন পোর্টালে অনলাইনেও আবেদন করতে পারেন। হাসপাতাল থেকে পাওয়া মৃত্যুর কারণের চিকিৎসা-সনদ (থাকলে) এবং আপনার নিজের পরিচয়পত্র তৈরি রাখুন।",
+      "ta": "முதலில் இறப்பு நிகழ்ந்த இடத்தின் பிறப்பு, இறப்புப் பதிவாளரிடம் 21 நாட்களுக்குள் இறப்பைப் பதிவு செய்ய வேண்டும். எந்த அலுவலகம் இந்தப் பணியைச் செய்யும் என்பது மாநிலத்திற்கு மாநிலம் மாறுபடும்: நகரங்களில் பொதுவாக நகராட்சி அலுவலகம், கிராமங்களில் கிராம ஊராட்சி அல்லது வட்டார அளவிலான அலுவலகமாக இருக்கலாம்; மருத்துவமனையில் இறந்தால் மருத்துவமனையும் இந்த நடைமுறையின் ஒரு பகுதியாகும். உறுதியாகத் தெரியாவிட்டால் உங்கள் வட்டார அல்லது நகராட்சி அலுவலகத்தில் கேளுங்கள். பதிவுக்குப் பிறகு இறப்புச் சான்றிதழ் வழங்கப்படும். 21 நாட்களுக்குள் பதிவு செய்தால் கட்டணம் இல்லை. அதற்குப் பிறகு தாமதக் கட்டணம் செலுத்த வேண்டும்; விதிகள் மாநிலத்திற்கு மாநிலம் மாறுபடும். dc.crsorgi.gov.in இணையதளத்திலோ உங்கள் மாநிலத்தின் பதிவு இணையதளத்திலோ ஆன்லைனில் விண்ணப்பிக்கலாம். மருத்துவமனை வழங்கும் இறப்புக்கான காரணச் சான்றிதழ் (இருந்தால்) மற்றும் உங்கள் அடையாளச் சான்றைத் தயாராக வைத்திருங்கள்."
     }
   },
   {
