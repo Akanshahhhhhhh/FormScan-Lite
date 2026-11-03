@@ -35,7 +35,8 @@ const MOCK_OCR = {
 const MOCK_FAQ = {
   question: 'What documents are required for a birth certificate?',
   answer:
-    'Hospital discharge or birth report, ID proof of both parents, and address proof. Apply at your local municipality or panchayat office.',
+    // Demo text only. Wording follows the verified cert_01/cert_02 entries in docs/FAQ_AUDIT_BN.md.
+    '[Demo answer] For a new birth registration in West Bengal, the Janma-Mrityu Tathya portal asks for one address proof (Aadhaar, EPIC voter ID or Khadya Sathi card) and the hospital discharge certificate. Check the full document list on the portal before applying.',
 };
 
 /* ---------- API functions ---------- */

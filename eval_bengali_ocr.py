@@ -79,8 +79,13 @@ def main():
     ap.add_argument("--n", type=int, default=300, help="Number of samples (0 = all)")
     ap.add_argument("--lang", default="bn", help="EasyOCR language code (bn or ta)")
     ap.add_argument("--gpu", action="store_true", help="Use GPU if available")
-    ap.add_argument("--out", default="results/ocr_eval_bn.csv")
+    ap.add_argument("--out", default=None,
+                    help="Per-sample CSV (default: results/ocr_eval_bn.csv, or results/ocr_eval_bn_realworld.csv for a .csv label file)")
     args = ap.parse_args()
+    if args.out is None:
+        # A .csv label file is the real-world set; keep the IIIT baseline file untouched.
+        args.out = ("results/ocr_eval_bn_realworld.csv" if Path(args.labels).suffix.lower() == ".csv"
+                    else "results/ocr_eval_bn.csv")
 
     import easyocr  # imported here so --help works without it installed
 
