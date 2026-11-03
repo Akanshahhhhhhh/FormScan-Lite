@@ -23,7 +23,7 @@ Every error is JSON with a human message and a short code. Show `error` to the u
 
 | Field | Type | Notes |
 |---|---|---|
-| `image` | file | png, jpg or jpeg, max 5 MB |
+| `image` | file | png, jpg or jpeg, max 10 MB |
 | `language` | text | `bn`, `ta` or `en` |
 
 Success `200`:
@@ -53,7 +53,7 @@ Errors:
 | `unsupported_language` | 400 | language is not bn, ta or en |
 | `empty_filename` | 400 | file has no name |
 | `unsupported_file_type` | 400 | not png, jpg or jpeg |
-| `file_too_large` | 413 | bigger than 5 MB |
+| `file_too_large` | 413 | bigger than 10 MB |
 | `invalid_image` | 400 | file is not a real image |
 | `ocr_failed` | 500 | OCR crashed, ask the user to try another image |
 
@@ -260,4 +260,4 @@ When nothing matches: `"matched": false`, `"question": null`, `"answer": null`, 
 - `details` is optional. Only `language` (`en`, `bn`, `ta`) and `comment` (text, max 500 characters) are saved.
 - The answer is `200` `{ "status": "ok" }`. The body from section 4 (with `rating`) still works and answers `201`.
 
-**Limits to remember in the frontend:** the largest image is **5 MB** (not 10 MB), and OCR answers for new images can take a while the first time, so keep the 120 second timeout.
+**Limits to remember in the frontend:** the largest image is **10 MB** (the frontend and the backend now agree), and OCR answers for new images can take a while the first time, so keep the 120 second timeout.

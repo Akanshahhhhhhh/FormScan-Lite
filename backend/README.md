@@ -55,7 +55,7 @@ python -m pip install pytest
 python -m pytest
 ```
 
-This runs 46 fast tests in about 2 seconds (no internet, no models). To also run the slow tests (real translation in all 6 directions and real audio), add `--run-slow`. They need internet and take about 90 seconds:
+This runs 70 fast tests in under a minute (no internet, no models); 12 slow tests are skipped by default. To also run the slow tests (real translation in all 6 directions and real audio), add `--run-slow`. They need internet and take about 90 seconds:
 
 ```
 python -m pytest --run-slow
