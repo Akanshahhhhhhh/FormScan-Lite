@@ -90,7 +90,7 @@ docs/API_CONTRACT.md     full API description for the frontend
 
 ## FAQ data
 
-`backend/data/faqs/faqs.json` has 30 entries, written from official government pages. Each entry has a `status`, a `checked` date and a list of `sources`.
+`backend/data/faqs/faqs.json` has 39 entries, written from official government pages (faq-031 to faq-039 come from Akansha's source-checked Bengali file). Each entry has a `status`, a `checked` date and a list of `sources`.
 
 - All entries are marked "researched, needs human check". Nobody has checked them yet against the live official pages.
 - Entries `faq-016` and `faq-017` are about Tamil Nadu (English and Tamil only). Entries `faq-018` and `faq-019` are about West Bengal (English and Bengali only).

@@ -1172,5 +1172,283 @@
       "bn": "pgportal.gov.in-এ থাকা কেন্দ্রীয় অভিযোগ নিষ্পত্তি ও পর্যবেক্ষণ ব্যবস্থা (CPGRAMS) ব্যবহার করুন; এটি বিনামূল্যে এবং ২৪ ঘণ্টা খোলা। একবার নিবন্ধন করে সাইন ইন করুন, আপনার অভিযোগ যে কেন্দ্রীয় মন্ত্রক বা দপ্তর (অথবা রাজ্য সরকারের) সম্পর্কিত তা বেছে নিন, সমস্যাটি লিখুন এবং জমা দিন। CPGRAMS মোবাইল অ্যাপও ব্যবহার করতে পারেন। আপনি একটি নিবন্ধন নম্বর পাবেন, যা দিয়ে অভিযোগের অবস্থা দেখা যায়। লক্ষ্য হলো ২১ দিনের মধ্যে অভিযোগের নিষ্পত্তি করা। সন্তুষ্ট না হয়ে উত্তরটিকে 'Poor' রেটিং দিলে আপিল করতে পারেন। ইমেইলে পাঠানো অভিযোগ গ্রহণ করা হয় না, আর RTI সংক্রান্ত বিষয়ের জন্য আলাদা RTI আবেদন করতে হয়।",
       "ta": "pgportal.gov.in இணையதளத்தில் உள்ள மத்திய பொதுமக்கள் குறை தீர்க்கும் மற்றும் கண்காணிப்பு அமைப்பை (CPGRAMS) பயன்படுத்துங்கள்; இது இலவசம், 24 மணி நேரமும் திறந்திருக்கும். ஒருமுறை பதிவு செய்து உள்நுழைந்து, உங்கள் புகார் எந்த மத்திய அமைச்சகம் அல்லது துறை (அல்லது மாநில அரசு) பற்றியது என்பதைத் தேர்ந்தெடுத்து, பிரச்சினையை விவரித்துச் சமர்ப்பிக்கவும். CPGRAMS மொபைல் செயலியையும் பயன்படுத்தலாம். உங்களுக்கு ஒரு பதிவு எண் கிடைக்கும்; அதைக் கொண்டு புகாரின் நிலையைக் கண்காணிக்கலாம். புகார்களை 21 நாட்களுக்குள் தீர்ப்பதே இலக்கு. திருப்தியில்லாமல் பதிலுக்கு 'Poor' என்று மதிப்பிட்டால் மேல்முறையீடு செய்யலாம். மின்னஞ்சலில் அனுப்பும் புகார்கள் ஏற்கப்படாது; RTI தொடர்பான விஷயங்களுக்குத் தனியாக RTI மனு அளிக்க வேண்டும்."
     }
+  },
+  {
+    "id": "faq-031",
+    "category": "certificates",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-11",
+    "sources": [
+      "https://janma-mrityutathya.wb.gov.in/Documents/Janma-Mrityu%20Tathya%20Pre-requisiteV1.1.pdf"
+    ],
+    "question": {
+      "en": "What documents are needed for a birth certificate in West Bengal?",
+      "bn": "জন্ম সনদের জন্য কী কী কাগজপত্র লাগে?"
+    },
+    "keywords": {
+      "en": [
+        "birth certificate documents",
+        "birth registration documents",
+        "address proof for birth certificate",
+        "discharge certificate"
+      ],
+      "bn": [
+        "জন্ম সনদের কাগজপত্র",
+        "জন্ম নিবন্ধনের নথি",
+        "আধার",
+        "ভোটার কার্ড",
+        "খাদ্যসাথী",
+        "ডিসচার্জ সার্টিফিকেট"
+      ]
+    },
+    "answer": {
+      "en": "For a new birth registration in West Bengal, the application asks for one proof of address: an Aadhaar card, a voter ID (EPIC) or a Khadya Sathi card. Keep the hospital discharge certificate ready too. Before you apply, check the list of documents needed in your case on the government portal.",
+      "bn": "পশ্চিমবঙ্গে নতুন জন্ম নিবন্ধনের আবেদনে ঠিকানার প্রমাণ হিসেবে আধার কার্ড, ভোটার পরিচয়পত্র (EPIC) বা খাদ্যসাথী কার্ডের মধ্যে একটি দিতে বলা হয়েছে। হাসপাতালের ডিসচার্জ সার্টিফিকেটও প্রস্তুত রাখুন। আবেদনের আগে সরকারি পোর্টালে আপনার ক্ষেত্রে প্রয়োজনীয় নথির তালিকা দেখে নিন।"
+    }
+  },
+  {
+    "id": "faq-032",
+    "category": "certificates",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-11",
+    "sources": [
+      "https://janma-mrityutathya.wb.gov.in/Documents/Janma-Mrityu%20Tathya%20Pre-requisiteV1.1.pdf"
+    ],
+    "question": {
+      "en": "Where do I register a birth in West Bengal?",
+      "bn": "জন্ম নিবন্ধন কোথায় করতে হয়?"
+    },
+    "keywords": {
+      "en": [
+        "where to register a birth",
+        "birth registration office",
+        "register birth online",
+        "Janma-Mrityu Tathya"
+      ],
+      "bn": [
+        "জন্ম নিবন্ধন কোথায়",
+        "জন্ম নিবন্ধনের অফিস",
+        "হাসপাতালে জন্ম নিবন্ধন",
+        "অনলাইন জন্ম নিবন্ধন"
+      ]
+    },
+    "answer": {
+      "en": "If the birth happened in a government or private hospital, the hospital usually sends the birth details for registration. In other cases, you can apply for a new birth registration online on the West Bengal government's Janma-Mrityu Tathya portal. For an offline application, ask your Block Development Office or municipality office which office you should go to.",
+      "bn": "সরকারি বা বেসরকারি হাসপাতালে জন্ম হলে সাধারণত হাসপাতাল থেকেই জন্মের তথ্য নিবন্ধনের জন্য পাঠানো হয়। অন্য ক্ষেত্রে পশ্চিমবঙ্গ সরকারের Janma-Mrityu Tathya পোর্টালে অনলাইনে নতুন জন্ম নিবন্ধনের আবেদন করা যায়। অফলাইনে আবেদনের জন্য কোন অফিসে যেতে হবে, তা নিজের ব্লক উন্নয়ন অফিস বা পৌরসভা অফিসে জেনে নিন।"
+    }
+  },
+  {
+    "id": "faq-033",
+    "category": "certificates",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-11",
+    "sources": [
+      "https://s24pgs.gov.in/block/bhangore_I/citizen_services"
+    ],
+    "question": {
+      "en": "Where can I get a residential certificate in West Bengal?",
+      "bn": "বাসস্থান শংসাপত্র (রেসিডেন্সিয়াল সার্টিফিকেট) কোথা থেকে পাওয়া যায়?"
+    },
+    "keywords": {
+      "en": [
+        "residential certificate",
+        "residence certificate",
+        "e-District",
+        "SDO"
+      ],
+      "bn": [
+        "বাসস্থান শংসাপত্র",
+        "রেসিডেন্সিয়াল সার্টিফিকেট",
+        "বাসস্থানের শংসাপত্র"
+      ]
+    },
+    "answer": {
+      "en": "In West Bengal you can apply for a residential certificate on the government e-District portal (edistrict.wb.gov.in), and the Sub-Divisional Officer (SDO) approves the application. You need proof of birth, proof of citizenship, proof of age and a photo. Check the list of documents with your block or sub-division office.",
+      "bn": "পশ্চিমবঙ্গে বাসস্থান শংসাপত্রের জন্য সরকারি e-District পোর্টালে (edistrict.wb.gov.in) আবেদন করা যায় এবং আবেদনটি মহকুমা শাসক (SDO) অনুমোদন করেন। জন্মের প্রমাণ, নাগরিকত্বের প্রমাণ, বয়সের প্রমাণ এবং ছবি লাগে। নথির তালিকা নিজের ব্লক বা মহকুমা অফিসে যাচাই করে নিন।"
+    }
+  },
+  {
+    "id": "faq-034",
+    "category": "certificates",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-11",
+    "sources": [
+      "https://s24pgs.gov.in/block/bhangore_I/citizen_services"
+    ],
+    "question": {
+      "en": "What is needed for an income certificate in West Bengal?",
+      "bn": "আয়ের শংসাপত্রের জন্য কী লাগে?"
+    },
+    "keywords": {
+      "en": [
+        "income certificate West Bengal",
+        "income certificate documents",
+        "e-District",
+        "BDO"
+      ],
+      "bn": [
+        "আয়ের শংসাপত্র",
+        "ইনকাম সার্টিফিকেট",
+        "আয়ের শংসাপত্রের কাগজপত্র"
+      ]
+    },
+    "answer": {
+      "en": "In West Bengal you can apply for an income certificate online on the government e-District portal (edistrict.wb.gov.in). For an offline application, go to the Block Development Office (BDO) in rural areas or the Sub-Divisional Office (SDO) in municipal areas. You need proof of residence, proof of income and a photo.",
+      "bn": "পশ্চিমবঙ্গে আয়ের শংসাপত্রের জন্য সরকারি e-District পোর্টালে (edistrict.wb.gov.in) অনলাইনে আবেদন করা যায়। অফলাইনে গ্রামাঞ্চলে ব্লক উন্নয়ন অফিসে (BDO) এবং পৌর এলাকায় মহকুমা অফিসে (SDO) আবেদন করুন। বাসস্থানের প্রমাণ, আয়ের প্রমাণ এবং ছবি লাগে।"
+    }
+  },
+  {
+    "id": "faq-035",
+    "category": "certificates",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-11",
+    "sources": [
+      "https://janma-mrityutathya.wb.gov.in/Documents/Janma-Mrityu%20Tathya%20Pre-requisiteV1.1.pdf"
+    ],
+    "question": {
+      "en": "How do I correct a wrong name on a birth certificate in West Bengal?",
+      "bn": "জন্ম সনদে নাম ভুল থাকলে কীভাবে সংশোধন করব?"
+    },
+    "keywords": {
+      "en": [
+        "correct birth certificate",
+        "wrong name on birth certificate",
+        "birth certificate correction"
+      ],
+      "bn": [
+        "জন্ম সনদে নাম ভুল",
+        "জন্ম সনদ সংশোধন",
+        "নাম সংশোধন"
+      ]
+    },
+    "answer": {
+      "en": "If the name or other details on a birth certificate are wrong, use the Birth Certificate Correction service on the West Bengal Janma-Mrityu Tathya portal. For the online application you must upload one address proof: Aadhaar, EPIC or a Khadya Sathi card. Check which documents are needed in the portal's instructions.",
+      "bn": "জন্ম সনদে নাম বা অন্য তথ্য ভুল থাকলে পশ্চিমবঙ্গের Janma-Mrityu Tathya পোর্টালে Birth Certificate Correction পরিষেবা ব্যবহার করুন। অনলাইন আবেদনে ঠিকানার প্রমাণ হিসেবে আধার, EPIC বা খাদ্যসাথী কার্ডের একটি আপলোড করতে হয়। কোন নথি লাগবে তা পোর্টালের নির্দেশিকা থেকে যাচাই করুন।"
+    }
+  },
+  {
+    "id": "faq-036",
+    "category": "certificates",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-11",
+    "sources": [
+      "https://janma-mrityutathya.wb.gov.in/"
+    ],
+    "question": {
+      "en": "How do I get a copy of a lost birth certificate?",
+      "bn": "হারানো জন্ম সনদের কপি কীভাবে পাব?"
+    },
+    "keywords": {
+      "en": [
+        "lost birth certificate",
+        "birth certificate copy",
+        "download birth certificate",
+        "duplicate birth certificate"
+      ],
+      "bn": [
+        "হারানো জন্ম সনদ",
+        "জন্ম সনদের কপি",
+        "জন্ম সনদ ডাউনলোড"
+      ]
+    },
+    "answer": {
+      "en": "To get a copy of a lost birth certificate, look for the Download Certificate service on the West Bengal Janma-Mrityu Tathya portal. You may need the registration or acknowledgement number to find the certificate. If you do not have the number, use the portal's service to look up the acknowledgement or certificate number. If you cannot find the certificate on the portal, contact the office where the birth was registered.",
+      "bn": "হারানো জন্ম সনদের কপি পেতে পশ্চিমবঙ্গের Janma-Mrityu Tathya পোর্টালে Download Certificate পরিষেবা দেখুন। সনদ খুঁজতে প্রয়োজনীয় নিবন্ধন বা স্বীকৃতিপত্রের নম্বর লাগতে পারে। নম্বর না থাকলে পোর্টালের acknowledgement বা certificate number খোঁজার পরিষেবা ব্যবহার করুন। পোর্টালে সনদ না পেলে যে অফিস থেকে নিবন্ধন হয়েছিল সেখানে যোগাযোগ করুন।"
+    }
+  },
+  {
+    "id": "faq-037",
+    "category": "schemes",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-11",
+    "sources": [
+      "https://newsonair.gov.in/ayushman-bharat-scheme-to-be-launched-in-west-bengal-from-july-2026/"
+    ],
+    "question": {
+      "en": "How do I get a Swasthya Sathi card?",
+      "bn": "স্বাস্থ্য সাথী কার্ড কীভাবে পাব?"
+    },
+    "keywords": {
+      "en": [
+        "Swasthya Sathi",
+        "Swasthya Sathi card",
+        "Ayushman Bharat West Bengal"
+      ],
+      "bn": [
+        "স্বাস্থ্য সাথী",
+        "স্বাস্থ্য সাথী কার্ড",
+        "আয়ুষ্মান"
+      ]
+    },
+    "answer": {
+      "en": "In May 2026 it was announced that the Ayushman Bharat scheme would start in West Bengal from July 2026, and that current Swasthya Sathi beneficiaries would be included in it. To find out the current way to get a new card or enrol a name, ask at your Block Development Office, municipality office or a government hospital.",
+      "bn": "মে ২০২৬-এ ঘোষণা করা হয়েছে যে জুলাই ২০২৬ থেকে পশ্চিমবঙ্গে আয়ুষ্মান ভারত প্রকল্প চালু হবে এবং স্বাস্থ্য সাথীর বর্তমান উপভোক্তাদের এই প্রকল্পে অন্তর্ভুক্ত করা হবে। নতুন কার্ড বা নাম নথিভুক্তির বর্তমান পদ্ধতি নিজের ব্লক উন্নয়ন অফিস, পৌরসভা বা সরকারি হাসপাতালে জেনে নিন।"
+    }
+  },
+  {
+    "id": "faq-038",
+    "category": "schemes",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-11",
+    "sources": [
+      "https://krishakbandhu.wb.gov.in/about_kb"
+    ],
+    "question": {
+      "en": "What is needed to apply for the Krishak Bandhu scheme?",
+      "bn": "কৃষক বন্ধু প্রকল্পে আবেদন করতে কী লাগে?"
+    },
+    "keywords": {
+      "en": [
+        "Krishak Bandhu",
+        "Krishak Bandhu scheme",
+        "farmer scheme West Bengal"
+      ],
+      "bn": [
+        "কৃষক বন্ধু",
+        "কৃষক বন্ধু প্রকল্প"
+      ]
+    },
+    "answer": {
+      "en": "Information on applying and registering for the Krishak Bandhu scheme is on the government Krishak Bandhu portal. Land records or other farming-related details may be needed. Take your land documents to the Assistant Director of Agriculture office in your block and check the eligibility and how to apply.",
+      "bn": "কৃষক বন্ধু প্রকল্পে আবেদন ও নিবন্ধনের তথ্য সরকারি Krishak Bandhu পোর্টালে পাওয়া যায়। জমির রেকর্ড বা চাষের সঙ্গে সম্পর্কিত তথ্য লাগতে পারে। নিজের জমির নথি নিয়ে ব্লকের Assistant Director of Agriculture অফিসে যোগাযোগ করে যোগ্যতা ও আবেদনপদ্ধতি যাচাই করুন।"
+    }
+  },
+  {
+    "id": "faq-039",
+    "category": "rights",
+    "state": "West Bengal",
+    "status": "researched, needs human check",
+    "checked": "2026-10-11",
+    "sources": [
+      "https://www.psc.wb.gov.in/rti.jsp"
+    ],
+    "question": {
+      "en": "How do I file an RTI application with a West Bengal government office?",
+      "bn": "তথ্যের অধিকার (RTI) আবেদন কীভাবে করব?"
+    },
+    "keywords": {
+      "en": [
+        "RTI West Bengal",
+        "right to information West Bengal",
+        "RTI court fee"
+      ],
+      "bn": [
+        "তথ্যের অধিকার",
+        "আরটিআই",
+        "RTI আবেদন"
+      ]
+    },
+    "answer": {
+      "en": "Under the Right to Information (RTI) Act, you can apply to the Public Information Officer of a government office to ask for information it holds. Check which office you must apply to, and the fee and exemption rules, in the official RTI guidelines. Under the West Bengal Right to Information Rules, 2006, a court fee of Rs 10 is needed with the application. Keep proof that you submitted the application.",
+      "bn": "তথ্যের অধিকার (RTI) আইনে সরকারি দপ্তরের কাছে থাকা তথ্য চেয়ে সংশ্লিষ্ট Public Information Officer-এর কাছে আবেদন করা যায়। কোন দপ্তরে আবেদন করতে হবে এবং ফি বা ছাড়ের নিয়ম কী, তা সরকারি RTI নির্দেশিকা থেকে যাচাই করুন। পশ্চিমবঙ্গ তথ্যের অধিকার নিয়মাবলি, ২০০৬ অনুযায়ী আবেদনের সঙ্গে ১০ টাকার কোর্ট ফি লাগে। আবেদন জমা দেওয়ার প্রমাণ নিজের কাছে রাখুন।"
+    }
   }
 ]
