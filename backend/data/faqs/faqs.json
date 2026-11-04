@@ -906,11 +906,15 @@
         "rti",
         "right to information",
         "rti application",
-        "rtionline"
+        "rtionline",
+        "RTI fee",
+        "RTI application fee"
       ],
       "bn": [
         "আরটিআই",
-        "তথ্য জানার অধিকার"
+        "তথ্য জানার অধিকার",
+        "আরটিআই ফি",
+        "আরটিআই আবেদনের ফি"
       ],
       "ta": [
         "ஆர்டிஐ",
@@ -1418,7 +1422,7 @@
       "en": [
         "RTI West Bengal",
         "right to information West Bengal",
-        "RTI court fee"
+        "West Bengal RTI court fee"
       ],
       "bn": [
         "তথ্যের অধিকার",
