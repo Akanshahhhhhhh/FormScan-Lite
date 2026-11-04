@@ -13,7 +13,7 @@ Status date: 2026-10-25. Everything listed under "What works" has been run and t
 | Read text from an image | `POST /api/ocr` | EasyOCR for Bengali and English, Tesseract for Tamil. Returns a confidence score (0 to 1) and a level (low, medium, high) with a warning when the text may be wrong. |
 | Translate | `POST /api/translate` | IndicTrans2 distilled models. All directions between English, Bengali and Tamil. |
 | Text to speech | `POST /api/tts`, `GET /api/audio/<file>` | Google gTTS. Audio files are saved, so the same text never needs to be made twice. |
-| FAQ chatbot | `POST /api/faq`, `GET /api/faq/questions` | Matches the question to 30 hand-written FAQ entries (character 3-gram TF-IDF, no big libraries). |
+| FAQ chatbot | `POST /api/faq`, `GET /api/faq/questions` | Matches the question to 39 hand-written FAQ entries (character 3-gram TF-IDF, no big libraries). |
 | Feedback | `POST /api/feedback` | Saves a helpful / not helpful vote. No document text is stored. |
 | Health check | `GET /api/health` | Returns `{"status": "ok"}`. |
 
@@ -71,7 +71,7 @@ Making new audio needs internet. To make sure the FAQ voice works on demo day ev
 python make_demo_audio.py
 ```
 
-It makes about 86 audio files (one for each FAQ answer in each language it has) and saves them in `backend/outputs/audio`. Run it again after any change to the FAQ; files that already exist are not made twice. Use `--dry-run` to only count them. The audio files stay on the laptop that made them. This covers FAQ answers only: voice for a newly scanned document still needs internet.
+It makes about 104 audio files (one for each FAQ answer in each language it has) and saves them in `backend/outputs/audio`. Run it again after any change to the FAQ; files that already exist are not made twice. Use `--dry-run` to only count them. The audio files stay on the laptop that made them. This covers FAQ answers only: voice for a newly scanned document still needs internet.
 
 ## Folder guide
 
