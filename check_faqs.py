@@ -45,7 +45,9 @@ def main(path):
             problems.append(f"{eid}: answer is not in {lang} script")
         if len(e["answer"]) > 600:
             problems.append(f"{eid}: answer is long ({len(e['answer'])} chars) — keep it short for TTS")
-        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", e["verified_on"]):
+        if e["verified_on"] == "PENDING":
+            problems.append(f"{eid}: PENDING — source not yet confirmed to support the answer")
+        elif not re.fullmatch(r"\d{4}-\d{2}-\d{2}", e["verified_on"]):
             problems.append(f"{eid}: verified_on should be YYYY-MM-DD")
         if not any(p for p in problems if p.startswith(eid + ":")):
             done += 1
