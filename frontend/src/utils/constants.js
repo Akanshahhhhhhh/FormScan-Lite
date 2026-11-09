@@ -13,4 +13,4 @@ export const langName = (code) =>
 // OCR confidence below this is flagged for the user to check
 export const LOW_CONFIDENCE = 0.6;
 export const MAX_FILE_MB = 10;
-export const ALLOWED_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
+export const ALLOWED_TYPES = ['image/jpeg', 'image/png'];
