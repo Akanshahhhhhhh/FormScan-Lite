@@ -261,3 +261,61 @@ When nothing matches: `"matched": false`, `"question": null`, `"answer": null`, 
 - The answer is `200` `{ "status": "ok" }`. The body from section 4 (with `rating`) still works and answers `201`.
 
 **Limits to remember in the frontend:** the largest image is **10 MB** (the frontend and the backend now agree), and OCR answers for new images can take a while the first time, so keep the 120 second timeout.
+
+---
+
+> **Sections 8 and 9 are a DRAFT (21 Nov 2026), proposed by Akansha. Agree the field names with Neharin before building; the frontend will be built against exactly these shapes.**
+
+## 8. Chat assistant (RAG) — draft
+
+`POST /api/chat` — answers a question using retrieved passages from the knowledge base, and only those.
+
+**Request (JSON)**
+
+```json
+{ "question": "পশ্চিমবঙ্গে জন্ম নিবন্ধন কোথায় করব?", "language": "bn",
+  "history": [ { "role": "user", "text": "..." }, { "role": "assistant", "text": "..." } ] }
+```
+
+- `language`: `en`, `bn` or `ta`; the answer comes back in this language.
+- `history` is optional: the last 6 turns at most, oldest first.
+
+**Answer `200`**
+
+```json
+{ "answer": "...", "language": "bn", "grounded": true, "confidence": 0.82, "fallback": false,
+  "sources": [ { "id": "wb-birth-02", "title": "Birth registration, West Bengal",
+                 "url": "https://...gov.in/...", "snippet": "first 200 characters of the passage used" } ] }
+```
+
+- `grounded: false` when no passage scores above the threshold. `answer` then says, in the requested language, that the assistant has no information on this, and `sources` is `[]`.
+- `fallback: true` when the language model is unavailable and the answer comes from the old FAQ matching (section 5) instead.
+- `confidence`: the top retrieval score, 0 to 1.
+
+**Errors:** `400 missing_question`, `400 question_too_long` (over 500 characters), `400 unsupported_language`, `503 chat_unavailable`.
+
+## 9. Form processing — draft
+
+`POST /api/form/process` — reads a form photo, keeps its layout, and translates each block separately.
+
+**Request (multipart/form-data):** `image` (PNG or JPG, up to 10 MB), `language` (the document's language: `bn`, `ta`, `en`), `target` (translation language, different from `language`).
+
+**Answer `200`**
+
+```json
+{ "width": 1240, "height": 1754, "language": "bn", "target": "en", "confidence": 0.84,
+  "blocks": [
+    { "id": "b1", "order": 1, "type": "heading", "box": [120, 80, 1000, 64],
+      "text": "জন্ম নিবন্ধনের আবেদন", "translated_text": "Application for birth registration",
+      "confidence": 0.9, "pair": null },
+    { "id": "b2", "order": 2, "type": "label", "box": [120, 220, 260, 40],
+      "text": "নাম", "translated_text": "Name", "confidence": 0.93, "pair": "b3" },
+    { "id": "b3", "order": 3, "type": "value", "box": [400, 220, 600, 40],
+      "text": "...", "translated_text": "...", "confidence": 0.71, "pair": "b2" } ] }
+```
+
+- `width`, `height`: the uploaded image's size in pixels. `box` is `[x, y, w, h]` in those pixels, so the frontend can draw each translation over its original position.
+- `type`: `heading`, `label`, `value`, `paragraph` or `table_cell`. `pair` links a label to its value (and back).
+- `order`: reading order, 1 first. `translated_text` is `null` if that block's translation failed; the other blocks still return.
+
+**Errors:** as section 1 (OCR), plus `400 same_language` when `target` equals `language`.

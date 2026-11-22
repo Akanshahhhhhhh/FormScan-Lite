@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import { generateSpeech, resolveAudioUrl } from '../services/api';
-import { USE_MOCK, langName } from '../utils/constants';
+import { USE_MOCK } from '../utils/constants';
+import { useLang } from '../i18n/LanguageContext';
 
 export default function AudioPlayer({ text, language }) {
+  const { t, langLabel } = useLang();
   const [url, setUrl] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -23,7 +25,7 @@ export default function AudioPlayer({ text, language }) {
       const audio = resolveAudioUrl(res.audio_url);
       if (audio) setUrl(audio);
       else if (USE_MOCK) setMockNote(true);
-      else setError('The server did not return an audio file.');
+      else setError(t('audio.noFile'));
     } catch (e) {
       setError(e.message);
     }
@@ -36,11 +38,11 @@ export default function AudioPlayer({ text, language }) {
     <div className="audio">
       {!url && (
         <button className="btn btn-secondary" onClick={handleListen} disabled={loading}>
-          {loading ? 'Preparing audio…' : `Listen in ${langName(language)}`}
+          {loading ? t('audio.loading') : t('audio.listen', { lang: langLabel(language) })}
         </button>
       )}
       {url && <audio controls autoPlay src={url} />}
-      {mockNote && <p className="hint">Audio plays once the backend is connected.</p>}
+      {mockNote && <p className="hint">{t('audio.mock')}</p>}
       {error && <p className="error">{error}</p>}
     </div>
   );

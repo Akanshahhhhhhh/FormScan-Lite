@@ -1,0 +1,216 @@
+// Interface text in the three app languages.
+// Bengali: check with a fluent reader (Akansha). Tamil: check with a fluent reader (Neharin).
+// Use {name} placeholders for values filled in at run time.
+
+export const UI_LANGS = ['bn', 'ta', 'en'];
+
+// Language names as shown inside each interface language
+export const LANG_NAMES = {
+  en: { bn: 'Bengali', ta: 'Tamil', en: 'English' },
+  bn: { bn: 'বাংলা', ta: 'তামিল', en: 'ইংরেজি' },
+  ta: { bn: 'வங்காளம்', ta: 'தமிழ்', en: 'ஆங்கிலம்' },
+};
+
+export const STRINGS = {
+  en: {
+    tagline: 'Read government documents in your language',
+    'status.checking': 'Checking server…',
+    'status.online': 'Server connected',
+    'status.offline': 'Server not reachable',
+    'status.mock': 'Demo data mode',
+    'tab.read': 'Read document',
+    'tab.translate': 'Translate',
+    'tab.faq': 'Ask a question',
+    changeLanguage: 'Change language',
+
+    'read.title': 'Read a document',
+    'read.lead': 'Upload a photo of a form or notice. We read the text, translate it and read it aloud.',
+    'read.docLang': 'Language of the document',
+    'read.photo': 'Photo of the document',
+    'read.previewAlt': 'Uploaded document',
+    'read.button': 'Read text',
+    'read.loading': 'Reading text…',
+    'read.badType': 'Choose a JPG or PNG image.',
+    'read.tooBig': 'This image is larger than {mb} MB. Choose a smaller one.',
+    'read.noText': 'No text was found. Try a clearer, well-lit photo.',
+    'read.found': 'Text found',
+    'read.lowWarn': 'Some words may be wrong. Correct them below before translating.',
+    'read.textAria': 'Extracted text, editable',
+    translateTo: 'Translate to',
+    'translate.button': 'Translate',
+    'translate.loading': 'Translating…',
+    translation: 'Translation',
+
+    'tr.title': 'Translate text',
+    'tr.lead': 'Type or paste a message, notice or instruction.',
+    'tr.from': 'From',
+    'tr.to': 'To',
+    'tr.swap': 'Swap languages',
+    'tr.placeholder': 'Enter text to translate',
+    'tr.chars': '{n}/{max} characters',
+
+    'faq.title': 'Ask about a public service',
+    'faq.lead': 'Answers come from a fixed list of checked questions, so the assistant does not guess.',
+    'faq.lang': 'Your language',
+    'faq.placeholder': 'Type your question',
+    'faq.try': 'Try:',
+    'faq.ask': 'Ask',
+    'faq.loading': 'Searching…',
+    'faq.closest': 'Closest question: {q}',
+    'faq.none': 'No answer for this question yet. Try different words, or contact your local panchayat or municipality office.',
+
+    'conf.label': 'Reading confidence',
+    'conf.high': 'Likely correct',
+    'conf.medium': 'Check a few words',
+    'conf.low': 'Check carefully before using',
+
+    'fb.ask': 'Was this result useful?',
+    'fb.yes': 'Yes',
+    'fb.no': 'No',
+    'fb.done': 'Feedback recorded. Thank you.',
+
+    'audio.listen': 'Listen in {lang}',
+    'audio.loading': 'Preparing audio…',
+    'audio.mock': 'Audio plays once the backend is connected.',
+    'audio.noFile': 'The server did not return an audio file.',
+  },
+
+  bn: {
+    tagline: 'সরকারি নথি পড়ুন নিজের ভাষায়',
+    'status.checking': 'সার্ভার দেখা হচ্ছে…',
+    'status.online': 'সার্ভার সংযুক্ত',
+    'status.offline': 'সার্ভারে পৌঁছানো যাচ্ছে না',
+    'status.mock': 'ডেমো ডেটা মোড',
+    'tab.read': 'নথি পড়ুন',
+    'tab.translate': 'অনুবাদ',
+    'tab.faq': 'প্রশ্ন করুন',
+    changeLanguage: 'ভাষা বদলান',
+
+    'read.title': 'নথি পড়ুন',
+    'read.lead': 'ফর্ম বা বিজ্ঞপ্তির একটি ছবি দিন। আমরা লেখাটি পড়ব, অনুবাদ করব এবং জোরে পড়ে শোনাব।',
+    'read.docLang': 'নথির ভাষা',
+    'read.photo': 'নথির ছবি',
+    'read.previewAlt': 'আপলোড করা নথি',
+    'read.button': 'লেখা পড়ুন',
+    'read.loading': 'লেখা পড়া হচ্ছে…',
+    'read.badType': 'একটি JPG বা PNG ছবি বেছে নিন।',
+    'read.tooBig': 'ছবিটি {mb} MB-এর চেয়ে বড়। একটি ছোট ছবি বেছে নিন।',
+    'read.noText': 'কোনো লেখা পাওয়া যায়নি। আরও পরিষ্কার, ভালো আলোয় তোলা ছবি দিন।',
+    'read.found': 'পাওয়া লেখা',
+    'read.lowWarn': 'কিছু শব্দ ভুল হতে পারে। অনুবাদের আগে নিচে ঠিক করে নিন।',
+    'read.textAria': 'পাওয়া লেখা, সম্পাদনা করা যাবে',
+    translateTo: 'যে ভাষায় অনুবাদ হবে',
+    'translate.button': 'অনুবাদ করুন',
+    'translate.loading': 'অনুবাদ হচ্ছে…',
+    translation: 'অনুবাদ',
+
+    'tr.title': 'লেখা অনুবাদ করুন',
+    'tr.lead': 'কোনো বার্তা, বিজ্ঞপ্তি বা নির্দেশ লিখুন বা পেস্ট করুন।',
+    'tr.from': 'যে ভাষা থেকে',
+    'tr.to': 'যে ভাষায়',
+    'tr.swap': 'ভাষা অদলবদল করুন',
+    'tr.placeholder': 'অনুবাদের জন্য লেখা দিন',
+    'tr.chars': '{n}/{max} অক্ষর',
+
+    'faq.title': 'সরকারি পরিষেবা নিয়ে প্রশ্ন করুন',
+    'faq.lead': 'উত্তরগুলো যাচাই করা প্রশ্নের একটি তালিকা থেকে আসে, তাই সহায়ক অনুমান করে না।',
+    'faq.lang': 'আপনার ভাষা',
+    'faq.placeholder': 'আপনার প্রশ্ন লিখুন',
+    'faq.try': 'চেষ্টা করুন:',
+    'faq.ask': 'জিজ্ঞাসা করুন',
+    'faq.loading': 'খোঁজা হচ্ছে…',
+    'faq.closest': 'সবচেয়ে কাছের প্রশ্ন: {q}',
+    'faq.none': 'এই প্রশ্নের উত্তর এখনো নেই। অন্য শব্দে চেষ্টা করুন, বা স্থানীয় পঞ্চায়েত বা পৌরসভা অফিসে যোগাযোগ করুন।',
+
+    'conf.label': 'পড়ার নিশ্চয়তা',
+    'conf.high': 'সম্ভবত সঠিক',
+    'conf.medium': 'কয়েকটি শব্দ মিলিয়ে নিন',
+    'conf.low': 'ব্যবহারের আগে ভালো করে মিলিয়ে নিন',
+
+    'fb.ask': 'এই ফলাফল কি কাজে লাগল?',
+    'fb.yes': 'হ্যাঁ',
+    'fb.no': 'না',
+    'fb.done': 'মতামত জমা হয়েছে। ধন্যবাদ।',
+
+    'audio.listen': 'শুনুন: {lang}',
+    'audio.loading': 'অডিও তৈরি হচ্ছে…',
+    'audio.mock': 'ব্যাকএন্ড যুক্ত হলে অডিও চলবে।',
+    'audio.noFile': 'সার্ভার কোনো অডিও ফাইল পাঠায়নি।',
+  },
+
+  ta: {
+    tagline: 'அரசு ஆவணங்களை உங்கள் மொழியில் படியுங்கள்',
+    'status.checking': 'சர்வரைச் சரிபார்க்கிறது…',
+    'status.online': 'சர்வர் இணைக்கப்பட்டது',
+    'status.offline': 'சர்வரை அணுக முடியவில்லை',
+    'status.mock': 'டெமோ தரவு முறை',
+    'tab.read': 'ஆவணம் படி',
+    'tab.translate': 'மொழிபெயர்',
+    'tab.faq': 'கேள்வி கேள்',
+    changeLanguage: 'மொழியை மாற்று',
+
+    'read.title': 'ஆவணத்தைப் படியுங்கள்',
+    'read.lead': 'படிவம் அல்லது அறிவிப்பின் புகைப்படத்தைப் பதிவேற்றவும். உரையைப் படித்து, மொழிபெயர்த்து, உரக்கப் படித்துக் காட்டுவோம்.',
+    'read.docLang': 'ஆவணத்தின் மொழி',
+    'read.photo': 'ஆவணத்தின் புகைப்படம்',
+    'read.previewAlt': 'பதிவேற்றிய ஆவணம்',
+    'read.button': 'உரையைப் படி',
+    'read.loading': 'உரை படிக்கப்படுகிறது…',
+    'read.badType': 'JPG அல்லது PNG படத்தைத் தேர்ந்தெடுக்கவும்.',
+    'read.tooBig': 'இந்தப் படம் {mb} MB-ஐ விடப் பெரியது. சிறிய படத்தைத் தேர்ந்தெடுக்கவும்.',
+    'read.noText': 'உரை எதுவும் கிடைக்கவில்லை. தெளிவான, நல்ல வெளிச்சத்தில் எடுத்த புகைப்படத்தை முயற்சிக்கவும்.',
+    'read.found': 'கண்டறிந்த உரை',
+    'read.lowWarn': 'சில சொற்கள் தவறாக இருக்கலாம். மொழிபெயர்க்கும் முன் கீழே திருத்தவும்.',
+    'read.textAria': 'கண்டறிந்த உரை, திருத்தலாம்',
+    translateTo: 'மொழிபெயர்க்க வேண்டிய மொழி',
+    'translate.button': 'மொழிபெயர்',
+    'translate.loading': 'மொழிபெயர்க்கப்படுகிறது…',
+    translation: 'மொழிபெயர்ப்பு',
+
+    'tr.title': 'உரையை மொழிபெயர்',
+    'tr.lead': 'ஒரு செய்தி, அறிவிப்பு அல்லது வழிமுறையைத் தட்டச்சு செய்யவும் அல்லது ஒட்டவும்.',
+    'tr.from': 'மூல மொழி',
+    'tr.to': 'இலக்கு மொழி',
+    'tr.swap': 'மொழிகளை மாற்று',
+    'tr.placeholder': 'மொழிபெயர்க்க உரையை உள்ளிடவும்',
+    'tr.chars': '{n}/{max} எழுத்துகள்',
+
+    'faq.title': 'அரசு சேவை பற்றிக் கேளுங்கள்',
+    'faq.lead': 'பதில்கள் சரிபார்க்கப்பட்ட கேள்விகளின் பட்டியலிலிருந்து வருகின்றன, எனவே உதவியாளர் ஊகிப்பதில்லை.',
+    'faq.lang': 'உங்கள் மொழி',
+    'faq.placeholder': 'உங்கள் கேள்வியைத் தட்டச்சு செய்யவும்',
+    'faq.try': 'முயற்சிக்கவும்:',
+    'faq.ask': 'கேள்',
+    'faq.loading': 'தேடுகிறது…',
+    'faq.closest': 'நெருக்கமான கேள்வி: {q}',
+    'faq.none': 'இந்தக் கேள்விக்கு இன்னும் பதில் இல்லை. வேறு சொற்களில் முயற்சிக்கவும், அல்லது உள்ளூர் ஊராட்சி அல்லது நகராட்சி அலுவலகத்தைத் தொடர்பு கொள்ளவும்.',
+
+    'conf.label': 'படிப்பு நம்பகத்தன்மை',
+    'conf.high': 'பெரும்பாலும் சரி',
+    'conf.medium': 'சில சொற்களைச் சரிபார்க்கவும்',
+    'conf.low': 'பயன்படுத்தும் முன் கவனமாகச் சரிபார்க்கவும்',
+
+    'fb.ask': 'இந்த முடிவு பயனுள்ளதா?',
+    'fb.yes': 'ஆம்',
+    'fb.no': 'இல்லை',
+    'fb.done': 'கருத்து பதிவானது. நன்றி.',
+
+    'audio.listen': 'கேளுங்கள்: {lang}',
+    'audio.loading': 'ஒலி தயாராகிறது…',
+    'audio.mock': 'பின்தளம் இணைந்ததும் ஒலி இயங்கும்.',
+    'audio.noFile': 'சர்வர் ஒலிக் கோப்பை அனுப்பவில்லை.',
+  },
+};
+
+// Shown on the language picker before any language is chosen
+export const PICKER = {
+  bn: { name: 'বাংলা', action: 'বাংলায় চালিয়ে যান' },
+  ta: { name: 'தமிழ்', action: 'தமிழில் தொடரவும்' },
+  en: { name: 'English', action: 'Continue in English' },
+};
+export const PICKER_TITLE = ['আপনার ভাষা বেছে নিন', 'உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்', 'Choose your language'];
+export const PICKER_NOTE = {
+  bn: 'পরে উপরের বার থেকে বদলাতে পারবেন।',
+  ta: 'இதைப் பின்னர் மேல் பட்டியில் மாற்றலாம்.',
+  en: 'You can change this later from the top bar.',
+};

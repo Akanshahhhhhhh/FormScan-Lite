@@ -1,0 +1,64 @@
+/*
+  FormScan-Lite design tokens.
+  Idea: friendly and multilingual. Peacock teal and marigold on a warm cream page
+  with soft marigold, blush and lavender glows; white cards sit on top;
+  rounded Baloo headings; one playful element, the three-script logo (অ அ A).
+  Change a value here and the whole app follows. Documented in docs/DESIGN_SYSTEM.md.
+*/
+:root {
+  /* ---- Colour ---- */
+  --page: #f8f1e8;           /* page background: warm cream (muted text 5.3:1) */
+  --surface: #ffffff;        /* cards, inputs, bars */
+  --sunken: #f6f1ea;         /* text areas, read-only output, tracks (warm, matches page) */
+  --ink: #14262b;            /* body text */
+  --muted: #55676c;          /* secondary text (5.6:1 on white) */
+  --line: #e6dccf;           /* borders (warm) */
+  --line-strong: #cdbfae;    /* control hover borders */
+  --primary: #0b6e75;        /* peacock teal: actions, active states (5.8:1 with white) */
+  --primary-strong: #08565b; /* hover / pressed */
+  --primary-tint: #e1f1f0;   /* hover backgrounds, selected chips */
+  --marigold: #f4a62a;       /* warm accent: highlights, indicators (use with dark text) */
+  --marigold-tint: #fff1d6;
+  --plum: #6b3d7a;           /* third script colour in the logo */
+  --good: #2e7449;
+  --warn: #8f5600;
+  --bad: #b3261e;
+  --focus: #f4a62a;          /* keyboard focus ring */
+
+  /* ---- Page atmosphere (decorative only, never behind text without a card) ---- */
+  --glow-marigold: rgba(244, 166, 42, 0.16);
+  --glow-blush: rgba(232, 142, 158, 0.16);
+  --glow-lavender: rgba(150, 120, 200, 0.12);
+  --atmosphere:
+    radial-gradient(circle at 92% 4%, var(--glow-marigold), transparent 38%),
+    radial-gradient(circle at 4% 96%, var(--glow-blush), transparent 42%),
+    radial-gradient(circle at 18% 30%, var(--glow-lavender), transparent 34%),
+    linear-gradient(180deg, #fbf6ef 0%, var(--page) 60%);
+  --shadow-card: 0 1px 2px rgba(120, 84, 40, 0.05), 0 8px 24px rgba(120, 84, 40, 0.07);
+  --shadow-bar: 0 -4px 20px rgba(120, 84, 40, 0.08);
+
+  /* ---- Type ---- */
+  --font-head: 'Baloo 2', 'Baloo Da 2', 'Baloo Thambi 2', system-ui, sans-serif;
+  --font-body: 'Hind', 'Hind Siliguri', 'Hind Madurai', system-ui, sans-serif;
+  --text-xs: 0.8rem;    /* 13.6px  hints, captions */
+  --text-sm: 0.9rem;    /* 15.3px  labels, meta */
+  --text-md: 1rem;      /* 17px    body */
+  --text-lg: 1.35rem;   /* 23px    card titles */
+  --text-xl: 1.75rem;   /* 30px    brand */
+  --leading: 1.6;
+  --leading-indic: 1.85;   /* Bengali and Tamil need taller lines */
+
+  /* ---- Space (4px steps) ---- */
+  --s1: 4px;  --s2: 8px;  --s3: 12px; --s4: 16px;
+  --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px;
+
+  /* ---- Shape ---- */
+  --r-card: 20px;
+  --r-control: 12px;
+  --r-pill: 999px;
+  --touch: 48px;           /* minimum touch target */
+
+  /* ---- Layout ---- */
+  --content: 720px;        /* max reading width */
+  --bottom-nav: 68px;      /* mobile bottom navigation height */
+}

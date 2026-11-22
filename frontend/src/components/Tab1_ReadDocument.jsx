@@ -5,20 +5,25 @@ import LanguageSelect from './LanguageSelect';
 import ConfidenceBar from './ConfidenceBar';
 import AudioPlayer from './AudioPlayer';
 import FeedbackButtons from './FeedbackButtons';
+import { defaultsFor, useLang } from '../i18n/LanguageContext';
 
 export default function Tab1_ReadDocument() {
-  const [docLang, setDocLang] = useState('bn');
+  const { t, uiLang } = useLang();
+  const [docLang, setDocLang] = useState(() => defaultsFor(uiLang).docLang);
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [ocr, setOcr] = useState(null);         // { text, confidence }
   const [text, setText] = useState('');         // editable OCR text
-  const [targetLang, setTargetLang] = useState('en');
+  const [targetLang, setTargetLang] = useState(() => defaultsFor(uiLang).targetLang);
   const [translation, setTranslation] = useState('');
   const [loading, setLoading] = useState('');   // '' | 'ocr' | 'translate'
   const [error, setError] = useState('');
 
   // Free the preview URL when the file changes
   useEffect(() => () => preview && URL.revokeObjectURL(preview), [preview]);
+
+  // When the interface language changes, translate into the new language by default
+  useEffect(() => { setTargetLang(defaultsFor(uiLang).targetLang); }, [uiLang]);
 
   // Target language must differ from document language
   useEffect(() => {
@@ -32,11 +37,11 @@ export default function Tab1_ReadDocument() {
     setTranslation('');
     if (!f) return;
     if (!ALLOWED_TYPES.includes(f.type)) {
-      setError('Choose a JPG, PNG or WEBP image.');
+      setError(t('read.badType'));
       return;
     }
     if (f.size > MAX_FILE_MB * 1024 * 1024) {
-      setError(`This image is larger than ${MAX_FILE_MB} MB. Choose a smaller one.`);
+      setError(t('read.tooBig', { mb: MAX_FILE_MB }));
       return;
     }
     setFile(f);
@@ -51,7 +56,7 @@ export default function Tab1_ReadDocument() {
       const res = await extractText(file, docLang);
       setOcr(res);
       setText(res.text || '');
-      if (!res.text) setError('No text was found. Try a clearer, well-lit photo.');
+      if (!res.text) setError(t('read.noText'));
     } catch (e) {
       setError(e.message);
     }
@@ -72,51 +77,51 @@ export default function Tab1_ReadDocument() {
 
   return (
     <section className="panel">
-      <h2>Read a document</h2>
-      <p className="lead">Upload a photo of a form or notice. We read the text, translate it and read it aloud.</p>
+      <h2>{t('read.title')}</h2>
+      <p className="lead">{t('read.lead')}</p>
 
       <div className="row">
-        <LanguageSelect id="doc-lang" label="Language of the document" value={docLang} onChange={setDocLang} />
+        <LanguageSelect id="doc-lang" label={t('read.docLang')} value={docLang} onChange={setDocLang} />
         <label className="field" htmlFor="doc-file">
-          <span className="field-label">Photo of the document</span>
+          <span className="field-label">{t('read.photo')}</span>
           <input id="doc-file" type="file" accept={ALLOWED_TYPES.join(',')} onChange={handleFile} />
         </label>
       </div>
 
-      {preview && <img className="preview" src={preview} alt="Uploaded document" />}
+      {preview && <img className="preview" src={preview} alt={t('read.previewAlt')} />}
 
       <button className="btn" onClick={handleRead} disabled={!file || loading}>
-        {loading === 'ocr' ? 'Reading text…' : 'Read text'}
+        {loading === 'ocr' ? t('read.loading') : t('read.button')}
       </button>
 
       {error && <p className="error">{error}</p>}
 
       {ocr && text && (
         <div className="result">
-          <h3>Text found</h3>
+          <h3>{t('read.found')}</h3>
           <ConfidenceBar value={ocr.confidence} />
           {ocr.confidence < LOW_CONFIDENCE && (
-            <p className="warning">Some words may be wrong. Correct them below before translating.</p>
+            <p className="warning">{t('read.lowWarn')}</p>
           )}
           <textarea
             className={`text-${docLang}`}
             rows={5}
             value={text}
             onChange={(e) => setText(e.target.value)}
-            aria-label="Extracted text, editable"
+            aria-label={t('read.textAria')}
           />
           <AudioPlayer text={text} language={docLang} />
 
           <div className="row row-end">
-            <LanguageSelect id="target-lang" label="Translate to" value={targetLang} onChange={setTargetLang} exclude={docLang} />
+            <LanguageSelect id="target-lang" label={t('translateTo')} value={targetLang} onChange={setTargetLang} exclude={docLang} />
             <button className="btn" onClick={handleTranslate} disabled={!text.trim() || loading}>
-              {loading === 'translate' ? 'Translating…' : 'Translate'}
+              {loading === 'translate' ? t('translate.loading') : t('translate.button')}
             </button>
           </div>
 
           {translation && (
             <div className="result-inner">
-              <h3>Translation</h3>
+              <h3>{t('translation')}</h3>
               <p className={`output text-${targetLang}`}>{translation}</p>
               <AudioPlayer text={translation} language={targetLang} />
             </div>
