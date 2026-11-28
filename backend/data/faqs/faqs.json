@@ -1434,5 +1434,238 @@
       "en": "Under the Right to Information (RTI) Act, you can apply to the Public Information Officer of a government office to ask for information it holds. Check which office you must apply to, and the fee and exemption rules, in the official RTI guidelines. Under the West Bengal Right to Information Rules, 2006, a court fee of Rs 10 is needed with the application. Keep proof that you submitted the application.",
       "bn": "তথ্যের অধিকার (RTI) আইনে সরকারি দপ্তরের কাছে থাকা তথ্য চেয়ে সংশ্লিষ্ট Public Information Officer-এর কাছে আবেদন করা যায়। কোন দপ্তরে আবেদন করতে হবে এবং ফি বা ছাড়ের নিয়ম কী, তা সরকারি RTI নির্দেশিকা থেকে যাচাই করুন। পশ্চিমবঙ্গ তথ্যের অধিকার নিয়মাবলি, ২০০৬ অনুযায়ী আবেদনের সঙ্গে ১০ টাকার কোর্ট ফি লাগে। আবেদন জমা দেওয়ার প্রমাণ নিজের কাছে রাখুন।"
     }
+  },
+  {
+    "id": "faq-040",
+    "category": "forms",
+    "state": "Tamil Nadu",
+    "status": "researched, needs human check",
+    "checked": "2026-11-25",
+    "sources": [
+      "https://eservices.tn.gov.in/eservicesnew/aboutthisportal.html",
+      "https://eservices.tn.gov.in/eservicesnew/help.html",
+      "https://services.india.gov.in/service/detail/view-patta-and-fmb--chitta--tslr-extract-1"
+    ],
+    "question": {
+      "en": "How do I view or download my patta and chitta online in Tamil Nadu?",
+      "ta": "தமிழ்நாட்டில் பட்டா, சிட்டாவை இணையத்தில் எப்படிப் பார்ப்பது அல்லது பதிவிறக்குவது?"
+    },
+    "keywords": {
+      "en": [
+        "patta",
+        "chitta",
+        "land record",
+        "FMB",
+        "survey number",
+        "A-register"
+      ],
+      "ta": [
+        "பட்டா",
+        "சிட்டா",
+        "நில ஆவணம்",
+        "புல எண்",
+        "அ-பதிவேடு"
+      ]
+    },
+    "answer": {
+      "en": "Go to eservices.tn.gov.in, the Tamil Nadu land records e-services site, and choose \"View Patta & FMB / Chitta / TSLR Extract\". Select the district and whether the land is in a rural or an urban area, then enter the taluk, village, survey number and sub-division number (for urban land: town, block, ward, survey number and sub-division number). The patta or chitta extract is shown on the screen and you can print it. To check that a patta or chitta copy printed from the web is genuine, use the \"Verify\" option on the same site.",
+      "ta": "eservices.tn.gov.in என்ற தமிழ்நாடு நில ஆவண இணையதளத்திற்குச் சென்று \"View Patta & FMB / Chitta / TSLR Extract\" என்பதைத் தேர்ந்தெடுக்கவும். மாவட்டத்தையும், நிலம் ஊரகப் பகுதியா நகர்ப்புறப் பகுதியா என்பதையும் தேர்ந்தெடுத்து, வட்டம் (தாலுகா), கிராமம், புல எண் (சர்வே எண்), உட்பிரிவு எண் ஆகியவற்றை உள்ளிடவும் (நகர்ப்புறத்திற்கு: நகரம், பிளாக், வார்டு, சர்வே எண், உட்பிரிவு எண்). பட்டா அல்லது சிட்டா நகல் திரையில் தெரியும்; அதை அச்சிட்டுக்கொள்ளலாம். இணையத்தில் எடுத்த பட்டா/சிட்டா நகல் உண்மையானதா என்று சரிபார்க்க, அதே இணையதளத்தில் உள்ள \"Verify\" வசதியைப் பயன்படுத்தவும்."
+    }
+  },
+  {
+    "id": "faq-041",
+    "category": "forms",
+    "state": "Tamil Nadu",
+    "status": "researched, needs human check",
+    "checked": "2026-11-25",
+    "sources": [
+      "https://services.india.gov.in/service/detail/application-form-for-transfer-of-registry-in-tamil-nadu",
+      "https://eservices.tn.gov.in/eservicesnew/aboutthisportal.html"
+    ],
+    "question": {
+      "en": "How do I get a patta transferred to my name in Tamil Nadu?",
+      "ta": "தமிழ்நாட்டில் பட்டாவை என் பெயருக்கு மாற்றுவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "patta transfer",
+        "transfer of registry",
+        "patta name change",
+        "taluk office"
+      ],
+      "ta": [
+        "பட்டா மாற்றம்",
+        "பெயர் மாற்றம்",
+        "பதிவு மாற்றம்"
+      ]
+    },
+    "answer": {
+      "en": "Patta transfer (transfer of registry) is a service of the Revenue Department. You can apply online through the Tamil Nadu e-Services land records site (eservices.tn.gov.in) or at your taluk office. The application form lists the documents you must attach. Keep the acknowledgement number you receive, because you need it to track the application.",
+      "ta": "பட்டா மாற்றம் (பதிவு மாற்றம்) வருவாய்த் துறையின் சேவையாகும். தமிழ்நாடு நில ஆவண இணையதளம் (eservices.tn.gov.in) மூலம் இணையத்தில் அல்லது உங்கள் வட்டாட்சியர் (தாலுகா) அலுவலகத்தில் விண்ணப்பிக்கலாம். இணைக்க வேண்டிய ஆவணங்கள் விண்ணப்பப் படிவத்தில் குறிப்பிடப்பட்டிருக்கும். விண்ணப்பித்த பிறகு கிடைக்கும் ஒப்புகை எண்ணைப் பத்திரமாக வைத்துக்கொள்ளுங்கள்; விண்ணப்பத்தின் நிலையை அறிய அது தேவை."
+    }
+  },
+  {
+    "id": "faq-042",
+    "category": "certificates",
+    "state": "Tamil Nadu",
+    "status": "researched, needs human check",
+    "checked": "2026-11-25",
+    "sources": [
+      "https://services.india.gov.in/service/detail/apply-online-for-encumbrance-certificate-in-tamil-nadu-1",
+      "https://services.india.gov.in/service/detail/check-status-of-application-for-encumbrance-certificate-in-tamil-nadu-1",
+      "https://tnreginet.gov.in/"
+    ],
+    "question": {
+      "en": "How do I get an encumbrance certificate (EC) in Tamil Nadu?",
+      "ta": "தமிழ்நாட்டில் வில்லங்கச் சான்றிதழ் (EC) பெறுவது எப்படி?"
+    },
+    "keywords": {
+      "en": [
+        "encumbrance certificate",
+        "EC",
+        "tnreginet",
+        "sub-registrar",
+        "property"
+      ],
+      "ta": [
+        "வில்லங்கச் சான்றிதழ்",
+        "வில்லங்கம்",
+        "சார்பதிவாளர்",
+        "சொத்து"
+      ]
+    },
+    "answer": {
+      "en": "The Tamil Nadu Registration Department gives encumbrance certificates through its online site, tnreginet.gov.in. Register as a citizen on the site, sign in, open the E-Services menu and choose Encumbrance Certificate, then enter the property details and the period you want and submit the application. The certificate is issued by the sub-registrar office of the area where the property is. You can check the status with your application number. Ask the sub-registrar office if you need help with old records.",
+      "ta": "தமிழ்நாடு பதிவுத் துறை வில்லங்கச் சான்றிதழை tnreginet.gov.in என்ற இணையதளம் மூலம் வழங்குகிறது. அந்த இணையதளத்தில் குடிமகனாகப் பதிவு செய்து உள்நுழையவும்; E-Services பட்டியலில் Encumbrance Certificate என்பதைத் தேர்ந்தெடுத்து, சொத்து விவரங்களையும் தேவையான காலத்தையும் உள்ளிட்டு விண்ணப்பத்தைச் சமர்ப்பிக்கவும். சொத்து அமைந்துள்ள பகுதியின் சார்பதிவாளர் அலுவலகம் சான்றிதழை வழங்கும். விண்ணப்ப எண்ணைக் கொண்டு நிலையைப் பார்க்கலாம். பழைய பதிவுகள் குறித்த சந்தேகங்களுக்குச் சார்பதிவாளர் அலுவலகத்தை அணுகவும்."
+    }
+  },
+  {
+    "id": "faq-043",
+    "category": "certificates",
+    "state": "Tamil Nadu",
+    "status": "researched, needs human check",
+    "checked": "2026-11-25",
+    "sources": [
+      "https://services.india.gov.in/service/detail/apply-for-legal-heirship-certificate-in-tamil-nadu-1",
+      "https://chennai.nic.in/how-to-apply-certificate/"
+    ],
+    "question": {
+      "en": "How do I apply for a legal heir certificate (varisu certificate) in Tamil Nadu?",
+      "ta": "தமிழ்நாட்டில் வாரிசு சான்றிதழுக்கு எப்படி விண்ணப்பிப்பது?"
+    },
+    "keywords": {
+      "en": [
+        "legal heir",
+        "legal heirship",
+        "varisu",
+        "tahsildar",
+        "death"
+      ],
+      "ta": [
+        "வாரிசு சான்றிதழ்",
+        "வாரிசு",
+        "வட்டாட்சியர்"
+      ]
+    },
+    "answer": {
+      "en": "Apply at your local Tahsildar (taluk) office, or online through the Tamil Nadu e-Sevai portal (tnesevai.tn.gov.in) by choosing the Legal Heir Certificate service, or at an Arasu e-Sevai centre. You usually need the death certificate of the person who died, your ID proof and the family details. The documents asked can differ, so check the list on the portal or ask at the office.",
+      "ta": "உங்கள் பகுதி வட்டாட்சியர் (தாலுகா) அலுவலகத்தில் அல்லது தமிழ்நாடு இ-சேவை இணையதளம் (tnesevai.tn.gov.in) மூலம் \"வாரிசு சான்றிதழ்\" (Legal Heir Certificate) சேவையைத் தேர்ந்தெடுத்து இணையத்தில் விண்ணப்பிக்கலாம்; அருகிலுள்ள அரசு இ-சேவை மையத்திலும் விண்ணப்பிக்கலாம். பொதுவாக இறந்தவரின் இறப்புச் சான்றிதழ், உங்கள் அடையாளச் சான்று, குடும்ப விவரங்கள் தேவைப்படும். கேட்கப்படும் ஆவணங்கள் மாறுபடலாம்; இணையதளத்தில் உள்ள பட்டியலைப் பார்க்கவும் அல்லது அலுவலகத்தில் கேட்கவும்."
+    }
+  },
+  {
+    "id": "faq-044",
+    "category": "forms",
+    "state": "Tamil Nadu",
+    "status": "researched, needs human check",
+    "checked": "2026-11-25",
+    "sources": [
+      "https://tnesevai.tn.gov.in/Default.aspx",
+      "https://services.india.gov.in/service/detail/avail-various-online-services-of-tamil-nadu-government",
+      "https://chennai.nic.in/how-to-apply-certificate/"
+    ],
+    "question": {
+      "en": "How do I apply for a certificate online on the Tamil Nadu e-Sevai portal?",
+      "ta": "தமிழ்நாடு இ-சேவை இணையதளத்தில் சான்றிதழுக்கு இணையத்தில் எப்படி விண்ணப்பிப்பது?"
+    },
+    "keywords": {
+      "en": [
+        "e-Sevai",
+        "tnesevai",
+        "CAN",
+        "common account number",
+        "Arasu e-Sevai centre"
+      ],
+      "ta": [
+        "இ-சேவை",
+        "CAN எண்",
+        "அரசு இ-சேவை மையம்"
+      ]
+    },
+    "answer": {
+      "en": "Go to tnesevai.tn.gov.in. First register to get a CAN (Common Account Number), which you need before you can use the application forms. Then log in, choose the certificate service you need, fill in the form in English or Tamil, attach the supporting documents, verify the OTP sent to your mobile number and submit. If you do not want to apply yourself, you can go to a nearby Arasu e-Sevai centre.",
+      "ta": "tnesevai.tn.gov.in இணையதளத்திற்குச் செல்லவும். முதலில் பதிவு செய்து CAN (பொதுக் கணக்கு எண்) பெறவும்; விண்ணப்பப் படிவங்களைப் பயன்படுத்த அது தேவை. பிறகு உள்நுழைந்து, தேவையான சான்றிதழ் சேவையைத் தேர்ந்தெடுத்து, ஆங்கிலம் அல்லது தமிழ்ப் படிவத்தை நிரப்பி, துணை ஆவணங்களை இணைத்து, உங்கள் கைப்பேசிக்கு வரும் OTP-ஐ உறுதிசெய்து சமர்ப்பிக்கவும். நீங்களே விண்ணப்பிக்க விரும்பவில்லை என்றால், அருகிலுள்ள அரசு இ-சேவை மையத்திற்குச் செல்லலாம்."
+    }
+  },
+  {
+    "id": "faq-045",
+    "category": "forms",
+    "state": "Tamil Nadu",
+    "status": "researched, needs human check",
+    "checked": "2026-11-25",
+    "sources": [
+      "https://services.india.gov.in/service/detail/check-application-status-for-various-services-in-tamil-nadu",
+      "https://services.india.gov.in/service/detail/check-status-of-application-for-encumbrance-certificate-in-tamil-nadu-1"
+    ],
+    "question": {
+      "en": "How do I check the status of my e-Sevai application in Tamil Nadu?",
+      "ta": "இ-சேவை விண்ணப்பத்தின் நிலையை எப்படிப் பார்ப்பது?"
+    },
+    "keywords": {
+      "en": [
+        "application status",
+        "check status",
+        "track application",
+        "application number"
+      ],
+      "ta": [
+        "விண்ணப்ப நிலை",
+        "விண்ணப்ப எண்",
+        "நிலையைப் பார்க்க"
+      ]
+    },
+    "answer": {
+      "en": "Log in to the Tamil Nadu e-Sevai portal (tnesevai.tn.gov.in), click Check Status, enter your application number and search. Keep the application number you were given when you applied. For an encumbrance certificate, the status is checked on tnreginet.gov.in with the application number.",
+      "ta": "தமிழ்நாடு இ-சேவை இணையதளத்தில் (tnesevai.tn.gov.in) உள்நுழைந்து \"Check Status\" என்பதைக் கிளிக் செய்து, உங்கள் விண்ணப்ப எண்ணை உள்ளிட்டுத் தேடவும். விண்ணப்பித்தபோது கிடைத்த விண்ணப்ப எண்ணைப் பத்திரமாக வைத்திருங்கள். வில்லங்கச் சான்றிதழ் விண்ணப்பத்தின் நிலையை tnreginet.gov.in இணையதளத்தில் விண்ணப்ப எண்ணைக் கொண்டு பார்க்கலாம்."
+    }
+  },
+  {
+    "id": "faq-046",
+    "category": "certificates",
+    "state": "Tamil Nadu",
+    "status": "researched, needs human check",
+    "checked": "2026-11-25",
+    "sources": [
+      "https://services.india.gov.in/service/detail/digital-library-on-tamil-literature-tamil-nadu",
+      "https://tnesevai.tn.gov.in/Default.aspx"
+    ],
+    "question": {
+      "en": "How do I apply for a first graduate certificate in Tamil Nadu?",
+      "ta": "தமிழ்நாட்டில் முதல் தலைமுறை பட்டதாரி சான்றிதழுக்கு எப்படி விண்ணப்பிப்பது?"
+    },
+    "keywords": {
+      "en": [
+        "first graduate",
+        "first generation graduate",
+        "education certificate"
+      ],
+      "ta": [
+        "முதல் தலைமுறை பட்டதாரி",
+        "பட்டதாரி சான்றிதழ்"
+      ]
+    },
+    "answer": {
+      "en": "Students can apply online for the First Graduate Certificate on the Tamil Nadu e-Sevai portal (tnesevai.tn.gov.in), or at an Arasu e-Sevai centre. The certificate confirms that the student is the first in the family to graduate. Check the list of documents on the portal before you apply.",
+      "ta": "மாணவர்கள் தமிழ்நாடு இ-சேவை இணையதளத்தில் (tnesevai.tn.gov.in) முதல் தலைமுறை பட்டதாரி சான்றிதழுக்கு இணையத்தில் விண்ணப்பிக்கலாம்; அருகிலுள்ள அரசு இ-சேவை மையத்திலும் விண்ணப்பிக்கலாம். குடும்பத்தில் முதன்முதலாகப் பட்டம் பெறுபவர் என்பதை இந்தச் சான்றிதழ் உறுதிப்படுத்தும். விண்ணப்பிக்கும் முன் தேவையான ஆவணங்களின் பட்டியலை இணையதளத்தில் பார்க்கவும்."
+    }
   }
 ]

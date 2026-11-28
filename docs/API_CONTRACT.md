@@ -1,11 +1,11 @@
 # FormScan-Lite Backend API Contract
 
-Last updated: 2026-10-25. Backend: Flask, `http://127.0.0.1:5000` (CORS is on).
+Last updated: 2026-11-25. Backend: Flask, `http://127.0.0.1:5000` (CORS is on).
 Languages used everywhere: `en` (English), `bn` (Bengali), `ta` (Tamil).
 
-Status: **OCR, Translate, TTS, Audio, Feedback, FAQ and Health are built and tested.**
+Status: **OCR, Translate, TTS, Audio, Feedback, FAQ, Chat and Health are built and tested.** The new Chat endpoint (`POST /api/chat`) is in **section 8** at the end.
 
-The React frontend uses its own URL names (for example `/api/ocr/extract`). Those are built in too: see **section 7** at the end. The frontend code needs no change.
+The React frontend uses its own URL names (for example `/api/ocr/extract`). Those are built in too: see **section 7**. The frontend code needs no change.
 
 ## Error format (all endpoints)
 
@@ -208,7 +208,7 @@ Errors: `missing_question`, `question_too_long`, `unsupported_language`, `bad_re
 }
 ```
 
-Note: the list has 39 entries so far. Entries faq-001 to faq-030 were written from official pages, and faq-031 to faq-039 were added from a source-checked Bengali file by Akansha. All of them still need a human check, and the Bengali and Tamil text still needs a native speaker's check. Entries faq-016 and faq-017 are about Tamil Nadu and exist only in `en` and `ta`; faq-018, faq-019 and faq-031 to faq-039 are about West Bengal and exist only in `en` and `bn`. So `GET /api/faq/questions` returns a different number of questions per language. The `category` of an entry is one of: `certificates`, `identity`, `forms`, `voting`, `travel`, `schemes`, `rights`. More entries will be added.
+Note: the list has 46 entries so far. Entries faq-001 to faq-030 were written from official pages, faq-031 to faq-039 were added from a source-checked Bengali file by Akansha, and faq-040 to faq-046 (Tamil Nadu land records, certificates and e-Sevai) were added on 2026-11-25 from official Tamil Nadu pages. All of them still need a human check, and the Bengali and Tamil text still needs a native speaker's check. Entries faq-016, faq-017 and faq-040 to faq-046 are about Tamil Nadu and exist only in `en` and `ta`; faq-018, faq-019 and faq-031 to faq-039 are about West Bengal and exist only in `en` and `bn`. So `GET /api/faq/questions` returns a different number of questions per language. The `category` of an entry is one of: `certificates`, `identity`, `forms`, `voting`, `travel`, `schemes`, `rights`. More entries will be added.
 
 ---
 
@@ -261,3 +261,56 @@ When nothing matches: `"matched": false`, `"question": null`, `"answer": null`, 
 - The answer is `200` `{ "status": "ok" }`. The body from section 4 (with `rating`) still works and answers `201`.
 
 **Limits to remember in the frontend:** the largest image is **10 MB** (the frontend and the backend now agree), and OCR answers for new images can take a while the first time, so keep the 120 second timeout.
+
+---
+
+## 8. Chat: ask a question, get an answer with sources (RAG chatbot)
+
+`POST /api/chat` (JSON)
+
+```json
+{ "question": "How do I apply for a birth certificate?", "language": "en" }
+```
+
+| Field | Required | Notes |
+|---|---|---|
+| `question` | yes | text, max 300 characters |
+| `language` | no | `en`, `bn` or `ta`. Default is `en`. The answer comes back in this language. |
+
+Success `200` when the answer is found:
+
+```json
+{
+  "question": "How do I apply for a birth certificate?",
+  "language": "en",
+  "known": true,
+  "answer": "Apply at the local registrar office of the place where the birth happened ...",
+  "sources": [
+    { "faq_id": "faq-001", "question": "How do I apply for a birth certificate?", "score": 0.887, "urls": ["https://..."] }
+  ],
+  "fallback_used": false,
+  "model": "gemini-3-flash-preview",
+  "retrieval_ms": 55,
+  "llm_ms": 3200
+}
+```
+
+How it works: the server first looks for the best FAQ passages for the question (search by meaning, works in en, bn and ta). If a good passage is found, an AI model (Google Gemini) writes the answer using only those passages. The `sources` are the FAQ entries that were used, so the app can show "Source" links under the answer.
+
+- `known` is `true` when an answer was found. The server decides this, so just use the flag.
+- When nothing matches well, it is still `200`, with `known: false`. `answer` is a short "I could not find this in my information" message **already in the language you sent** (en, bn or ta), so show it as it is. The AI model is not called in this case (`llm_ms` is 0), so nothing invented can appear.
+- `fallback_used` is `true` when the AI model was not reachable. The answer is then the text of the best FAQ entry (not rewritten), and `sources` still has its links. Show it as a normal answer.
+- `score` is 0 to 1 (higher means a closer match). `model`, `retrieval_ms` and `llm_ms` are for testing and can be ignored in the screen.
+- **Speed:** about 2 to 5 seconds per answer. The first question after the server starts can take up to about 6 seconds while the search warms up (the server warms up by itself at start, so start it about 1 minute before a demo). Use a spinner and keep the 60 second timeout.
+- The question text is sent to Google Gemini to write the answer. Do not send personal document text (names, ID numbers) to this endpoint.
+- Compare with `POST /api/faq` (section 5): `/api/faq` returns the stored FAQ answer as it is. `/api/chat` writes a fresh answer from the stored FAQ text and shows the sources.
+
+Errors (the `code` here is in capital letters):
+
+| code | HTTP | Meaning |
+|---|---|---|
+| `INVALID_JSON` | 400 | body is not JSON |
+| `MISSING_QUESTION` | 400 | `question` is missing or empty |
+| `QUESTION_TOO_LONG` | 400 | more than 300 characters |
+| `UNSUPPORTED_LANGUAGE` | 400 | language is not en, bn or ta |
+| `CHAT_FAILED` | 500 | something crashed on the server, ask the user to try again |

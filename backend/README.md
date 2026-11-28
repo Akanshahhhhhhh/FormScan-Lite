@@ -1,10 +1,10 @@
 # FormScan-Lite Backend
 
-The backend of **FormScan-Lite**, a reader for Indian government documents in English, Bengali and Tamil. It reads text from a photo of a form (OCR), translates it, reads it aloud (text to speech) and answers common questions about government paperwork (FAQ chatbot).
+The backend of **FormScan-Lite**, a reader for Indian government documents in English, Bengali and Tamil. It reads text from a photo of a form (OCR), translates it, reads it aloud (text to speech) and answers common questions about government paperwork (FAQ chatbot and an AI chatbot that gives answers with sources).
 
 Backend: Neharin. Frontend (React): Akansha.
 
-Status date: 2026-10-25. Everything listed under "What works" has been run and tested on a Windows laptop.
+Status date: 2026-11-25. Everything listed under "What works" has been run and tested on a Windows laptop.
 
 ## What works
 
@@ -13,7 +13,8 @@ Status date: 2026-10-25. Everything listed under "What works" has been run and t
 | Read text from an image | `POST /api/ocr` | EasyOCR for Bengali and English, Tesseract for Tamil. Returns a confidence score (0 to 1) and a level (low, medium, high) with a warning when the text may be wrong. |
 | Translate | `POST /api/translate` | IndicTrans2 distilled models. All directions between English, Bengali and Tamil. |
 | Text to speech | `POST /api/tts`, `GET /api/audio/<file>` | Google gTTS. Audio files are saved, so the same text never needs to be made twice. |
-| FAQ chatbot | `POST /api/faq`, `GET /api/faq/questions` | Matches the question to 39 hand-written FAQ entries (character 3-gram TF-IDF, no big libraries). |
+| FAQ chatbot | `POST /api/faq`, `GET /api/faq/questions` | Matches the question to 46 hand-written FAQ entries (character 3-gram TF-IDF, no big libraries). |
+| Chat (RAG chatbot) | `POST /api/chat` | Finds the best FAQ passages by meaning (multilingual-e5-small embeddings), then Google Gemini writes the answer using only those passages and returns the sources. If nothing matches, it says so in the user's language without calling Gemini. If Gemini is down, it returns the best FAQ text with its links. |
 | Feedback | `POST /api/feedback` | Saves a helpful / not helpful vote. No document text is stored. |
 | Health check | `GET /api/health` | Returns `{"status": "ok"}`. |
 
@@ -28,6 +29,10 @@ The full request and response shapes, with examples and all error codes, are in 
   - `ai4bharat/indictrans2-indic-en-dist-200M`
   - `ai4bharat/indictrans2-indic-indic-dist-320M`
 - **Internet** the first time (the models download), and any time new audio is made.
+- For the chat endpoint (`/api/chat`):
+  - A free **Google AI Studio** key saved in the Windows variable `GEMINI_API_KEY` (set it once with `setx GEMINI_API_KEY "your-key"`, then open a new Command Prompt). Never put the key in a file or in git.
+  - Optional: `GEMINI_MODELS`, a comma-separated list of Gemini models to try in order. A model that answers 503, 429, 500 or 404 is skipped and the next one is tried. Example: `setx GEMINI_MODELS "gemini-3-flash-preview,gemini-flash-lite-latest,gemini-flash-latest"`. Model names change often; `list_models.py` is a local helper to see which ones work (do not commit it).
+  - The search model `intfloat/multilingual-e5-small` (about 470 MB) downloads the first time it is used.
 
 ## Install and run
 
@@ -44,6 +49,8 @@ The server starts at `http://127.0.0.1:5000`. Check it by opening `http://127.0.
 
 Good to know:
 - The first Bengali/English OCR request and the first translation in each direction are slow (models load, about 20 seconds). After that translation takes about 1 to 6 seconds. The frontend should show a spinner and allow a timeout of at least 60 seconds.
+- The first chat question after the server starts is slower (the search index and model load). The server warms them up by itself at start, so start it about 1 minute before a demo.
+- Do **not** install `scikit-learn` or `sentence-transformers` on the project laptop. Windows Application Control blocks a scikit-learn file and it breaks the model libraries. The chat search uses `transformers` and `torch` directly, so neither is needed.
 - On the project laptop, one Windows security setting (Windows Application Control) blocks a library file used by EasyOCR, and the server was first started in an Administrator window. It is not confirmed yet whether this is still needed. If the server stops with a DLL error, try an Administrator Command Prompt.
 
 ## Run the tests
@@ -55,11 +62,13 @@ python -m pip install pytest
 python -m pytest
 ```
 
-This runs 70 fast tests in under a minute (no internet, no models); 12 slow tests are skipped by default. To also run the slow tests (real translation in all 6 directions and real audio), add `--run-slow`. They need internet and take about 90 seconds:
+This runs the fast tests in under a minute (no internet, no models); 12 slow tests are skipped by default. The chat tests use a fake answer step, so they need no internet and no Gemini key. To also run the slow tests (real translation in all 6 directions and real audio), add `--run-slow`. They need internet and take about 90 seconds:
 
 ```
 python -m pytest --run-slow
 ```
+
+To run only the chat tests (15 tests): `python -m pytest tests\test_chat.py`.
 
 The tests are in `backend/tests/`. The test that saves a feedback vote puts `feedback.jsonl` back exactly as it was.
 
@@ -71,7 +80,7 @@ Making new audio needs internet. To make sure the FAQ voice works on demo day ev
 python make_demo_audio.py
 ```
 
-It makes about 104 audio files (one for each FAQ answer in each language it has) and saves them in `backend/outputs/audio`. Run it again after any change to the FAQ; files that already exist are not made twice. Use `--dry-run` to only count them. The audio files stay on the laptop that made them. This covers FAQ answers only: voice for a newly scanned document still needs internet.
+It makes about 118 audio files (one for each FAQ answer in each language it has) and saves them in `backend/outputs/audio`. Run it again after any change to the FAQ; files that already exist are not made twice. Use `--dry-run` to only count them. The audio files stay on the laptop that made them. This covers FAQ answers only: voice for a newly scanned document still needs internet.
 
 ## Folder guide
 
@@ -79,9 +88,11 @@ It makes about 104 audio files (one for each FAQ answer in each language it has)
 backend/
   app.py                 starts the server and registers all routes
   config.py              settings
-  routes/                one file per endpoint group (ocr, translate, tts, feedback, faq, health)
-  services/              the real work: OCR, translation, text to speech, FAQ matching
+  routes/                one file per endpoint group (ocr, translate, tts, feedback, faq, chat, health)
+  services/              the real work: OCR, translation, text to speech, FAQ matching,
+                         rag_service.py (finds FAQ passages for chat), llm_service.py (asks Gemini, with fallback)
   data/faqs/faqs.json    the FAQ entries (English, Bengali, Tamil)
+  data/rag_index/        saved search vectors for chat (made by the server, can be deleted)
   outputs/audio/         saved audio files
   tests/                 pytest tests
   make_demo_audio.py     makes the FAQ audio ahead of the demo
@@ -90,12 +101,19 @@ docs/API_CONTRACT.md     full API description for the frontend
 
 ## FAQ data
 
-`backend/data/faqs/faqs.json` has 39 entries, written from official government pages (faq-031 to faq-039 come from Akansha's source-checked Bengali file). Each entry has a `status`, a `checked` date and a list of `sources`.
+`backend/data/faqs/faqs.json` has 46 entries, written from official government pages (faq-031 to faq-039 come from Akansha's source-checked Bengali file; faq-040 to faq-046 are Tamil Nadu entries added on 2026-11-25). Each entry has a `status`, a `checked` date and a list of `sources`.
 
 - All entries are marked "researched, needs human check". Nobody has checked them yet against the live official pages.
-- Entries `faq-016` and `faq-017` are about Tamil Nadu (English and Tamil only). Entries `faq-018` and `faq-019` are about West Bengal (English and Bengali only).
+- Entries `faq-016`, `faq-017` and `faq-040` to `faq-046` are about Tamil Nadu (English and Tamil only). Entries `faq-018` and `faq-019` are about West Bengal (English and Bengali only).
 - The Bengali and Tamil text was written by an AI assistant and **must be checked by a native speaker before the demo**.
 - Fees and rules that change often (for example the Aadhaar update fee) must be checked again on the official site before the demo.
+
+## Chat (RAG) notes
+
+- Search: each FAQ answer is cut into passages of at most 120 words (20 words overlap), turned into vectors, and kept in a plain numpy matrix (a few hundred passages do not need FAISS or Chroma). `retrieve()` in `rag_service.py` is the only function other code calls, so FAISS can be swapped in later if needed.
+- A passage must score at least 0.82 to be used. This number still has to be tuned on the Tamil and Bengali test questions.
+- Answers come only from the FAQ text, so they are only as good as the FAQ entries (see "FAQ data" above).
+- The question text is sent to Google Gemini. Do not send personal document text to `/api/chat`.
 
 ## Known limits
 
